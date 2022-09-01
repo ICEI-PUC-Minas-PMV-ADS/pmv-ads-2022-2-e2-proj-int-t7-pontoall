@@ -1,4 +1,5 @@
 # PONTOALL (.ALL)
+![logo-.ALL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/.all_logo.jpeg)
 
 `CURSO`
 Analise e Desenvolvimento de Sistemas
@@ -11,7 +12,6 @@ Projeto: Desenvolvimento de Aplicação Web Back-End
 
 Criação de uma pagina WEB com a premissa de permitir a gestão e operação do sistema de registro de jornada de trabalho, permitindo o registro, o monitoramento e a emissão de relatorios diretamente no sistema. Conectando os gestores de RH, as demais areas da empresa e os seus colaboradores.
 
-ROGER: cases de sucesso principalmente quando se refere a gestão de pessoas e clima organizacional como a Google, Microsoft, FedEx, Apple, General Dynamics, 3M, Cisco Systems, 
 
 ## Integrantes
 
