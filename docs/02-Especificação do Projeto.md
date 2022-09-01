@@ -39,7 +39,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Mariana Belchior       | Calcular horários automaticamente| Obter com facilidade o somatório de horas decorrentes por determinado período de tempo. (semanal, mensal)|
 |Eder     | Receber relatório por e-mail | Possuir  relatório do registro de ponto em PDF por e-mail.|
 |Carlos Cesar       | Visualizar  banco de horas. | Consultar banco de horas com o intuito de visualizar crédito de horas. (horas extras e negativas). |
-|Carlos Cesar/ Mariana Belchior       | Registrar horários para cada usuário de forma diferenciada, com intuito de flexibilizar turnos.  |
+|Carlos Cesar/ Mariana Belchior       | Flexibilizar horários. | Registrar horários para cada usuário de forma diferenciada, com intuito de flexibilizar turnos.  |
 |Rogéria Skylab      | Visualizar ícones de forma acessível.| Tornar acessível a visualização dos ícones, para facilitar a usabilidade do usuário.  |
 |Rogéria Skylab      | Receber confirmação de ponto. | Enviar notificação, ou aviso gráfico que o ponto foi registrado com sucesso. |
 |Paola Bracho/ Eder       |Ser avisado por não conformidades no registro. | Receber  avisos de  atrasos ou excedente de horário recorrentes, para tomadas de decisão.  |
