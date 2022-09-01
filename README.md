@@ -1,23 +1,28 @@
-# TÍTULO DO PROJETO
+# PONTOALL (.ALL)
 
 `CURSO`
+Analise e Desenvolvimento de Sistemas
 
 `DISCIPLINA`
+Projeto: Desenvolvimento de Aplicação Web Back-End
 
 `SEMESTRE`
+2º Semestre
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+*  Daniel De Souza Marcolino
+*  João Victor Garcia Leite Santana (Trancando o curso)
+*  Maykon Edésio Rosa
+*  Pryscila Martins Cazuza
+*  Roger Bastos Mendes
+*  Valéria De Sena Billafon
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana De Nardin
 
 ## Instruções de utilização
 
