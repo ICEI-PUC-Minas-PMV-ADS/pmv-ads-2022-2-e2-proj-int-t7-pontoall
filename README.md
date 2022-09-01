@@ -9,7 +9,7 @@ Projeto: Desenvolvimento de Aplicação Web Back-End
 `SEMESTRE`
 2º Semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Criação de uma pagina WEB com a premissa de permitir a gestão e operação do sistema de registro de jornada de trabalho, permitindo o registro, o monitoramento e a emissão de relatorios diretamente no sistema. Conectando os gestores de RH, as demais areas da empresa e os seus colaboradores.
 
 ## Integrantes
 
