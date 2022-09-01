@@ -1,47 +1,42 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com o aumento dos empregos na modalidade teletrabalho, popularmente conhecido como Home Office, modalidade de trabalho muito mais rentável ao empregador e benéfica ao empregado, modalidade esta que estava em constante crescimento no Brasil, já que de acordo com o levantamento divulgado pelo Instituto Brasileiro de Geografia e Estatística (IBGE, 2018), 3,8 milhões de brasileiros já trabalhavam dentro de casa, e seguiu este patamar nos seguintes anos (SILVEIRA, 2019), veio a necessidade de adaptação dos empregadores às novas regras, sendo uma das mais importantes, o controle da jornada de trabalho do empregado.
+
+Recentemente foi publicada a Medida Provisória 1108/22 que regulamenta o teletrabalho (home office) e com ela, as questões relacionadas ao controle do número de horas trabalhadas, para isto, foi criado o .All, aplicação pensada para facilitar o acesso do empregador às horas trabalhadas do empregado remoto, visto que trata-se do controle de ponto onde o próprio empregado registra suas entradas, saídas e descansos durante o dia, gerando um relatório para a empresa, garantindo assim, a veracidade dos dados e promovendo maior confiabilidade na relação empregador e empregado.
+
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Conforme exposto, o problema que se busca resolver com este projeto é o controle de jornada dos profissionais contratados na modalidade “home office” ou híbridos, já que não há um ponto eletrônico de frequência, como acontece na modalidade presencial, sendo de extrema necessidade uma plataforma que marque de maneira segura as horas trabalhadas de cada profissional.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de um ponto eletrônico na modalidade virtual que atenda às empresas que necessitam de um controle de jornada dos profissionais que não estão sob suas dependências. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+
+        ● Fornecer funcionalidades que possibilitem o registro das atividades dos profissionais contratados por determinada empresa, na modalidade teletrabalho;
+        ● Registro de foto webcam ou câmera do smartphone;
+        ● Bloqueio e desbloqueio de marcação dos horários em tempo real;
+        ● Controle de ponto pelo aparelho celular do trabalhador, onde ele mesmo registra sua entrada, descanso e saída, gerando um relatório para a empresa, visando garantir maior confiabilidade entre empregado e empregador.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O teletrabalho ou “home office”, é uma modalidade de trabalho que já estava em constante crescimento no Brasil, e de acordo com o levantamento divulgado pelo Instituto Brasileiro de Geografia e Estatística (IBGE, 2018), 3,8 milhões de brasileiros já trabalhavam dentro de casa, e seguiu este patamar nos seguintes anos (SILVEIRA, 2019). 
+ 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+De acordo com estudo da consultoria HOM (2019) 46% das empresas pesquisadas já adotavam o home office, porém nem metade delas tinha uma política formalizada.
+ 
+ 
+Adicionalmente, há uma falta de ferramentas que possibilitem aos empregadores o controle de jornada de seus funcionários, já que estes não estarão mais presentes fisicamente nas empresas, sendo de extrema necessidade uma plataforma que vise o monitoramento das horas trabalhadas. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O foco deste trabalho está nas empresas contratantes de profissionais que exerçam suas atividades diárias dentro de casa, ou seja, o teletrabalho ou mesmo as contratações na modalidade híbrida, onde o empregado vai à empresa somente alguns dias no mês. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Desta forma, estabeleceu-se como público-alvo da presente solução, empresas e empregados, visto que os empregados também necessitam registrar suas horas extraordinárias para cômputo do seu rendimento mensal.  
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
