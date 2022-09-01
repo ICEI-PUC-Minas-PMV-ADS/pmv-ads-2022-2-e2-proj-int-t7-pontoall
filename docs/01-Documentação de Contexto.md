@@ -17,10 +17,10 @@ O objetivo geral deste trabalho é a criação de um ponto eletrônico na modali
 
 Como objetivos específicos, podemos ressaltar:
 
-        ● Fornecer funcionalidades que possibilitem o registro das atividades dos profissionais contratados por determinada empresa, na modalidade teletrabalho;
-        ● Registro de foto webcam ou câmera do smartphone;
-        ● Bloqueio e desbloqueio de marcação dos horários em tempo real;
-        ● Controle de ponto pelo aparelho celular do trabalhador, onde ele mesmo registra sua entrada, descanso e saída, gerando um relatório para a empresa, visando garantir maior confiabilidade entre empregado e empregador.
+● Fornecer funcionalidades que possibilitem o registro das atividades dos profissionais contratados por determinada empresa, na modalidade teletrabalho;
+● Registro de foto webcam ou câmera do smartphone;
+● Bloqueio e desbloqueio de marcação dos horários em tempo real;
+● Controle de ponto pelo aparelho celular do trabalhador, onde ele mesmo registra sua entrada, descanso e saída, gerando um relatório para a empresa, visando garantir maior confiabilidade entre empregado e empregador.
 
 
 ## Justificativa
