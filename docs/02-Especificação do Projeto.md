@@ -50,14 +50,22 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. 
 
 ### Requisitos Funcionais
 
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01 | Deve possuir tela "Home" com ícones acessíveis e fornecer acesso a página de registro de ponto. | ALTA |
+|RF-02 | Deve possibilitar o cadastro do colaborador em seu registro de banco de horas, permitindo a visualização de futuro histórico de horas. | ALTA|
+|RF-03 | Fornecer página com relatório de horas e opção de envio em PDF por e-mail. | MÉDIA |
+|RF-04 | Possuir opção de geolocalização para monitoramento de localização do usuário. | BAIXA |
+|RF-05 | A aplicação deve fornecer o cálculo das horas trabalhadas por período de tempo específico, ex: semanal, mensal. | MÉDIA |
+|RF-06 | Deve possuir opção diferenciada de  turnos para registro de horários, conforme a solicitação de cada empresa. | ALTA |
+|RF-07 | A aplicação deve informar ao usuário a confirmação de que o ponto foi registrado, de forma instantânea. | ALTA |
+|RF-08 | Havendo recorrência de não conformidade no registro de pontos, fornecer aviso ao usuário. Tomando como não conformidades: Atrasos, faltas, excedência de horários de forma consecutiva. | BAIXA |
 
 ### Requisitos não Funcionais
 
