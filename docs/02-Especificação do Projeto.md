@@ -34,7 +34,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Mariana Belchior/ Paola Bracho      | Emitir relatório do registro de ponto | Conseguir detalhar os horários de entrada e saída dos colaboradores.|
+|Mariana Belchior/ Paola Bracho      | Emitir relatório do registro de ponto | Conseguir detalhar os horários de inicio e fim de jornada de trabalho dos colaboradores.|
 |Paola Bracho / Eder       | Monitorar equipe em tempo real | Visualizar em tempo real o posicionamento do usuário conforme localização registrada.  |
 |Mariana Belchior       | Calcular horários automaticamente| Obter com facilidade o somatório de horas decorrentes por determinado período de tempo. (semanal, mensal)|
 |Eder     | Receber relatório por e-mail | Possuir  relatório do registro de ponto em PDF por e-mail.|
@@ -60,12 +60,12 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |------|-----------------------------------------|----|
 |RF-01 | Deve possuir tela "Home" com ícones acessíveis e fornecer acesso a página de registro de ponto. | ALTA |
 |RF-02 | Deve possibilitar o cadastro do colaborador em seu registro de banco de horas, permitindo a visualização de futuro histórico de horas. | ALTA|
-|RF-03 | Fornecer página com relatório de horas e opção de envio em PDF por e-mail. | MÉDIA |
-|RF-04 | Possuir opção de geolocalização para monitoramento de localização do usuário. | BAIXA |
+|RF-03 | Deve fornecer uma página com relatório de horas e opção de envio. | MÉDIA |
+|RF-04 | Deve possuir opção de geolocalização para monitoramento de localização do usuário. | BAIXA |
 |RF-05 | A aplicação deve fornecer o cálculo das horas trabalhadas por período de tempo específico, ex: semanal, mensal. | MÉDIA |
 |RF-06 | Deve possuir opção diferenciada de  turnos para registro de horários, conforme a solicitação de cada empresa. | ALTA |
 |RF-07 | A aplicação deve informar ao usuário a confirmação de que o ponto foi registrado, de forma instantânea. | ALTA |
-|RF-08 | Havendo recorrência de não conformidade no registro de pontos, fornecer aviso ao usuário. Tomando como não conformidades: Atrasos, faltas, excedência de horários de forma consecutiva. | BAIXA |
+|RF-08 | Havendo recorrência de não conformidade no registro de pontos, a aplicação deve fornecer aviso ao usuário. Tomando como não conformidades: Atrasos, faltas, excedência de horários de forma consecutiva. | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -73,6 +73,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Os relatorios devem ser emitidos em PDF |  BAIXA | 
+|RNF-004| O sitema deve buscar localização do usuario atraves da Google Geocoding API. |Media|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
