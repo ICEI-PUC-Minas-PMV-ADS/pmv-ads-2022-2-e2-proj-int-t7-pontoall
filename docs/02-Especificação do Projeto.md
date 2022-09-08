@@ -61,7 +61,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-01 | Deve possuir tela "Home" com ícones acessíveis e fornecer acesso a página de registro de ponto. | ALTA |
 |RF-02 | Deve possibilitar o cadastro do colaborador em seu registro de banco de horas, permitindo a visualização de futuro histórico de horas. | ALTA|
 |RF-03 | Deve fornecer uma página com relatório de horas e opção de envio. | MÉDIA |
-|RF-04 | Deve possuir opção de geolocalização para monitoramento de localização do usuário. | BAIXA |
+|RF-04 | Deve possuir opção de geolocalização para monitoramento  do usuário. | BAIXA |
 |RF-05 | A aplicação deve fornecer o cálculo das horas trabalhadas por período de tempo específico, ex: semanal, mensal. | MÉDIA |
 |RF-06 | Deve possuir opção diferenciada de  turnos para registro de horários, conforme a solicitação de cada empresa. | ALTA |
 |RF-07 | A aplicação deve informar ao usuário a confirmação de que o ponto foi registrado, de forma instantânea. | ALTA |
