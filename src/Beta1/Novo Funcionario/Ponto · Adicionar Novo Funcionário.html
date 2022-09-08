@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ponto · Adicionar Novo Funcionário</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<link rel="stylesheet" type="text/css" href="./Ponto · Adicionar Novo Funcionário_files/googlefonts.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Adicionar Novo Funcionário_files/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Adicionar Novo Funcionário_files/custom.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Adicionar Novo Funcionário_files/datetimepicker.css">	<link rel="stylesheet" type="text/css" href="./Ponto · Adicionar Novo Funcionário_files/timezone.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Adicionar Novo Funcionário_files/font-awesome.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body style="">
+	<section class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<a href="http://ponto.scriptphp.ru/index.php?page=newEmployee"><img src="./Ponto · Adicionar Novo Funcionário_files/logo.png" alt="TimeZone"></a>
+				</div>
+
+				<div class="col-md-6 text-right">
+					Hoje é Wednesday the 7th of September, 2022 <span class="clock">21:50:11</span>
+				</div>
+			</div>
+		</div>
+	</section>	<div class="navbar navbar-inverse" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Ativar Navegação</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="http://ponto.scriptphp.ru/index.php">Painel</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=calendar">Calendário</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=time">Meus Pontos</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=tasks">Tarefas</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=inbox">Mensagens</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+											<li class="dropdown">
+							<a href="http://ponto.scriptphp.ru/index.php?page=newEmployee#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+							<div class="dropdown-menu dropdown-form">
+								<form action="http://ponto.scriptphp.ru/index.php?page=searchResults" method="post">
+									<div class="input-group custom-search-form">
+										<input type="text" class="form-control" required="" name="searchTerm" placeholder="Pesquisa de Valor Único">
+										<span class="input-group-btn">
+											<button type="input" name="submit" value="search" class="btn btn-search"><span class="fa fa-search"></span></button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</li>
+					
+						<li class="dropdown">
+							<a href="http://ponto.scriptphp.ru/index.php?page=newEmployee#" class="dropdown-toggle" data-toggle="dropdown">Funcionários</a>
+							<ul class="dropdown-menu">
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=activeEmployees">Funcionários ativos</a></li>
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=inactiveEmployees">Funcinários desativados</a></li>
+																	<li><a href="http://ponto.scriptphp.ru/index.php?page=newEmployee">Novo Funcionario</a></li>
+															</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="http://ponto.scriptphp.ru/index.php?page=newEmployee#" class="dropdown-toggle" data-toggle="dropdown">Configurações</a>
+							<ul class="dropdown-menu">
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=notices">Notificações do site</a></li>
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=businessDocs">Documentos de Negócios</a></li>
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=reports">Relatórios</a></li>
+																	<li><a href="http://ponto.scriptphp.ru/index.php?page=timeCards">Cartões de tempo</a></li>
+									<li><a href="http://ponto.scriptphp.ru/index.php?page=siteSettings">Configurações do site</a></li>
+															</ul>
+						</li>
+										
+					<li class="dropdown user-menu">
+						<a href="http://ponto.scriptphp.ru/index.php?page=newEmployee#" class="dropdown-toggle" data-toggle="dropdown">
+							<span>admin admin</span>
+						</a>
+						<ul class="dropdown-menu">
+							<li class="user-header">
+								<img src="./Ponto · Adicionar Novo Funcionário_files/empAvatar.png" alt="Avatar">
+								<p>
+									admin admin<br>
+									<small>Site Administrator</small>
+									<small>Data de Contratação: January 09, 2022</small>
+								</p>
+							</li>
+							<li class="user-footer">
+								<div class="pull-left">
+									<a href="http://ponto.scriptphp.ru/index.php?page=myProfile" class="btn btn-default"><i class="fa fa-user"></i> Meu Perfil</a>
+								</div>
+								<div class="pull-right">
+									<a data-toggle="modal" href="http://ponto.scriptphp.ru/index.php?page=newEmployee#signOut" class="btn btn-default"><i class="fa fa-sign-out"></i> Sair</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="signOut" tabindex="-1" role="dialog" aria-labelledby="signOut" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<p class="lead">admin admin , Tem certeza de que deseja cancelar sua conta?</p>
+				</div>
+				<div class="modal-footer">
+					<a href="http://ponto.scriptphp.ru/index.php?action=logout" class="btn btn-success btn-icon-alt">Sair <i class="fa fa-sign-out"></i></a>
+					<button type="button" class="btn btn-default btn-icon" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">	<div class="content">
+		<h3>Adicionar Novo Funcionário</h3>
+		
+		<ul class="nav nav-tabs">
+			<li><a href="http://ponto.scriptphp.ru/index.php?page=activeEmployees"><i class="fa fa-group"></i> Funcionários ativos</a></li>
+			<li><a href="http://ponto.scriptphp.ru/index.php?page=inactiveEmployees"><i class="fa fa-ban"></i> Funcinários desativados</a></li>
+			<li class="pull-right"><a href="http://ponto.scriptphp.ru/index.php?page=newEmployee#home" data-toggle="tab" class="bg-success"><i class="fa fa-plus-square"></i> Adicionar Novo Funcionário</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div class="tab-pane in active" id="home">
+				<form action="http://ponto.scriptphp.ru/index.php?page=newEmployee" method="post">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="form-group">
+								<label for="empFirst">Primeiro Nome <sup>*</sup></label>
+								<input type="text" class="form-control" required="" name="empFirst" value="">
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="form-group">
+								<label for="empMiddleInt">Inicial do Nome do Meio</label>
+								<input type="text" class="form-control" name="empMiddleInt" value="">
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="form-group">
+								<label for="empLast">Último Nome <sup>*</sup></label>
+								<input type="text" class="form-control" required="" name="empLast" value="">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="empHireDate">Data de Contratação <sup>*</sup></label>
+								<input type="text" class="form-control" required="" name="empHireDate" id="empHireDate" value="">
+								<span class="help-block">Data que o funcionário começará a trabalhar. Formato: AAAA-MM-DD</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="empEmail">E-Mail da Conta <sup>*</sup></label>
+								<input type="text" class="form-control" required="" name="empEmail" value="">
+								<span class="help-block">O Endereço de E-Mail também é usado como seu login.</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="password1">Senha <sup>*</sup></label>
+								<div class="input-group">
+									<input type="password" class="form-control" required="" name="password1" id="password1" value="">
+									<span class="input-group-addon"><a href="http://ponto.scriptphp.ru/index.php?page=newEmployee" id="generate" data-toggle="tooltip" data-placement="top" title="" data-original-title="Gerar Senha"><i class="fa fa-key"></i></a></span>
+								</div>
+								<span class="help-block">
+									<a href="http://ponto.scriptphp.ru/index.php?page=newEmployee" id="showIt" class="btn btn-warning btn-xs">Mostrar texto simples</a>
+									<a href="http://ponto.scriptphp.ru/index.php?page=newEmployee" id="hideIt" class="btn btn-info btn-xs" style="display: none;">Esconder texto simples</a>
+								</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="password2">Repetir senha da conta <sup>*</sup></label>
+								<input type="password" class="form-control" required="" name="password2" id="password2" value="">
+								<span class="help-block">Repita a nova senha. As senhas DEVEM ser iguais</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="empPhone1">Telefone Principal <sup>*</sup></label>
+								<input type="text" class="form-control" required="" name="empPhone1" value="">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="empPhone2">Telefone Alternativo</label>
+								<input type="text" class="form-control" name="empPhone2" id="empPhone2" value="">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="empPhone3">Telefone Alternativo</label>
+								<input type="text" class="form-control" name="empPhone3" id="empPhone3" value="">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="empAddress1">Endereço <sup>*</sup></label>
+								<textarea class="form-control" name="empAddress1" required="" rows="3"></textarea>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="empAddress2">Endereço Alternativo</label>
+								<textarea class="form-control" name="empAddress2" rows="3"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="setAdmin">Administrador?</label>
+								<select class="form-control" name="setAdmin">
+									<option value="0" selected="">Não</option>
+									<option value="1">Sim</option>
+								</select>
+								<span class="help-block">Torna esse funcionário em administrador. Admins têm acesso total e permissões de atualização, escrita e leitura de dados.</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="setManager">Tipo de Conta</label>
+								<select class="form-control" name="setManager">
+									<option value="0" selected="">Empregado</option>
+									<option value="1">Gerente</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<button type="input" name="submit" value="newEmployee" class="btn btn-success btn-lg btn-icon"><i class="fa fa-check-square-o"></i> Adicionar Funcionário</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<section id="footer-default">
+		<div class="container">
+			<div class="footer-nav">
+				<a href="http://ponto.scriptphp.ru/index.php">Painel</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=calendar">Calendário</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=tasks">Tarefas</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=inbox">Mensagens</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=time">Meus Pontos</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=myProfile">Meu Perfil</a>
+					<i class="fa fa-circle-thin"></i>
+				<a data-toggle="modal" href="http://ponto.scriptphp.ru/index.php?page=newEmployee#signOut">Sair</a>
+			</div>
+			<div class="row">
+				<div class="col-md-12 mb20">
+					<a href="http://ponto.scriptphp.ru/index.php?page=newEmployee"><img src="./Ponto · Adicionar Novo Funcionário_files/logo.png"></a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<script src="./Ponto · Adicionar Novo Funcionário_files/jquery.js.download" type="text/javascript"></script>
+	<script src="./Ponto · Adicionar Novo Funcionário_files/bootstrap.min.js.download" type="text/javascript"></script>
+		<script type="text/javascript" src="./Ponto · Adicionar Novo Funcionário_files/datetimepicker.js.download"></script>	<script type="text/javascript" src="./Ponto · Adicionar Novo Funcionário_files/newEmployee.js.download"></script>		<script src="./Ponto · Adicionar Novo Funcionário_files/custom.js.download" type="text/javascript"></script>
+
+<div class="datetimepicker datetimepicker-dropdown-bottom-right dropdown-menu" style="left: 203.625px; z-index: 1090;"><div class="datetimepicker-minutes" style="display: none;"><table class=" table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="fa fa-angle-double-left"></i> </th><th colspan="5" class="switch">7 Setembro 2022</th><th class="next" style="visibility: visible;"><i class="fa fa-angle-double-right"></i> </th></tr></thead><tbody><tr><td colspan="7"><span class="minute">21:00</span><span class="minute">21:05</span><span class="minute">21:10</span><span class="minute">21:15</span><span class="minute">21:20</span><span class="minute">21:25</span><span class="minute">21:30</span><span class="minute">21:35</span><span class="minute">21:40</span><span class="minute active">21:45</span><span class="minute">21:50</span><span class="minute">21:55</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Agora</th></tr></tfoot></table></div><div class="datetimepicker-hours" style="display: none;"><table class=" table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="fa fa-angle-double-left"></i> </th><th colspan="5" class="switch">7 Setembro 2022</th><th class="next" style="visibility: visible;"><i class="fa fa-angle-double-right"></i> </th></tr></thead><tbody><tr><td colspan="7"><span class="hour">0:00</span><span class="hour">1:00</span><span class="hour">2:00</span><span class="hour">3:00</span><span class="hour">4:00</span><span class="hour">5:00</span><span class="hour">6:00</span><span class="hour">7:00</span><span class="hour">8:00</span><span class="hour">9:00</span><span class="hour">10:00</span><span class="hour">11:00</span><span class="hour">12:00</span><span class="hour">13:00</span><span class="hour">14:00</span><span class="hour">15:00</span><span class="hour">16:00</span><span class="hour">17:00</span><span class="hour">18:00</span><span class="hour">19:00</span><span class="hour">20:00</span><span class="hour active">21:00</span><span class="hour">22:00</span><span class="hour">23:00</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Agora</th></tr></tfoot></table></div><div class="datetimepicker-days" style="display: none;"><table class=" table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="fa fa-angle-double-left"></i> </th><th colspan="5" class="switch">Setembro 2022</th><th class="next" style="visibility: visible;"><i class="fa fa-angle-double-right"></i> </th></tr><tr><th class="dow">Do</th><th class="dow">Se</th><th class="dow">Te</th><th class="dow">Qa</th><th class="dow">Qi</th><th class="dow">Sx</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td><td class="day">1</td><td class="day">2</td><td class="day">3</td></tr><tr><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day today active">7</td><td class="day">8</td><td class="day">9</td><td class="day">10</td></tr><tr><td class="day">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day">17</td></tr><tr><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day">24</td></tr><tr><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day new">1</td></tr><tr><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td><td class="day new">7</td><td class="day new">8</td></tr></tbody><tfoot><tr><th colspan="7" class="today">Agora</th></tr></tfoot></table></div><div class="datetimepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="fa fa-angle-double-left"></i> </th><th colspan="5" class="switch">2022</th><th class="next" style="visibility: visible;"><i class="fa fa-angle-double-right"></i> </th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Fev</span><span class="month">Mar</span><span class="month">Abr</span><span class="month">Mai</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Ago</span><span class="month active">Set</span><span class="month">Out</span><span class="month">Nov</span><span class="month">Dez</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Agora</th></tr></tfoot></table></div><div class="datetimepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="fa fa-angle-double-left"></i> </th><th colspan="5" class="switch">2020-2029</th><th class="next" style="visibility: visible;"><i class="fa fa-angle-double-right"></i> </th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year active">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Agora</th></tr></tfoot></table></div></div></body></html>

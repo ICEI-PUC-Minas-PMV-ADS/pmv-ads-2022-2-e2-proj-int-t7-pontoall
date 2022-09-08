@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ponto · Meus Registros de Ponto</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<link rel="stylesheet" type="text/css" href="./Ponto · Meus Registros de Ponto_files/googlefonts.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Meus Registros de Ponto_files/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Meus Registros de Ponto_files/custom.css">
+		<link rel="stylesheet" type="text/css" href="./Ponto · Meus Registros de Ponto_files/timezone.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Meus Registros de Ponto_files/font-awesome.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body style="">
+	<section class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<a href="http://ponto.scriptphp.ru/index.php?page=time"><img src="./Ponto · Meus Registros de Ponto_files/logo.png" alt="TimeZone"></a>
+				</div>
+
+				<div class="col-md-6 text-right">
+					Hoje é Wednesday the 7th of September, 2022 <span class="clock">21:57:38</span>
+				</div>
+			</div>
+		</div>
+	</section>	<div class="navbar navbar-inverse" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Ativar Navegação</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="http://ponto.scriptphp.ru/index.php">Painel</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=calendar">Calendário</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=time">Meus Pontos</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=tasks">Tarefas</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=inbox">Mensagens</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+											<li class="dropdown">
+							<a href="http://ponto.scriptphp.ru/index.php?page=time#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+							<div class="dropdown-menu dropdown-form">
+								<form action="http://ponto.scriptphp.ru/index.php?page=searchResults" method="post">
+									<div class="input-group custom-search-form">
+										<input type="text" class="form-control" required="" name="searchTerm" placeholder="Pesquisa de Valor Único">
+										<span class="input-group-btn">
+											<button type="input" name="submit" value="search" class="btn btn-search"><span class="fa fa-search"></span></button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</li>
+					
+						<li class="dropdown">
+							<a href="http://ponto.scriptphp.ru/index.php?page=time#" class="dropdown-toggle" data-toggle="dropdown">Funcionários</a>
+							<ul class="dropdown-menu">
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=activeEmployees">Funcionários ativos</a></li>
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=inactiveEmployees">Funcinários desativados</a></li>
+																	<li><a href="http://ponto.scriptphp.ru/index.php?page=newEmployee">Novo Funcionario</a></li>
+															</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="http://ponto.scriptphp.ru/index.php?page=time#" class="dropdown-toggle" data-toggle="dropdown">Configurações</a>
+							<ul class="dropdown-menu">
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=notices">Notificações do site</a></li>
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=businessDocs">Documentos de Negócios</a></li>
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=reports">Relatórios</a></li>
+																	<li><a href="http://ponto.scriptphp.ru/index.php?page=timeCards">Cartões de tempo</a></li>
+									<li><a href="http://ponto.scriptphp.ru/index.php?page=siteSettings">Configurações do site</a></li>
+															</ul>
+						</li>
+										
+					<li class="dropdown user-menu">
+						<a href="http://ponto.scriptphp.ru/index.php?page=time#" class="dropdown-toggle" data-toggle="dropdown">
+							<span>admin admin</span>
+						</a>
+						<ul class="dropdown-menu">
+							<li class="user-header">
+								<img src="./Ponto · Meus Registros de Ponto_files/empAvatar.png" alt="Avatar">
+								<p>
+									admin admin<br>
+									<small>Site Administrator</small>
+									<small>Data de Contratação: January 09, 2022</small>
+								</p>
+							</li>
+							<li class="user-footer">
+								<div class="pull-left">
+									<a href="http://ponto.scriptphp.ru/index.php?page=myProfile" class="btn btn-default"><i class="fa fa-user"></i> Meu Perfil</a>
+								</div>
+								<div class="pull-right">
+									<a data-toggle="modal" href="http://ponto.scriptphp.ru/index.php?page=time#signOut" class="btn btn-default"><i class="fa fa-sign-out"></i> Sair</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="signOut" tabindex="-1" role="dialog" aria-labelledby="signOut" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<p class="lead">admin admin , Tem certeza de que deseja cancelar sua conta?</p>
+				</div>
+				<div class="modal-footer">
+					<a href="http://ponto.scriptphp.ru/index.php?action=logout" class="btn btn-success btn-icon-alt">Sair <i class="fa fa-sign-out"></i></a>
+					<button type="button" class="btn btn-default btn-icon" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container"><div class="content">
+	<h3>Meus Registros de Ponto</h3>
+	
+	<ul class="nav nav-tabs">
+						<li class="active"><a href="http://ponto.scriptphp.ru/index.php?page=time#2022" data-toggle="tab">2022</a></li>
+			</ul>
+
+	<div class="tab-content">
+					<div class="tab-pane in active no-padding" id="2022">
+				<dl class="accordion">							<dt><a> Semana: 36 — Ano: 2022<span><i class="fa fa-angle-down"></i></span></a></dt>
+							<dd class="hideIt active" style="display: block;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">September 05, 2022</td>
+													<td data-th="Horário de Entrada">07:22 PM</td>
+													<td data-th="Data de Saída">September 07, 2022</td>
+													<td data-th="Horário de Saída">09:49 PM</td>
+													<td data-th="Horas">2:26</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 50:26:17
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 35 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">August 31, 2022</td>
+													<td data-th="Horário de Entrada">09:43 AM</td>
+													<td data-th="Data de Saída">August 31, 2022</td>
+													<td data-th="Horário de Saída">09:51 AM</td>
+													<td data-th="Horas">0:7</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">August 31, 2022</td>
+													<td data-th="Horário de Entrada">09:51 AM</td>
+													<td data-th="Data de Saída">August 31, 2022</td>
+													<td data-th="Horário de Saída">09:51 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">August 31, 2022</td>
+													<td data-th="Horário de Entrada">02:15 PM</td>
+													<td data-th="Data de Saída">August 31, 2022</td>
+													<td data-th="Horário de Saída">02:30 PM</td>
+													<td data-th="Horas">0:14</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">September 01, 2022</td>
+													<td data-th="Horário de Entrada">02:54 PM</td>
+													<td data-th="Data de Saída">September 03, 2022</td>
+													<td data-th="Horário de Saída">06:28 PM</td>
+													<td data-th="Horas">3:33</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 51:55:40
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 34 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">August 23, 2022</td>
+													<td data-th="Horário de Entrada">12:47 PM</td>
+													<td data-th="Data de Saída">August 23, 2022</td>
+													<td data-th="Horário de Saída">12:48 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:00:45
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 33 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">August 15, 2022</td>
+													<td data-th="Horário de Entrada">03:19 PM</td>
+													<td data-th="Data de Saída">August 17, 2022</td>
+													<td data-th="Horário de Saída">10:52 AM</td>
+													<td data-th="Horas">19:33</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">August 17, 2022</td>
+													<td data-th="Horário de Entrada">10:52 AM</td>
+													<td data-th="Data de Saída">August 17, 2022</td>
+													<td data-th="Horário de Saída">10:52 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 43:33:21
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 32 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																			</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:00:00
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 31 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">August 01, 2022</td>
+													<td data-th="Horário de Entrada">02:08 PM</td>
+													<td data-th="Data de Saída">August 02, 2022</td>
+													<td data-th="Horário de Saída">08:27 PM</td>
+													<td data-th="Horas">6:19</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">August 02, 2022</td>
+													<td data-th="Horário de Entrada">08:27 PM</td>
+													<td data-th="Data de Saída">August 05, 2022</td>
+													<td data-th="Horário de Saída">09:10 AM</td>
+													<td data-th="Horas">12:42</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 91:02:02
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 30 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 26, 2022</td>
+													<td data-th="Horário de Entrada">01:51 PM</td>
+													<td data-th="Data de Saída">July 26, 2022</td>
+													<td data-th="Horário de Saída">01:55 PM</td>
+													<td data-th="Horas">0:3</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:03:58
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 29 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 19, 2022</td>
+													<td data-th="Horário de Entrada">10:34 AM</td>
+													<td data-th="Data de Saída">July 19, 2022</td>
+													<td data-th="Horário de Saída">05:32 PM</td>
+													<td data-th="Horas">6:57</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 19, 2022</td>
+													<td data-th="Horário de Entrada">05:32 PM</td>
+													<td data-th="Data de Saída">July 19, 2022</td>
+													<td data-th="Horário de Saída">05:32 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 19, 2022</td>
+													<td data-th="Horário de Entrada">05:32 PM</td>
+													<td data-th="Data de Saída">July 20, 2022</td>
+													<td data-th="Horário de Saída">02:55 PM</td>
+													<td data-th="Horas">21:23</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 20, 2022</td>
+													<td data-th="Horário de Entrada">02:56 PM</td>
+													<td data-th="Data de Saída">July 20, 2022</td>
+													<td data-th="Horário de Saída">02:59 PM</td>
+													<td data-th="Horas">0:2</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 20, 2022</td>
+													<td data-th="Horário de Entrada">02:59 PM</td>
+													<td data-th="Data de Saída">July 20, 2022</td>
+													<td data-th="Horário de Saída">03:01 PM</td>
+													<td data-th="Horas">0:1</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 20, 2022</td>
+													<td data-th="Horário de Entrada">03:01 PM</td>
+													<td data-th="Data de Saída">July 22, 2022</td>
+													<td data-th="Horário de Saída">02:51 PM</td>
+													<td data-th="Horas">23:50</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 20, 2022</td>
+													<td data-th="Horário de Entrada">03:11 PM</td>
+													<td data-th="Data de Saída">July 22, 2022</td>
+													<td data-th="Horário de Saída">02:51 PM</td>
+													<td data-th="Horas">23:39</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 123:54:18
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 28 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 10, 2022</td>
+													<td data-th="Horário de Entrada">09:30 AM</td>
+													<td data-th="Data de Saída">July 10, 2022</td>
+													<td data-th="Horário de Saída">09:30 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 10, 2022</td>
+													<td data-th="Horário de Entrada">09:31 AM</td>
+													<td data-th="Data de Saída">July 10, 2022</td>
+													<td data-th="Horário de Saída">09:31 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 11, 2022</td>
+													<td data-th="Horário de Entrada">01:38 AM</td>
+													<td data-th="Data de Saída">July 11, 2022</td>
+													<td data-th="Horário de Saída">01:40 AM</td>
+													<td data-th="Horas">0:2</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 11, 2022</td>
+													<td data-th="Horário de Entrada">08:42 PM</td>
+													<td data-th="Data de Saída">July 11, 2022</td>
+													<td data-th="Horário de Saída">08:42 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 11, 2022</td>
+													<td data-th="Horário de Entrada">08:42 PM</td>
+													<td data-th="Data de Saída">July 11, 2022</td>
+													<td data-th="Horário de Saída">08:42 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 14, 2022</td>
+													<td data-th="Horário de Entrada">02:16 PM</td>
+													<td data-th="Data de Saída">July 14, 2022</td>
+													<td data-th="Horário de Saída">02:16 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 14, 2022</td>
+													<td data-th="Horário de Entrada">02:16 PM</td>
+													<td data-th="Data de Saída">July 14, 2022</td>
+													<td data-th="Horário de Saída">02:16 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 14, 2022</td>
+													<td data-th="Horário de Entrada">02:16 PM</td>
+													<td data-th="Data de Saída">July 14, 2022</td>
+													<td data-th="Horário de Saída">02:19 PM</td>
+													<td data-th="Horas">0:2</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 15, 2022</td>
+													<td data-th="Horário de Entrada">09:56 PM</td>
+													<td data-th="Data de Saída">July 15, 2022</td>
+													<td data-th="Horário de Saída">09:56 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 15, 2022</td>
+													<td data-th="Horário de Entrada">09:56 PM</td>
+													<td data-th="Data de Saída">July 15, 2022</td>
+													<td data-th="Horário de Saída">09:56 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">July 15, 2022</td>
+													<td data-th="Horário de Entrada">10:00 PM</td>
+													<td data-th="Data de Saída">July 15, 2022</td>
+													<td data-th="Horário de Saída">10:00 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:06:00
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 27 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																			</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:00:00
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 26 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">June 26, 2022</td>
+													<td data-th="Horário de Entrada">10:59 PM</td>
+													<td data-th="Data de Saída">June 26, 2022</td>
+													<td data-th="Horário de Saída">11:02 PM</td>
+													<td data-th="Horas">0:3</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">June 29, 2022</td>
+													<td data-th="Horário de Entrada">02:51 PM</td>
+													<td data-th="Data de Saída">June 29, 2022</td>
+													<td data-th="Horário de Saída">02:51 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:03:43
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 25 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">June 20, 2022</td>
+													<td data-th="Horário de Entrada">05:41 AM</td>
+													<td data-th="Data de Saída">June 20, 2022</td>
+													<td data-th="Horário de Saída">05:42 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">June 21, 2022</td>
+													<td data-th="Horário de Entrada">10:38 AM</td>
+													<td data-th="Data de Saída">June 24, 2022</td>
+													<td data-th="Horário de Saída">01:08 AM</td>
+													<td data-th="Horas">14:29</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">June 24, 2022</td>
+													<td data-th="Horário de Entrada">01:08 AM</td>
+													<td data-th="Data de Saída">June 24, 2022</td>
+													<td data-th="Horário de Saída">01:08 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">June 24, 2022</td>
+													<td data-th="Horário de Entrada">01:08 AM</td>
+													<td data-th="Data de Saída">June 24, 2022</td>
+													<td data-th="Horário de Saída">01:08 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">June 24, 2022</td>
+													<td data-th="Horário de Entrada">01:08 AM</td>
+													<td data-th="Data de Saída">June 24, 2022</td>
+													<td data-th="Horário de Saída">01:08 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 62:30:38
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 24 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																			</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:00:00
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 23 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">June 05, 2022</td>
+													<td data-th="Horário de Entrada">04:19 PM</td>
+													<td data-th="Data de Saída">June 05, 2022</td>
+													<td data-th="Horário de Saída">04:21 PM</td>
+													<td data-th="Horas">0:2</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:02:06
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 22 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">June 01, 2022</td>
+													<td data-th="Horário de Entrada">06:58 PM</td>
+													<td data-th="Data de Saída">June 01, 2022</td>
+													<td data-th="Horário de Saída">06:59 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:00:09
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 21 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																			</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:00:00
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 20 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">May 15, 2022</td>
+													<td data-th="Horário de Entrada">01:15 PM</td>
+													<td data-th="Data de Saída">May 15, 2022</td>
+													<td data-th="Horário de Saída">01:15 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">May 15, 2022</td>
+													<td data-th="Horário de Entrada">01:15 PM</td>
+													<td data-th="Data de Saída">May 18, 2022</td>
+													<td data-th="Horário de Saída">08:49 AM</td>
+													<td data-th="Horas">19:34</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 67:34:32
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 19 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">May 10, 2022</td>
+													<td data-th="Horário de Entrada">01:42 AM</td>
+													<td data-th="Data de Saída">May 10, 2022</td>
+													<td data-th="Horário de Saída">01:42 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:00:20
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 18 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">May 03, 2022</td>
+													<td data-th="Horário de Entrada">08:38 PM</td>
+													<td data-th="Data de Saída">May 03, 2022</td>
+													<td data-th="Horário de Saída">08:38 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">May 04, 2022</td>
+													<td data-th="Horário de Entrada">10:04 AM</td>
+													<td data-th="Data de Saída">May 06, 2022</td>
+													<td data-th="Horário de Saída">08:01 PM</td>
+													<td data-th="Horas">9:57</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 57:57:07
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 17 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 25, 2022</td>
+													<td data-th="Horário de Entrada">12:28 AM</td>
+													<td data-th="Data de Saída">April 26, 2022</td>
+													<td data-th="Horário de Saída">03:43 PM</td>
+													<td data-th="Horas">15:14</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 39:14:08
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 16 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 17, 2022</td>
+													<td data-th="Horário de Entrada">04:54 PM</td>
+													<td data-th="Data de Saída">April 17, 2022</td>
+													<td data-th="Horário de Saída">04:54 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 20, 2022</td>
+													<td data-th="Horário de Entrada">09:51 AM</td>
+													<td data-th="Data de Saída">April 23, 2022</td>
+													<td data-th="Horário de Saída">10:21 PM</td>
+													<td data-th="Horas">12:30</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 84:30:35
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 15 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 11, 2022</td>
+													<td data-th="Horário de Entrada">01:53 AM</td>
+													<td data-th="Data de Saída">April 11, 2022</td>
+													<td data-th="Horário de Saída">01:56 AM</td>
+													<td data-th="Horas">0:2</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 11, 2022</td>
+													<td data-th="Horário de Entrada">01:56 AM</td>
+													<td data-th="Data de Saída">April 13, 2022</td>
+													<td data-th="Horário de Saída">02:15 AM</td>
+													<td data-th="Horas">0:18</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 12, 2022</td>
+													<td data-th="Horário de Entrada">11:59 PM</td>
+													<td data-th="Data de Saída">April 15, 2022</td>
+													<td data-th="Horário de Saída">12:21 PM</td>
+													<td data-th="Horas">12:21</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 13, 2022</td>
+													<td data-th="Horário de Entrada">02:15 AM</td>
+													<td data-th="Data de Saída">April 16, 2022</td>
+													<td data-th="Horário de Saída">04:12 PM</td>
+													<td data-th="Horas">13:56</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 194:40:11
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 14 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 03, 2022</td>
+													<td data-th="Horário de Entrada">01:55 PM</td>
+													<td data-th="Data de Saída">April 03, 2022</td>
+													<td data-th="Horário de Saída">01:55 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 03, 2022</td>
+													<td data-th="Horário de Entrada">01:55 PM</td>
+													<td data-th="Data de Saída">April 03, 2022</td>
+													<td data-th="Horário de Saída">01:55 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 06, 2022</td>
+													<td data-th="Horário de Entrada">09:36 PM</td>
+													<td data-th="Data de Saída">April 07, 2022</td>
+													<td data-th="Horário de Saída">05:17 PM</td>
+													<td data-th="Horas">19:41</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 07, 2022</td>
+													<td data-th="Horário de Entrada">05:17 PM</td>
+													<td data-th="Data de Saída">April 07, 2022</td>
+													<td data-th="Horário de Saída">05:17 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 19:41:36
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 13 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">March 28, 2022</td>
+													<td data-th="Horário de Entrada">12:10 PM</td>
+													<td data-th="Data de Saída">March 28, 2022</td>
+													<td data-th="Horário de Saída">12:10 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">March 28, 2022</td>
+													<td data-th="Horário de Entrada">04:16 PM</td>
+													<td data-th="Data de Saída">April 01, 2022</td>
+													<td data-th="Horário de Saída">06:38 PM</td>
+													<td data-th="Horas">2:21</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 01, 2022</td>
+													<td data-th="Horário de Entrada">06:38 PM</td>
+													<td data-th="Data de Saída">April 01, 2022</td>
+													<td data-th="Horário de Saída">06:38 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 02, 2022</td>
+													<td data-th="Horário de Entrada">02:27 PM</td>
+													<td data-th="Data de Saída">April 02, 2022</td>
+													<td data-th="Horário de Saída">02:27 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">April 02, 2022</td>
+													<td data-th="Horário de Entrada">02:27 PM</td>
+													<td data-th="Data de Saída">April 02, 2022</td>
+													<td data-th="Horário de Saída">02:27 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 98:21:48
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 12 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">March 20, 2022</td>
+													<td data-th="Horário de Entrada">04:21 PM</td>
+													<td data-th="Data de Saída">March 22, 2022</td>
+													<td data-th="Horário de Saída">10:39 AM</td>
+													<td data-th="Horas">18:17</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">March 24, 2022</td>
+													<td data-th="Horário de Entrada">07:41 AM</td>
+													<td data-th="Data de Saída">March 24, 2022</td>
+													<td data-th="Horário de Saída">07:41 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">March 24, 2022</td>
+													<td data-th="Horário de Entrada">04:07 PM</td>
+													<td data-th="Data de Saída">March 26, 2022</td>
+													<td data-th="Horário de Saída">05:50 PM</td>
+													<td data-th="Horas">1:43</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 92:00:57
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 11 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">March 13, 2022</td>
+													<td data-th="Horário de Entrada">08:42 PM</td>
+													<td data-th="Data de Saída">March 13, 2022</td>
+													<td data-th="Horário de Saída">08:42 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">March 13, 2022</td>
+													<td data-th="Horário de Entrada">08:42 PM</td>
+													<td data-th="Data de Saída">March 17, 2022</td>
+													<td data-th="Horário de Saída">10:54 AM</td>
+													<td data-th="Horas">14:12</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">March 13, 2022</td>
+													<td data-th="Horário de Entrada">08:42 PM</td>
+													<td data-th="Data de Saída">March 17, 2022</td>
+													<td data-th="Horário de Saída">10:54 AM</td>
+													<td data-th="Horas">14:12</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 172:25:27
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 10 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																			</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:00:00
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 09 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 28, 2022</td>
+													<td data-th="Horário de Entrada">09:25 AM</td>
+													<td data-th="Data de Saída">February 28, 2022</td>
+													<td data-th="Horário de Saída">09:26 AM</td>
+													<td data-th="Horas">0:1</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 00:01:00
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 08 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 20, 2022</td>
+													<td data-th="Horário de Entrada">09:23 AM</td>
+													<td data-th="Data de Saída">February 24, 2022</td>
+													<td data-th="Horário de Saída">01:03 PM</td>
+													<td data-th="Horas">3:39</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 24, 2022</td>
+													<td data-th="Horário de Entrada">01:03 PM</td>
+													<td data-th="Data de Saída">February 24, 2022</td>
+													<td data-th="Horário de Saída">01:03 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 25, 2022</td>
+													<td data-th="Horário de Entrada">06:54 AM</td>
+													<td data-th="Data de Saída">February 26, 2022</td>
+													<td data-th="Horário de Saída">03:08 AM</td>
+													<td data-th="Horas">20:14</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 26, 2022</td>
+													<td data-th="Horário de Entrada">03:08 AM</td>
+													<td data-th="Data de Saída">February 26, 2022</td>
+													<td data-th="Horário de Saída">03:08 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 26, 2022</td>
+													<td data-th="Horário de Entrada">03:08 AM</td>
+													<td data-th="Data de Saída">February 26, 2022</td>
+													<td data-th="Horário de Saída">03:09 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 119:54:12
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 07 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 14, 2022</td>
+													<td data-th="Horário de Entrada">05:07 AM</td>
+													<td data-th="Data de Saída">February 17, 2022</td>
+													<td data-th="Horário de Saída">02:29 PM</td>
+													<td data-th="Horas">9:21</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 17, 2022</td>
+													<td data-th="Horário de Entrada">02:29 PM</td>
+													<td data-th="Data de Saída">February 17, 2022</td>
+													<td data-th="Horário de Saída">02:29 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 81:21:24
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 06 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 07, 2022</td>
+													<td data-th="Horário de Entrada">01:04 PM</td>
+													<td data-th="Data de Saída">February 11, 2022</td>
+													<td data-th="Horário de Saída">10:39 AM</td>
+													<td data-th="Horas">21:34</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 11, 2022</td>
+													<td data-th="Horário de Entrada">10:39 AM</td>
+													<td data-th="Data de Saída">February 11, 2022</td>
+													<td data-th="Horário de Saída">10:40 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 11, 2022</td>
+													<td data-th="Horário de Entrada">10:46 AM</td>
+													<td data-th="Data de Saída">February 11, 2022</td>
+													<td data-th="Horário de Saída">10:46 AM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 93:35:15
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 05 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 30, 2022</td>
+													<td data-th="Horário de Entrada">10:02 PM</td>
+													<td data-th="Data de Saída">January 30, 2022</td>
+													<td data-th="Horário de Saída">10:02 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 30, 2022</td>
+													<td data-th="Horário de Entrada">10:02 PM</td>
+													<td data-th="Data de Saída">January 30, 2022</td>
+													<td data-th="Horário de Saída">10:02 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 30, 2022</td>
+													<td data-th="Horário de Entrada">10:03 PM</td>
+													<td data-th="Data de Saída">January 30, 2022</td>
+													<td data-th="Horário de Saída">10:03 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 01, 2022</td>
+													<td data-th="Horário de Entrada">01:14 PM</td>
+													<td data-th="Data de Saída">February 01, 2022</td>
+													<td data-th="Horário de Saída">02:29 PM</td>
+													<td data-th="Horas">1:14</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 01, 2022</td>
+													<td data-th="Horário de Entrada">02:30 PM</td>
+													<td data-th="Data de Saída">February 04, 2022</td>
+													<td data-th="Horário de Saída">05:14 PM</td>
+													<td data-th="Horas">2:44</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">February 04, 2022</td>
+													<td data-th="Horário de Entrada">05:14 PM</td>
+													<td data-th="Data de Saída">February 04, 2022</td>
+													<td data-th="Horário de Saída">05:14 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 75:59:47
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 04 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 23, 2022</td>
+													<td data-th="Horário de Entrada">10:54 AM</td>
+													<td data-th="Data de Saída">January 26, 2022</td>
+													<td data-th="Horário de Saída">09:57 AM</td>
+													<td data-th="Horas">23:3</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 26, 2022</td>
+													<td data-th="Horário de Entrada">09:57 AM</td>
+													<td data-th="Data de Saída">January 28, 2022</td>
+													<td data-th="Horário de Saída">02:42 PM</td>
+													<td data-th="Horas">4:44</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 28, 2022</td>
+													<td data-th="Horário de Entrada">02:42 PM</td>
+													<td data-th="Data de Saída">January 28, 2022</td>
+													<td data-th="Horário de Saída">02:42 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 28, 2022</td>
+													<td data-th="Horário de Entrada">02:42 PM</td>
+													<td data-th="Data de Saída">January 28, 2022</td>
+													<td data-th="Horário de Saída">02:42 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 28, 2022</td>
+													<td data-th="Horário de Entrada">02:44 PM</td>
+													<td data-th="Data de Saída">January 28, 2022</td>
+													<td data-th="Horário de Saída">02:44 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 123:48:38
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 03 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 16, 2022</td>
+													<td data-th="Horário de Entrada">07:15 PM</td>
+													<td data-th="Data de Saída">January 16, 2022</td>
+													<td data-th="Horário de Saída">07:16 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 16, 2022</td>
+													<td data-th="Horário de Entrada">07:16 PM</td>
+													<td data-th="Data de Saída">January 16, 2022</td>
+													<td data-th="Horário de Saída">07:16 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 16, 2022</td>
+													<td data-th="Horário de Entrada">09:11 PM</td>
+													<td data-th="Data de Saída">January 16, 2022</td>
+													<td data-th="Horário de Saída">09:13 PM</td>
+													<td data-th="Horas">0:1</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 18, 2022</td>
+													<td data-th="Horário de Entrada">01:50 PM</td>
+													<td data-th="Data de Saída">January 18, 2022</td>
+													<td data-th="Horário de Saída">10:36 PM</td>
+													<td data-th="Horas">8:45</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 18, 2022</td>
+													<td data-th="Horário de Entrada">10:36 PM</td>
+													<td data-th="Data de Saída">January 20, 2022</td>
+													<td data-th="Horário de Saída">02:15 PM</td>
+													<td data-th="Horas">15:38</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 20, 2022</td>
+													<td data-th="Horário de Entrada">02:15 PM</td>
+													<td data-th="Data de Saída">January 20, 2022</td>
+													<td data-th="Horário de Saída">02:15 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 20, 2022</td>
+													<td data-th="Horário de Entrada">02:15 PM</td>
+													<td data-th="Data de Saída">January 20, 2022</td>
+													<td data-th="Horário de Saída">02:15 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 48:26:27
+												</span>
+											</p>
+																	</dd>
+									<dt><a> Semana: 02 — Ano: 2022<span><i class="fa fa-angle-right"></i></span></a></dt>
+							<dd class="hideIt" style="display: none;">
+																<table class="rwd-table no-margin">
+									<tbody>
+										<tr>
+											<th>Ano</th>
+											<th>Data de Entrada</th>
+											<th>Horário de Entrada</th>
+											<th>Data de Saída</th>
+											<th>Horário de Saída</th>
+											<th>Horas</th>
+																					</tr>
+																						<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 10, 2022</td>
+													<td data-th="Horário de Entrada">02:00 PM</td>
+													<td data-th="Data de Saída">January 12, 2022</td>
+													<td data-th="Horário de Saída">06:57 AM</td>
+													<td data-th="Horas">16:57</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 12, 2022</td>
+													<td data-th="Horário de Entrada">06:57 AM</td>
+													<td data-th="Data de Saída">January 13, 2022</td>
+													<td data-th="Horário de Saída">10:39 PM</td>
+													<td data-th="Horas">15:41</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 13, 2022</td>
+													<td data-th="Horário de Entrada">10:39 PM</td>
+													<td data-th="Data de Saída">January 13, 2022</td>
+													<td data-th="Horário de Saída">10:41 PM</td>
+													<td data-th="Horas">0:2</td>
+																									</tr>
+
+																																		<tr>
+													<td data-th="Ano">2022</td>
+													<td data-th="Data de Entrada">January 13, 2022</td>
+													<td data-th="Horário de Entrada">10:41 PM</td>
+													<td data-th="Data de Saída">January 13, 2022</td>
+													<td data-th="Horário de Saída">10:42 PM</td>
+													<td data-th="Horas">0:0</td>
+																									</tr>
+
+																															</tbody>
+								</table>
+								
+											<p class="mt20">
+												<span class="label label-default preview-label" data-toggle="tooltip" data-placement="right" title="" data-original-title="hh:mm:ss">
+													Total:: 80:41:12
+												</span>
+											</p>
+																	</dd>
+		</dl><div class="clearfix"></div>				</div>
+		</div>
+</div>
+
+	</div>
+	
+	<section id="footer-default">
+		<div class="container">
+			<div class="footer-nav">
+				<a href="http://ponto.scriptphp.ru/index.php">Painel</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=calendar">Calendário</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=tasks">Tarefas</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=inbox">Mensagens</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=time">Meus Pontos</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=myProfile">Meu Perfil</a>
+					<i class="fa fa-circle-thin"></i>
+				<a data-toggle="modal" href="http://ponto.scriptphp.ru/index.php?page=time#signOut">Sair</a>
+			</div>
+			<div class="row">
+				<div class="col-md-12 mb20">
+					<a href="http://ponto.scriptphp.ru/index.php?page=time"><img src="./Ponto · Meus Registros de Ponto_files/logo.png"></a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<script src="./Ponto · Meus Registros de Ponto_files/jquery.js.download" type="text/javascript"></script>
+	<script src="./Ponto · Meus Registros de Ponto_files/bootstrap.min.js.download" type="text/javascript"></script>
+		<script type="text/javascript" src="./Ponto · Meus Registros de Ponto_files/datetimepicker.js.download"></script>	<script type="text/javascript" src="./Ponto · Meus Registros de Ponto_files/timeLogs.js.download"></script>		<script src="./Ponto · Meus Registros de Ponto_files/custom.js.download" type="text/javascript"></script>
+
+</body></html>

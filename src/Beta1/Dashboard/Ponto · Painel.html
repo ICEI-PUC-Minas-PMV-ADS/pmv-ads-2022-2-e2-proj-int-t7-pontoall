@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ponto · Painel</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<link rel="stylesheet" type="text/css" href="./Ponto · Painel_files/googlefonts.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Painel_files/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Painel_files/custom.css">
+		<link rel="stylesheet" type="text/css" href="./Ponto · Painel_files/timezone.css">
+	<link rel="stylesheet" type="text/css" href="./Ponto · Painel_files/font-awesome.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body style="">
+	<section class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<a href="http://ponto.scriptphp.ru/index.php"><img src="./Ponto · Painel_files/logo.png" alt="TimeZone"></a>
+				</div>
+
+				<div class="col-md-6 text-right">
+					Hoje é Wednesday the 7th of September, 2022 <span class="clock">21:56:50</span>
+				</div>
+			</div>
+		</div>
+	</section>	<div class="navbar navbar-inverse" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Ativar Navegação</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="http://ponto.scriptphp.ru/index.php">Painel</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=calendar">Calendário</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=time">Meus Pontos</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=tasks">Tarefas</a></li>
+					<li><a href="http://ponto.scriptphp.ru/index.php?page=inbox">Mensagens</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+											<li class="dropdown">
+							<a href="http://ponto.scriptphp.ru/index.php#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+							<div class="dropdown-menu dropdown-form">
+								<form action="http://ponto.scriptphp.ru/index.php?page=searchResults" method="post">
+									<div class="input-group custom-search-form">
+										<input type="text" class="form-control" required="" name="searchTerm" placeholder="Pesquisa de Valor Único">
+										<span class="input-group-btn">
+											<button type="input" name="submit" value="search" class="btn btn-search"><span class="fa fa-search"></span></button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</li>
+					
+						<li class="dropdown">
+							<a href="http://ponto.scriptphp.ru/index.php#" class="dropdown-toggle" data-toggle="dropdown">Funcionários</a>
+							<ul class="dropdown-menu">
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=activeEmployees">Funcionários ativos</a></li>
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=inactiveEmployees">Funcinários desativados</a></li>
+																	<li><a href="http://ponto.scriptphp.ru/index.php?page=newEmployee">Novo Funcionario</a></li>
+															</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="http://ponto.scriptphp.ru/index.php#" class="dropdown-toggle" data-toggle="dropdown">Configurações</a>
+							<ul class="dropdown-menu">
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=notices">Notificações do site</a></li>
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=businessDocs">Documentos de Negócios</a></li>
+								<li><a href="http://ponto.scriptphp.ru/index.php?page=reports">Relatórios</a></li>
+																	<li><a href="http://ponto.scriptphp.ru/index.php?page=timeCards">Cartões de tempo</a></li>
+									<li><a href="http://ponto.scriptphp.ru/index.php?page=siteSettings">Configurações do site</a></li>
+															</ul>
+						</li>
+										
+					<li class="dropdown user-menu">
+						<a href="http://ponto.scriptphp.ru/index.php#" class="dropdown-toggle" data-toggle="dropdown">
+							<span>admin admin</span>
+						</a>
+						<ul class="dropdown-menu">
+							<li class="user-header">
+								<img src="./Ponto · Painel_files/empAvatar.png" alt="Avatar">
+								<p>
+									admin admin<br>
+									<small>Site Administrator</small>
+									<small>Data de Contratação: January 09, 2022</small>
+								</p>
+							</li>
+							<li class="user-footer">
+								<div class="pull-left">
+									<a href="http://ponto.scriptphp.ru/index.php?page=myProfile" class="btn btn-default"><i class="fa fa-user"></i> Meu Perfil</a>
+								</div>
+								<div class="pull-right">
+									<a data-toggle="modal" href="http://ponto.scriptphp.ru/index.php#signOut" class="btn btn-default"><i class="fa fa-sign-out"></i> Sair</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="signOut" tabindex="-1" role="dialog" aria-labelledby="signOut" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<p class="lead">admin admin , Tem certeza de que deseja cancelar sua conta?</p>
+				</div>
+				<div class="modal-footer">
+					<a href="http://ponto.scriptphp.ru/index.php?action=logout" class="btn btn-success btn-icon-alt">Sair <i class="fa fa-sign-out"></i></a>
+					<button type="button" class="btn btn-default btn-icon" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container"><div class="contentAlt">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="dashBlk">
+				<div class="iconBlk primary">
+					<i class="fa fa-envelope-o"></i>
+				</div>
+				<div class="contentBlk">
+					Você tem<br>
+					<span class="msgCount" data-toggle="tooltip" data-placement="top" title="" data-original-title="Ver Mensagens">
+						<a href="http://ponto.scriptphp.ru/index.php?page=inbox">1</a>					</span><br>
+					Mensagem Não-Lida				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4 col-dashBlk">
+			<div class="dashBlk">
+				<div class="iconBlk info">
+					<i class="fa fa-calendar"></i>
+				</div>
+				<div class="contentBlk">
+					Você trabalhou<br>
+					<span class="timeWorked" data-toggle="tooltip" data-placement="top" title="" data-original-title="Horas: Minutos: Segundos">50:26:17</span><br>
+					Esta semana.				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4 col-dashBlk">
+			<div class="dashBlk">
+				<div class="iconBlk success">
+					<i class="fa fa-clock-o"></i>
+				</div>
+				<div class="contentBlk">
+					Você está atualmente<br>
+					<span class="clockstatus workStatus">INATIVO</span>
+					<form action="http://ponto.scriptphp.ru/index.php" method="post" class="clockBtn">
+						<input type="hidden" name="clockId" value="73">
+						<input type="hidden" name="entryId" value="">
+						<input type="hidden" name="weekNo" value="36">
+						<input type="hidden" name="clockYear" value="2022">
+						<input type="hidden" name="running" id="running" value="0">
+						<input type="hidden" name="isRecord" id="isRecord" value="1">
+						<button type="input" name="submit" id="timetrack" value="toggleTime" class="btn btn-lg btn-icon btn-success"><i class="fa fa-sign-in"></i> <span>ATIVAR</span></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contentAlt">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="content setHeight no-margin" style="height: 148px;">
+			<h4>Tarefas Abertas Recentemente</h4>
+											<div class="task-item">
+								<h4>
+									<a href="http://ponto.scriptphp.ru/index.php?page=viewTask&amp;taskId=2" data-toggle="tooltip" data-placement="right" title="" data-original-title="Ver/Atualizar tarefa">
+										Recondicionar e instalar pc									</a>
+									<span class="pull-right">2</span>
+								</h4>
+								<p class="infoLabels">
+									Criada Por: admin admin									<span class="pull-right">Prazo Final: </span>
+								</p>
+								<p>Teste</p>
+							</div>
+							</div>
+		</div>
+
+		<div class="col-md-6">
+			<div class="content setHeight no-margin" style="height: 148px;">
+			<h4>Mensagens recentes recebidas</h4>
+										<div class="task-item">
+								<h4>
+									<a href="http://ponto.scriptphp.ru/index.php?page=viewMessage&amp;messageId=11" data-toggle="tooltip" data-placement="right" title="" data-original-title="Ver Mensagem">
+										teste									</a>
+								</h4>
+								<p class="infoLabels">
+									Recebida de: daniel funcionario									<span class="pull-right">Recebida Dia: Sep 07 2022</span>
+								</p>
+								<p>teste</p>
+							</div>
+							</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+	
+	<section id="footer-default">
+		<div class="container">
+			<div class="footer-nav">
+				<a href="http://ponto.scriptphp.ru/index.php">Painel</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=calendar">Calendário</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=tasks">Tarefas</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=inbox">Mensagens</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=time">Meus Pontos</a>
+					<i class="fa fa-circle-thin"></i>
+				<a href="http://ponto.scriptphp.ru/index.php?page=myProfile">Meu Perfil</a>
+					<i class="fa fa-circle-thin"></i>
+				<a data-toggle="modal" href="http://ponto.scriptphp.ru/index.php#signOut">Sair</a>
+			</div>
+			<div class="row">
+				<div class="col-md-12 mb20">
+					<a href="http://ponto.scriptphp.ru/index.php"><img src="./Ponto · Painel_files/logo.png"></a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<script src="./Ponto · Painel_files/jquery.js.download" type="text/javascript"></script>
+	<script src="./Ponto · Painel_files/bootstrap.min.js.download" type="text/javascript"></script>
+			<script type="text/javascript" src="./Ponto · Painel_files/dashboard.js.download"></script>		<script src="./Ponto · Painel_files/custom.js.download" type="text/javascript"></script>
+
+</body></html>
