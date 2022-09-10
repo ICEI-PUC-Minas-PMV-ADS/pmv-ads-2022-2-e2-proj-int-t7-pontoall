@@ -21,8 +21,8 @@ O objetivo geral deste trabalho é a criação de uma aplicação que simule um 
 Como objetivos específicos, podemos ressaltar:
 ● Criação de uma aplicação que pode ser acessada remotamente, para registro das horas trabalhadas dos empregados;
 ● Gerenciamento de cadastro e registro dos horários em tempo real;
-● Registrar além das batidas, o local de onde foi acessado a aplicação, via API de geolocalização;
-● Geração de relatório de horas trabalhadas e horas extras.
+● Registrar além do registro de ponto, o local de onde foi acessado a aplicação, via API de geolocalização;
+● Geração de relatório de horas trabalhadas, horas extras e banco de horas.
 
 
 ## Justificativa
