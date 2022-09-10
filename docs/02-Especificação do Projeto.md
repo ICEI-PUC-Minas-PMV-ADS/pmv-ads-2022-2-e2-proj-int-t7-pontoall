@@ -9,9 +9,15 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-1: CARLOS CESAR ANTUNES:
+### <span style="color:Green">**`Éder Aleixo`**
 
-![Persona 1](img/Carlos.png)
+
+|<img src="eder.jpg" width="160" height="100">   | **Éder Aleixo** <br> 42 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Ocupação** | CEO de Empresa de TI 
+|**Principais Aplicativos Utilizados** |MySQL, Visual Studio
+|**Obejtivos** |Melhorias dos processos de gerenciamento de equipes, tornar mais versátil o modelo de trabalho dos colaboradores utilizando das modalidades home office e híbrido.
+|**Desafios** |Desafios: Assegurar que os colaboradores cumpram os termos de contrato de trabalho.|
 
 
 2: MARIANA BELCHIOR:
