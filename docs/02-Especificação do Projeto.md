@@ -3,7 +3,7 @@
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidadas com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram  consolidados na forma de personas e histórias de usuários.
-
+<br>
 
 ## Personas
 
@@ -15,7 +15,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |:---------------------------------------:|:-------------------------------:|
 |**Principais Aplicativos Utilizados** |Visual Studio Code, QuickEdit, Linkedin, MySQL, Slack, Udacity, Elipse, WhatsApp, Discord
 |**Obejtivos** |Melhorias dos processos de gerenciamento de equipes, tornar mais versátil o modelo de trabalho dos colaboradores utilizando das modalidades home office e híbrido.
-|**Desafios** |Desafios: Assegurar que os colaboradores cumpram os termos de contrato de trabalho.|
+|**Desafios** |Certificar que os colaboradores cumpram os termos de contrato de trabalho.|
 
 
 ### <span style="color:Green">**`Mariana Ximenes`**
@@ -31,19 +31,19 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/rogeria.jpg" width="160" height="160">   | **Analista Contábil** <br> 49 anos   |
 |:---------------------------------------:|:-------------------------------:|
-|**Principais Aplicativos Utilizados** |MS Office, WhatsApp, Uber, Google Agenda, Linkedin
+|**Principais Aplicativos Utilizados** |MS Office, WhatsApp, Google Agenda, Linkedin, Protheus
 |**Obejtivos** |Ter acesso aos registros de pontos de forma eletrônica e relatório de horas extras, com agilidade para otimizar o processo de fechamento da folha de pagamento dos funcionários.|
 |**Desafios** |Assegurar que os colaboradores encontrarão facilidade na usabilidade da aplicação, de maneira simples e intuitiva.|
 
 
 ### <span style="color:Green">**`Paola Regina`**
 
-|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/rogeria.jpg" width="160" height="160">   | **Assistente de Suporte** <br> 24 anos   |
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/paola.jpg" width="160" height="160">   | **Assistente de Suporte** <br> 24 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Principais Aplicativos Utilizados** |Google Suite, WhatsApp, Uber, Instagram, Sublime Text, Eclipse
 |**Obejtivos** |Ter a carga horária registrada para poder receber o pagamento de acordo com as horas trabalhadas.|
 |**Desafios** |Acesso ao relatório para conferência de registros de entrada e saída de trabalho.|
-
+<br>
 
 ## Histórias de Usuários
 
