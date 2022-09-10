@@ -11,27 +11,38 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ### <span style="color:Green">**`Éder Aleixo`**
 
-
-|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/eder.jpg" width="160" height="160">   | **Éder Aleixo** <br> 38 anos   |
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/eder.jpg" width="160" height="160">   | **CEO de Empresa de TI** <br> 38 anos   |
 |:---------------------------------------:|:-------------------------------:|
-|**Ocupação** | CEO de Empresa de TI 
 |**Principais Aplicativos Utilizados** |MySQL, Visual Studio
 |**Obejtivos** |Melhorias dos processos de gerenciamento de equipes, tornar mais versátil o modelo de trabalho dos colaboradores utilizando das modalidades home office e híbrido.
 |**Desafios** |Desafios: Assegurar que os colaboradores cumpram os termos de contrato de trabalho.|
 
 
-2: MARIANA BELCHIOR:
+### <span style="color:Green">**`Mariana Ximenes`**
 
-![Persona 2](img/mariana.png)
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/mariana.jpg" width="160" height="160">   | **Gerente de Desenvolvimento** <br> 37 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Principais Aplicativos Utilizados** |Trello, Visual Studio, WhatsApp
+|**Obejtivos** |Melhoria no gerenciamento e processamento do registro de batidas.
+|**Desafios** |Encontrar aplicações e funcionalidades que se adequem as necessidades da empresa para solucionar atuais problemas de registro.|
 
-3: ROGÉRIA SKYLAB:
 
-![Persona 3](img/rogeria.png)
+### <span style="color:Green">**`Rogéria Skylab`**
 
-4: PAOLA REGINA BRACHO:
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/rogeria.jpg" width="160" height="160">   | **Analista Contábil** <br> 49 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Principais Aplicativos Utilizados** |MS Office, WhatsApp, Uber, Googel Agenda
+|**Obejtivos** |Ter acesso aos registros de pontos de forma eletrônica e relatório de horas extras, com agilidade para otimizar o processo de fechamento da folha de pagamento dos funcionários.|
+|**Desafios** |Assegurar que os colaboradores encontrarão facilidade na usabilidade da aplicação, de maneira simples e intuitiva.|
 
-![Persona 4](img/paola.png)
 
+### <span style="color:Green">**`Paola Regina`**
+
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/rogeria.jpg" width="160" height="160">   | **Assistente de Suporte** <br> 24 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Principais Aplicativos Utilizados** |Google Suite, WhatsApp, Uber, Instagram
+|**Obejtivos** |Ter a carga horária registrada para poder receber o pagamento de acordo com as horas trabalhadas.|
+|**Desafios** |Acesso ao relatório para conferência de registros de entrada e saída de trabalho.|
 
 
 ## Histórias de Usuários
@@ -49,9 +60,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Rogéria Skylab      | Visualizar ícones de forma acessível.| Tornar acessível a visualização dos ícones, para facilitar a usabilidade do usuário.  |
 |Rogéria Skylab      | Receber confirmação de ponto. | Enviar notificação, ou aviso gráfico que o ponto foi registrado com sucesso. |
 |Paola Bracho/ Eder       |Ser avisado por não conformidades no registro. | Receber  avisos de  atrasos ou excedente de horário recorrentes, para tomadas de decisão.  |
-
-
-
 
 
 ## Requisitos
