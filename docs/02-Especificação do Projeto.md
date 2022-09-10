@@ -15,7 +15,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/eder.jpg" width="160" height="160">   | **CEO de Empresa de TI** <br> 38 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Principais Aplicativos Utilizados** |Visual Studio Code, QuickEdit, Linkedin, MySQL, Slack, Udacity, Eclipse, WhatsApp, Discord
-|**Obejtivos** |Melhorias dos processos de gerenciamento de equipes, tornar mais versátil o modelo de trabalho dos colaboradores utilizando das modalidades home office e híbrido.
+|**Objetivos** |Melhorias dos processos de gerenciamento de equipes, tornar mais versátil o modelo de trabalho dos colaboradores utilizando das modalidades home office e híbrido.
 |**Desafios** |Certificar que os colaboradores cumpram os termos de contrato de trabalho.|
 
 
@@ -24,7 +24,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/mariana.jpg" width="160" height="160">   | **Gerente de Desenvolvimento** <br> 37 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Principais Aplicativos Utilizados** |Trello, Visual Studio, WhatsApp, QuickEdit, Eclipse, Linkedin
-|**Obejtivos** |Melhoria no gerenciamento da jornada das equipes de desenvolvimento e consulta do registro de horas trabalhadas da equipe.
+|**Objetivos** |Melhoria no gerenciamento da jornada das equipes de desenvolvimento e consulta do registro de horas trabalhadas da equipe.
 |**Desafios** |Encontrar aplicações e funcionalidades que se adequem as necessidades da empresa para solucionar atuais problemas de registro.|
 
 
@@ -33,7 +33,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/rogeria.jpg" width="160" height="160">   | **Analista de RH** <br> 49 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Principais Aplicativos Utilizados** |MS Office, WhatsApp, Google Suite, Linkedin, Protheus
-|**Obejtivos** |Ter acesso aos registros de pontos de forma eletrônica e relatório de horas extras com agilidade, para otimizar o processo de fechamento da folha de pagamento dos funcionários.|
+|**Objetivos** |Ter acesso aos registros de pontos de forma eletrônica e relatório de horas extras com agilidade, para otimizar o processo de fechamento da folha de pagamento dos funcionários.|
 |**Desafios** |Assegurar que os colaboradores encontrarão facilidade na usabilidade da aplicação, de maneira simples e intuitiva.|
 
 
@@ -42,7 +42,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/paola.jpg" width="160" height="160">   | **Assistente de Suporte** <br> 24 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Principais Aplicativos Utilizados** |Google Suite, WhatsApp, Uber, Instagram, Sublime Text, Eclipse
-|**Obejtivos** |Ter a carga horária registrada para poder receber o pagamento de acordo com as horas trabalhadas.|
+|**Objetivos** |Ter a carga horária registrada para poder receber o pagamento de acordo com as horas trabalhadas e evolução do banco de horas.|
 |**Desafios** |Acesso ao relatório para conferência de registros de entrada e saída de trabalho.|
 <br>
 
@@ -87,12 +87,12 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis. | ALTA | 
-|RNF-002| Os relatórios devem ser emitidos em PDF. |  MÉDIA | 
-|RNF-003| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA | 
-|RNF-004| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
-|RNF-005| Os alertas da aplicação deverão ser enviadas para o administrador via e-mail. |  BAIXA | 
-|RNF-006 | Os alertas da aplicação deverão ser enviadas para o colaborador na tela diretamente. |ALTA|
+|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis. | ALTA |
+|RNF-002 | Os alertas da aplicação deverão ser enviadas para o colaborador na tela diretamente. |ALTA| 
+|RNF-003| Os relatórios devem ser emitidos em PDF. |  MÉDIA | 
+|RNF-004| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA | 
+|RNF-005| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
+|RNF-006| Os alertas da aplicação deverão ser enviadas para o administrador via e-mail. |  BAIXA |
 
 
 ## Restrições
