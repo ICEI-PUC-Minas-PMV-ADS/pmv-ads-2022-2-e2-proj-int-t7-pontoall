@@ -11,20 +11,20 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 1: CARLOS CESAR ANTUNES:
 
-![Exemplo de Wireframe](img/carlos.png)
+![Persona 1](img/Carlos.png)
 
 
 2: MARIANA BELCHIOR:
 
-![Exemplo de Wireframe](img/mariana.png)
+![Persona 2](img/mariana.png)
 
 3: ROGÉRIA SKYLAB:
 
-![Exemplo de Wireframe](img/rogeria.png)
+![Persona 3](img/rogeria.png)
 
 4: PAOLA REGINA BRACHO:
 
-![Exemplo de Wireframe](img/paola.png)
+![Persona 4](img/paola.png)
 
 
 
