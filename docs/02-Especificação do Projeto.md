@@ -12,7 +12,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 ### <span style="color:Green">**`Éder Aleixo`**
 
 
-|<img src="eder.jpg" width="160" height="100">   | **Éder Aleixo** <br> 42 anos   |
+|[Persona 1](img/eder.jpg)   | **Éder Aleixo** <br> 38 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | CEO de Empresa de TI 
 |**Principais Aplicativos Utilizados** |MySQL, Visual Studio
