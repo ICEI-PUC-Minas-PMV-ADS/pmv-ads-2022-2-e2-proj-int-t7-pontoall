@@ -53,15 +53,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Mariana Belchior/ Paola Bracho      | Emitir relatório do registro de ponto | Conseguir detalhar os horários de inicio e fim de jornada de trabalho dos colaboradores.|
-|Paola Bracho / Eder       | Monitorar equipe em tempo real | Visualizar em tempo real o posicionamento do usuário conforme localização registrada.  |
-|Mariana Belchior       | Calcular horários automaticamente| Obter com facilidade o somatório de horas decorrentes por determinado período de tempo. (semanal, mensal)|
-|Eder     | Receber relatório por e-mail | Possuir  relatório do registro de ponto em PDF por e-mail.|
-|Carlos Cesar       | Visualizar  banco de horas. | Consultar banco de horas com o intuito de visualizar crédito de horas. (horas extras e negativas). |
-|Carlos Cesar/ Mariana Belchior       | Flexibilizar horários. | Registrar horários para cada usuário de forma diferenciada, com intuito de flexibilizar turnos.  |
-|Rogéria Skylab      | Visualizar ícones de forma acessível.| Tornar acessível a visualização dos ícones, para facilitar a usabilidade do usuário.  |
-|Rogéria Skylab      | Receber confirmação de ponto. | Enviar notificação, ou aviso gráfico que o ponto foi registrado com sucesso. |
-|Paola Bracho/ Eder       |Ser avisado por não conformidades no registro. | Receber  avisos de  atrasos ou excedente de horário recorrentes, para tomadas de decisão.  |
+|Éder Aleixo    | Gerenciar a equipe  e monitorar o cumprimento dos requisitos legais. | Visualizar em tempo real os registros de e o status de cada colaborador.|
+|Mariana Ximenes       | Manutenção da rotina de registro de ponto dos colaboradores. | Tornar flexivel e confiavel a marcação dos registros de ponto e ainda possibilitar o calculo das jornadas e possiveis creditos ou debitos  |
+|Rogéria Skylab     | Fechar a folha de pagamento| Confrontar o saldo de horas e realizar o calculo dos pagamentos de acordo com o desempenho de cada colaborador. Efetivandos os devidos creditos e debitos na folha.|
+|Paola Regina   | Registrar ponto e visualizar relatorios da situação do ponto. |Conseguir registrar o ponto diariamente e ter a opção de emissão de  relatório do registro de ponto|
+|
 
 
 ## Requisitos
@@ -74,7 +70,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01 | A aplicação deve permitir o cadastro do usuários administrador e colaborador. | ALTA |
+|RF-01 | A aplicação deve permitir o cadastro dos usuários administradores e colaboradores. | ALTA |
 |RF-02 | A aplicação deve possuir um botão (ícone) para registro de ponto na tela principal. | ALTA|
 |RF-03 | A aplicação deve permitir o registro de ponto do colaborador. | ALTA |
 |RF-04 | A aplicação deve permitir que o colaborador emita relatórios com relação ao seu registro de ponto. | ALTA |
@@ -97,6 +93,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RNF-003| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA | 
 |RNF-004| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
 |RNF-005| Os alertas da aplicação deverão ser enviadas para o administrador via e-mail. |  BAIXA | 
+|RNF-006 | Os alertas da aplicação deverão ser enviadas para o colaborador na tela diretamente. |ALTA|
 
 
 ## Restrições
