@@ -3,7 +3,7 @@
 /* ==========================================
 	The Basics
    ========================================== */
-::selection {
+   ::selection {
     background: #f0f0f0;
     color: #111111;
 }
@@ -114,7 +114,7 @@ p { margin-top: 0; line-height: 25px; }
 .header {
     padding-top: 20px;
     padding-bottom: 20px;
-    background: url("../images/bg-alt.png") repeat scroll 0 0 #141414;
+    background: url("../images/bg-alt.png") repeat scroll 0 0 #004aad;
 	color: #999999;
     border-bottom: 2px solid #d94d3f;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -1314,7 +1314,7 @@ h4.modal-title {
 	Footer
    ========================================== */
 #footer-default {
-    background: url("../images/bg-alt.png") repeat scroll 0 0 #141414;
+    background: url("../images/bg-alt.png") repeat scroll 0 0 #004aad;
     color: #8c8989;
 	padding: 20px 0 40px;
 	border-top: 2px solid #01b6ad;
