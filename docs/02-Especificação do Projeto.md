@@ -74,7 +74,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01 | Cadastrar usuário administrador e usuário colaborador na aplicação. | ALTA |
+|RF-01 | A aplicação deve permitir o cadastro do usuários administrador e colaborador. | ALTA |
 |RF-02 | A aplicação deve possuir um botão (ícone) para registro de ponto na tela principal. | ALTA|
 |RF-03 | A aplicação deve permitir o registro de ponto do colaborador. | ALTA |
 |RF-04 | A aplicação deve permitir que o colaborador emita relatórios com relação ao seu registro de ponto. | ALTA |
@@ -84,7 +84,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-08 | A aplicação deve executar o cálculo das horas trabalhadas do colaborador. | ALTA |
 |RF-09 | A aplicação deve calcular o banco de horas do colaborador. | ALTA |
 |RF-10 | A aplicação deve informar ao usuário a confirmação de que o ponto foi registrado, de forma instantânea. | ALTA |
-|RF-11 |A aplicação deve possuir opção de geolocalização para monitoramento do colaborador. | MÉDIA |
+|RF-11 | A aplicação deve possuir marcação de geolocalização para monitoramento do colaborador. | MÉDIA |
 |RF-12 | A aplicação deve fornecer, em caso de não conformidade no registro de ponto, aviso ao administrador. (Jornada incompleta, atrasos, faltas, etc.) | BAIXA |
 
 
