@@ -12,7 +12,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 ### <span style="color:Green">**`Éder Aleixo`**
 
 
-|[Persona 1](img/eder.jpg)   | **Éder Aleixo** <br> 38 anos   |
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/eder.jpg" width="160" height="100">   | **Éder Aleixo** <br> 38 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | CEO de Empresa de TI 
 |**Principais Aplicativos Utilizados** |MySQL, Visual Studio
