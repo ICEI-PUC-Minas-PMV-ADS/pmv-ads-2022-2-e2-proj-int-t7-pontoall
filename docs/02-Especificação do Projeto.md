@@ -3,9 +3,8 @@
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidadas com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram  consolidados na forma de personas e histórias de usuários.
-<p>
+<br>
 
-</p>
 
 ## Personas
 
@@ -57,7 +56,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Mariana Ximenes       | Manutenção da rotina de registro de ponto dos colaboradores. | Tornar flexivel e confiavel a marcação dos registros de ponto e ainda possibilitar o calculo das jornadas e possiveis creditos ou debitos  |
 |Rogéria Skylab     | Fechar a folha de pagamento| Confrontar o saldo de horas e realizar o calculo dos pagamentos de acordo com o desempenho de cada colaborador. Efetivandos os devidos creditos e debitos na folha.|
 |Paola Regina   | Registrar ponto e visualizar relatorios da situação do ponto. |Conseguir registrar o ponto diariamente e ter a opção de emissão de  relatório do registro de ponto|
-|
+<br>
 
 
 ## Requisitos
