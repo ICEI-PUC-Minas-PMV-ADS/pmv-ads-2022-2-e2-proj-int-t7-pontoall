@@ -16,7 +16,6 @@ Criação de uma pagina WEB com a premissa de permitir a gestão e operação do
 ## Integrantes
 
 *  Daniel De Souza Marcolino
-*  João Victor Garcia Leite Santana (Trancando o curso)
 *  Maykon Edésio Rosa
 *  Pryscila Martins Cazuza
 *  Roger Bastos Mendes
