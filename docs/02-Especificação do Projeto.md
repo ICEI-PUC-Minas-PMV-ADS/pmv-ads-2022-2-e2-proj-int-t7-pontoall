@@ -74,38 +74,30 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01 | Deve possuir tela "Home" com ícones acessíveis e fornecer acesso a página de registro de ponto. | ALTA |
-|RF-02 | Deve possibilitar o cadastro do colaborador em seu registro de banco de horas, permitindo a visualização de futuro histórico de horas. | ALTA|
-|RF-03 | Deve fornecer uma página com relatório de horas e opção de envio. | MÉDIA |
-|RF-04 | Deve possuir opção de geolocalização para monitoramento  do usuário. | BAIXA |
-|RF-05 | A aplicação deve fornecer o cálculo das horas trabalhadas por período de tempo específico, ex: semanal, mensal. | MÉDIA |
-|RF-06 | Deve possuir opção diferenciada de  turnos para registro de horários, conforme a solicitação de cada empresa. | ALTA |
-|RF-07 | A aplicação deve informar ao usuário a confirmação de que o ponto foi registrado, de forma instantânea. | ALTA |
-|RF-08 | Havendo recorrência de não conformidade no registro de pontos, a aplicação deve fornecer aviso ao usuário. Tomando como não conformidades: Atrasos, faltas, excedência de horários de forma consecutiva. | BAIXA |
+|RF-01 | Cadastrar usuário administrador e usuário colaborador na aplicação. | ALTA |
+|RF-02 | A aplicação deve possuir um botão (ícone) para registro de ponto na tela principal. | ALTA|
+|RF-03 | A aplicação deve permitir o registro de ponto do colaborador. | ALTA |
+|RF-04 | A aplicação deve permitir que o colaborador emita relatórios com relação ao seu registro de ponto. | ALTA |
+|RF-05 | A aplicação deve permitir o gerenciamento dos colaboradores pelo administrador. | ALTA |
+|RF-06 | A aplicação deve permitir que o administrador visualize o banco de horas de todos os seus colaboradores. | ALTA |
+|RF-07 | A aplicação deve fornecer uma página com relatório de horas no final do mês para o administrador. | ALTA |
+|RF-08 | A aplicação deve executar o cálculo das horas trabalhadas do colaborador. | ALTA |
+|RF-09 | A aplicação deve calcular o banco de horas do colaborador. | ALTA |
+|RF-10 | A aplicação deve informar ao usuário a confirmação de que o ponto foi registrado, de forma instantânea. | ALTA |
+|RF-11 |A aplicação deve possuir opção de geolocalização para monitoramento do colaborador. | MÉDIA |
+|RF-12 | A aplicação deve fornecer, em caso de não conformidade no registro de ponto, aviso ao administrador. (Jornada incompleta, atrasos, faltas, etc.) | BAIXA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| Os relatorios devem ser emitidos em PDF |  BAIXA | 
-|RNF-004| O sitema deve buscar localização do usuario atraves da Google Geocoding API. |Media|
+|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis. | ALTA | 
+|RNF-002| Os relatórios devem ser emitidos em PDF. |  MÉDIA | 
+|RNF-003| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA | 
+|RNF-004| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
+|RNF-005| Os alertas da aplicação deverão ser enviadas para o administrador via e-mail. |  BAIXA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -117,21 +109,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend        |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
+<!--- Eliminar após publicação
 > **Links Úteis**:
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
 > - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
 > - [Lucidchart](https://www.lucidchart.com/)
 > - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
+------>
