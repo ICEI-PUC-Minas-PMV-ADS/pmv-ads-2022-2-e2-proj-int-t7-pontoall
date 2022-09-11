@@ -1,7 +1,7 @@
 # Apresentação da Solução
 
 A .All é uma solução digital, em acordo com a legislação trabalhista vigente, que vai ajudar a sua empresa no gerenciamento do registro de ponto, cálculo de banco e horas extras da sua equipe.
-E mais, ele também ajuda a sua empresa a evitar problemas trabalhistas e prejuízos na justiça!
+E mais, ela também ajuda a sua empresa a evitar problemas trabalhistas e prejuízos na justiça!
 
 
 ## Assista nosso vídeo promocional
