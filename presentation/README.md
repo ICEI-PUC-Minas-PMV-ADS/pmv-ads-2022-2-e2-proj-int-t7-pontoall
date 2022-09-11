@@ -7,4 +7,4 @@ E mais, ela também ajuda a sua empresa a evitar problemas trabalhistas e preju�
 ## Assista nosso vídeo promocional
 A .All está pontualmente à disposição!
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/presentation/.ALLvideo.mp4
+https://user-images.githubusercontent.com/101529285/189554052-cc8d4e88-8c0b-4869-ac20-fa5bc545c11f.mp4
