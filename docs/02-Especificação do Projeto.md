@@ -33,7 +33,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/rogeria.jpg" width="160" height="160">   | **Analista de RH** <br> 49 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Principais Aplicativos Utilizados** |MS Office, WhatsApp, Google Suite, Linkedin, Protheus
-|**Objetivos** |Ter acesso aos registros de pontos de forma eletrônica e relatório de horas extras com agilidade, para otimizar o processo de fechamento da folha de pagamento dos funcionários.|
+|**Objetivos** |Ter acesso aos registros de pontos de forma eletrônica e relatório de horas extras com agilidade, para otimizar o processo de fechamento da folha de pagamento dos colaboradores.|
 |**Desafios** |Assegurar que os colaboradores encontrarão facilidade na usabilidade da aplicação, de maneira simples e intuitiva.|
 
 
