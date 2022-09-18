@@ -69,26 +69,26 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01 | A aplicação deve permitir o cadastro dos usuários administradores e colaboradores. | ALTA |
-|RF-02 | A aplicação deve possuir um botão (ícone) para registro de ponto na tela principal. | ALTA|
-|RF-03 | A aplicação deve permitir o registro de ponto do colaborador. | ALTA |
-|RF-04 | A aplicação deve permitir que o colaborador emita relatórios com relação ao seu registro de ponto. | ALTA |
-|RF-05 | A aplicação deve permitir o gerenciamento dos colaboradores pelo administrador. | ALTA |
-|RF-06 | A aplicação deve permitir que o administrador visualize o banco de horas de todos os seus colaboradores. | ALTA |
-|RF-07 | A aplicação deve fornecer uma página com relatório de horas no final do mês para o administrador. | ALTA |
-|RF-08 | A aplicação deve executar o cálculo das horas trabalhadas do colaborador. | ALTA |
-|RF-09 | A aplicação deve calcular o banco de horas do colaborador. | ALTA |
-|RF-10 | A aplicação deve informar ao usuário a confirmação de que o ponto foi registrado, de forma instantânea. | ALTA |
-|RF-11 | A aplicação deve possuir marcação de geolocalização para monitoramento do colaborador. | MÉDIA |
-|RF-12 | A aplicação deve fornecer, em caso de não conformidade no registro de ponto, aviso ao administrador. (Jornada incompleta, atrasos, faltas, etc.) | BAIXA |
+|RF-001 | A aplicação deve permitir o login com senha do usuário. | ALTA |
+|RF-002 | A aplicação deve permitir o gerenciamento de usuários com o perfil de administrador. | ALTA|
+|RF-003 | A aplicação deve possuir um botão (ícone) para registro de ponto na tela principal. | ALTA |
+|RF-004 | A aplicação deve permitir o registro de ponto do colaborador. | ALTA |
+|RF-005 | A aplicação deve permitir que o colaborador emita relatórios com relação ao seu registro de ponto, tais como horas trabalhadas na semana, resuma de horas extras e banco de horas. | ALTA |
+|RF-006 | A aplicação deve permitir aos administradores o gerenciamento dos colaboradores. | ALTA |
+|RF-007 | A aplicação deve permitir que o administrador visualize o banco de horas de todos os seus colaboradores. | ALTA |
+|RF-008 | A aplicação deve permitir que o administrador emita os relatorios individuas mensais dos colaboradores. | ALTA |
+|RF-009 | A aplicação deve executar o cálculo das horas trabalhadas do colaborador. | ALTA |
+|RF-010 | A aplicação deve calcular o banco de horas do colaborador. | ALTA |
+|RF-011 | A aplicação deve possuir marcação de geolocalização para monitoramento do colaborador. | MÉDIA |
+|RF-012 | A aplicação deve fornecer, em caso de não conformidade no registro de ponto, aviso ao administrador. (Jornada incompleta, atrasos, faltas, etc.) | BAIXA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis. | ALTA |
-|RNF-002 | Os alertas da aplicação deverão ser enviadas para o colaborador na tela diretamente. |ALTA| 
+|RNF-001| O sistema deve ser responsivo. | ALTA |
+|RNF-002| A aplicação deve informar ao usuario após todas as suas ações sucesso ou fracasso. |ALTA| 
 |RNF-003| Os relatórios devem ser emitidos em PDF. |  MÉDIA | 
 |RNF-004| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA | 
 |RNF-005| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
