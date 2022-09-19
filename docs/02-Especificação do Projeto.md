@@ -88,11 +88,12 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo. | ALTA |
-|RNF-002| A aplicação deve informar ao usuario após todas as suas ações sucesso ou fracasso. |ALTA| 
-|RNF-003| Os relatórios devem ser emitidos em PDF. |  MÉDIA | 
-|RNF-004| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA | 
-|RNF-005| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
-|RNF-006| Os alertas da aplicação deverão ser enviadas para o administrador via e-mail. |  BAIXA |
+|RNF-002| A aplicação deve informar ao usuario após todas as suas ações sucesso ou fracasso. |ALTA|
+|RNF-003| Os dados do usuário devem ser armazenados em um banco de dados SQL. |  ALTA |  
+|RNF-004| Os relatórios devem ser emitidos em PDF. |  MÉDIA | 
+|RNF-005| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA |
+|RNF-006| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
+|RNF-007| Os alertas da aplicação deverão ser enviadas para o administrador via e-mail. |  BAIXA |
 
 
 ## Restrições
