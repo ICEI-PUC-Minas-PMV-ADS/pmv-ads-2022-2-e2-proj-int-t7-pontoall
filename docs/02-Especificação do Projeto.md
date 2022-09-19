@@ -69,7 +69,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001 | A aplicação deve permitir o login com senha do usuário. | ALTA |
+|RF-001 | A aplicação deverá permitir que o usuário acesse o sistema com Nome de Usuário e Senha. | ALTA |
 |RF-002 | A aplicação deve permitir o gerenciamento de usuários com o perfil de administrador. | ALTA|
 |RF-003 | A aplicação deve possuir um botão (ícone) para registro de ponto na tela principal. | ALTA |
 |RF-004 | A aplicação deve permitir o registro de ponto do colaborador. | ALTA |
