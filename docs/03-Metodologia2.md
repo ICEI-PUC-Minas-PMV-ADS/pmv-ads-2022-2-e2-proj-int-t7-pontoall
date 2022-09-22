@@ -89,7 +89,7 @@ revisões necessárias, ele está agendado e pronto para a ação.
 ● Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta 
 lista juntamente com um comentário sobre o que está travando a tarefa.
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrams/board.png"> (Exemplo 1° Eixo - Substituir)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/f1e5c4f4cb62e1f06a3f4d6529a7a93487c5606b/docs/img/diagrams/board.png"> (Exemplo 1° Eixo - Substituir)
 
 
 ### Ferramentas
