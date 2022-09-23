@@ -91,6 +91,9 @@ lista juntamente com um comentário sobre o que está travando a tarefa.
 
 ![Imagem do Trello](img/trelloProject.png)
 
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/ae49c17df574ed89c638ca54f1eb4059cf0e8ad9/docs/img/TrelloProject.png" width="160" height="160">
+
+![Diagrama UML](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/ae49c17df574ed89c638ca54f1eb4059cf0e8ad9/docs/img/TrelloProject.png)
 
 ### Ferramentas
 
