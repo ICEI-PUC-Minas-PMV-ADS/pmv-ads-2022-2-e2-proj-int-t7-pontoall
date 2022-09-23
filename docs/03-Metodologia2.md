@@ -20,7 +20,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall   |
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/tree/main/docs |
 | Projeto de Interface e  Wireframes  | Lucid Chart e Marvelapp | https://lucid.app/lucidchart/3ff07d41-6d8e-407a-b6db-b100ce4633da/view |    |
-| Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/projects?query=is%3Aopen  -(Aguardando Retorno do ERRO) |
+| Gerenciamento do Projeto | Trello | https://trello.com/b/uqaSXolQ/project |
 
 ## Controle de Versão
 
@@ -89,7 +89,7 @@ revisões necessárias, ele está agendado e pronto para a ação.
 ● Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta 
 lista juntamente com um comentário sobre o que está travando a tarefa.
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/f1e5c4f4cb62e1f06a3f4d6529a7a93487c5606b/docs/img/diagrams/board.png"> (Exemplo 1° Eixo - Substituir)
+![Imagem do Trello](img/trelloProject.png)
 
 
 ### Ferramentas
@@ -101,8 +101,9 @@ As ferramentas utilizadas no projeto são:
 - Visual Basic 2022 - Editor de código/Compilador
 - Whatsapp e Microsoft Teams - Software de comunicação
 - Marvel App - Ilustração de Wireframes
-- Lucid Chart Diagramas de uso e de base de dados
+- Lucid Chart -  Diagramas de uso e de base de dados
 - Microsoft SQL Server - Aplicação para Banco de Dados
+- Trello - Gerenciamento de tarefas e equipe
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versionamento. As ferramentas de comunicação utilizadas possuem
 integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
