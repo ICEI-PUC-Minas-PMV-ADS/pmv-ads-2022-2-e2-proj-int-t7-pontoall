@@ -9,28 +9,26 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+O Fluxo de usuário (User Flow) foi desenvolvido para mapear todas as telas do site e traçar os possíveis caminhos e ações dos usuarios, bem como, elucidar as trilhas de acesso de acordo com os niveis de acesso baseados no cadastro dos mesmos. 
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
-
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+![Userflow Ponto ALL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/04f1df3a03882188f7d1a55709de207bd0815884/docs/img/Ponto%20ALL.png)
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Tela: Home sem logar
+![Tela: Home sem logar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/04f1df3a03882188f7d1a55709de207bd0815884/docs/img/WF01%20-%20Home%20-%20login.png)
+ 
+Tela: Home logada - Painel Administrador
+![Tela: Home logada - Painel Administrador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/04f1df3a03882188f7d1a55709de207bd0815884/docs/img/WF02%20-%20Home%20-%20logada%20Administrador.png)
+
+Tela: Home logada - Painel Gerência
+![Tela: Home logada - Painel Gerência](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/04f1df3a03882188f7d1a55709de207bd0815884/docs/img/WF02%20-%20Home%20-%20logada%20Gerencia.png)
+
+
+Tela: Home logada - Painel Colaborador
+![Tela: Home logada - Painel Colaborador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/04f1df3a03882188f7d1a55709de207bd0815884/docs/img/WF02%20-%20Home%20-%20logada%20Colaborador.png)
+
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
