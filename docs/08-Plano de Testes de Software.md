@@ -1,4 +1,4 @@
-**PLANO DE TESTES DE SOFTWARE**
+# Plano de Testes de Software
 
 O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
 
