@@ -15,8 +15,8 @@ Para cada tarefa do participante é possível medir:
 | **CASOS DE USO** | **ID** | **PASSOS** | **RESULTADO ESPERADO** |
 | --- | --- | --- | --- |
 | Registro de Ponto | 1 | Acessar página home do site | Página home será exibida |
-| 2 | Fazer login | A aplicação deve efetuar login com sucesso |
-| 3 | Selecionar o botão "Registrar Ponto" | A aplicação exibe uma mensagem de sucesso "Ponto registrado com sucesso." |
+| --- | 2 | Fazer login | A aplicação deve efetuar login com sucesso |
+| --- | 3 | Selecionar o botão "Registrar Ponto" | A aplicação exibe uma mensagem de sucesso "Ponto registrado com sucesso." |
 
 | **CASOS DE USO** | **ID** | **PASSOS** | **RESULTADO ESPERADO** |
 | --- | --- | --- | --- |
