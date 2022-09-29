@@ -2,7 +2,7 @@
 
 O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
 
-  1. Requisitos para Realização do Teste
+##  1. Requisitos para Realização do Teste
 
 As seguintes ferramentas serão empregadas neste projeto de testes:
 
@@ -13,7 +13,7 @@ As seguintes ferramentas serão empregadas neste projeto de testes:
 - Banco de dados SQLite
 - Biblioteca de testes xUnit
 
-  2. Ambiente de teste
+##  2. Ambiente de teste
 
 - Testes deverão ser desenvolvido com um pequeno volume de dados, baseados em testes manuais.
 - Os dados serão criados em tempo real, por desenvolvedores da aplicação e usuários.
@@ -22,7 +22,7 @@ As seguintes ferramentas serão empregadas neste projeto de testes:
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
-  3. Abordagem e Detalhmento de Testes
+##  3. Abordagem e Detalhmento de Testes
 
 | **Tipo do Teste:** | Funcional |
 | --- | --- |
