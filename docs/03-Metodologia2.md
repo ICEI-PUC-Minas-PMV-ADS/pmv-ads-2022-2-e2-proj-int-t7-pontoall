@@ -19,7 +19,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 --------- | ---------- |  -------------  |
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall   |
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/tree/main/docs |
-| Projeto de Interface e  Wireframes  | Lucid Chart e Marvelapp |   https://marvelapp.com/prototype/65j0120 - https://lucid.app/lucidchart/3ff07d41-6d8e-407a-b6db-b100ce4633da/view |    |
+| Projeto de Interface e  Wireframes  | Lucid Chart e Marvelapp |   https://marvelapp.com/prototype/65j0120 - https://lucid.app/lucidchart/df8ab32e-663f-473c-8af8-dead2d68fa99/edit?view_items=aZfa8eSA066u%2C~svVxbh53ixx%2CUsvVwhlc7LaY&invitationId=inv_451aa400-f42c-46cb-82d3-2df3216dd0fa# |    |
 | Gerenciamento do Projeto | Trello | https://trello.com/b/uqaSXolQ/project |
 
 ## Controle de Versão
