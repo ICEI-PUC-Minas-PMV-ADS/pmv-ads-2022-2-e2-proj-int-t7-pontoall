@@ -26,9 +26,25 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Estão sendo importantes no processo de desenvolvimento desta aplicação: o github como versionador de código onde é armazenada as partes prontas do projeto e por possuir compatibilidade com o Visual Basic. Foi escolhido o Trello, onde são organizadas e separadas as tarefas. O MavellAPP como ferramenta de edição dos wireframes. Para a elaboração dos diagramas do nosso projeto esta sendo utulizada a plataforma do Lucid Chart, que contribui para a concepção de forma mais facil dos diagramas.
+Temos também os aplicativos e sites de comunicação com whattsap e discord. A junção destas tecnologias vai permitir a interação de todos os integrantes do grupo se comunicar e fazer as devidas tarefas.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Linguagens de progamação utilizadas:
+
+C#: Linguagem de progamação utilizada para desenvolvimento do backend da solução.
+HTML: Linguagem de marcação utilizada para a construção das páginas web.
+CSS: Linguagem de folhas de estilos utilizada para aplicar estilos nos elementos HTML.
+Razor: Sintaxe de marcação que permite inserir código baseado em .NET em páginas web junto ao HTML.
+
+Frameworks utilizados:
+
+ASP.NET Core MVC: Framework implementando o padrão Model-View-Controller, será utilizado como base para desenvolvimento da solução.
+Entity Framework Core: Framework de mapeamento objeto-relacional (técnica utilizada para resolver o problema da impedância entre o modelo orientado a objetos e o modelo relacional) para a plataforma .NET, será utilizado para facilitar a manipulação e consulta do banco de dados relacional utilizado aplicação.
+
+IDE utilizada: Visual Studio Community 2022, escolhido pela integração com o Framework ASP.NET e outras ferramentas utilizadas no projeto como o SQL Server.
+
+Sistema gerenciador de banco de dados: MySQL Server, escolhido por sua boa integração com o editor de código e para facilitar a migração do banco de dados para o serviço de hospedagem nas fases mais avançadas do projeto.
+
 
 ## Hospedagem
 
