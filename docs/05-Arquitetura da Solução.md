@@ -48,11 +48,8 @@ Sistema gerenciador de banco de dados: SQLite Server, escolhido por sua boa inte
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O site será hospedado na plataforma do GitHub Pages e também disponível em servidor particular via URL: https://www.bamumi.com/pontoall
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A publicação do site no servidor particular é feita por meio de uma sincronização do repositório para o domínmio informado via FTP.
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall
