@@ -11,7 +11,13 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 O Fluxo de usuário (User Flow) foi desenvolvido para mapear todas as telas do site e traçar os possíveis caminhos e ações dos usuarios, bem como, elucidar as trilhas de acesso de acordo com os niveis de acesso baseados no cadastro dos mesmos. 
 
-![Userflow Ponto ALL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/15be7b5e34d629c92ee1f0f448ac6c59a5bc0705/docs/img/colaboradorfluxo.jpeg)
+### Fluxo de Administradores
+
+![Userflow Ponto ALL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/383ce4ef1cd903700677d2c9758e8b2451c8cb79/docs/img/adminfluxo.jpeg)
+
+### Fluxo de Colaboradores
+
+![Userflow Ponto ALL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/383ce4ef1cd903700677d2c9758e8b2451c8cb79/docs/img/colaboradorfluxo2.jpeg)
 
 ## Wireframes
 
