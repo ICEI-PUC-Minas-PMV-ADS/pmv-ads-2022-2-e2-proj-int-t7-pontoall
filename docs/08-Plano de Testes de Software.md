@@ -10,7 +10,7 @@ As seguintes ferramentas serão empregadas neste projeto de testes:
 - Navegador da Internet - Chrome, Firefox ou Edge
 - Conectividade de Internet para acesso às plataformas (APISs)
 - Microsoft Visual Studio
-- Banco de dados SQLite
+- Banco de dados MySQL
 - Biblioteca de testes xUnit
 
 ##  2. Ambiente de teste
@@ -112,7 +112,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | --- | --- |
 | **Subtipo do Teste:** | Tecnologia Envolvida |
 | **Objetivo do Teste:** | Verificar e testar se o sistema está fazendo uso do banco de dados solicitado. |
-| **Requisitos que motivaram esse teste:** | RNF-003 - Os dados do usuário devem ser armazenados em um banco de dados SQLite. |
+| **Requisitos que motivaram esse teste:** | RNF-003 - Os dados do usuário devem ser armazenados em um banco de dados MySQL. |
 
 | **Tipo do Teste:** | Não Funcional |
 | --- | --- |

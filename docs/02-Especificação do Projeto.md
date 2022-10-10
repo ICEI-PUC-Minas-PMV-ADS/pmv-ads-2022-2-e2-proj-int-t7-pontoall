@@ -14,7 +14,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/eder.jpg" width="160" height="160">   | **CEO de Empresa de TI** <br> 38 anos   |
 |:---------------------------------------:|:-------------------------------:|
-|**Principais Aplicativos Utilizados** |Visual Studio Code, QuickEdit, Linkedin, SQLite, Slack, Udacity, Eclipse, WhatsApp, Discord
+|**Principais Aplicativos Utilizados** |Visual Studio Code, QuickEdit, Linkedin, MySQL, Slack, Udacity, Eclipse, WhatsApp, Discord
 |**Objetivos** |Melhoria dos processos de gerenciamento de equipes, tornar mais versátil o modelo de trabalho dos colaboradores utilizando das modalidades home office e híbrido.
 |**Desafios** |Certificar que os colaboradores cumpram os termos de contrato de trabalho.|
 
@@ -89,7 +89,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo. | ALTA |
 |RNF-002| A aplicação deve informar ao usuario após todas as suas ações sucesso ou fracasso. |ALTA|
-|RNF-003| Os dados do usuário devem ser armazenados em um banco de dados SQLite. |  ALTA |  
+|RNF-003| Os dados do usuário devem ser armazenados em um banco de dados MySQL. |  ALTA |  
 |RNF-004| Os relatórios devem ser emitidos em PDF. |  MÉDIA | 
 |RNF-005| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA |
 |RNF-006| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 

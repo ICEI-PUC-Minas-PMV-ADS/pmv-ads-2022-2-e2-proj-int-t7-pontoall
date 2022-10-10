@@ -103,7 +103,7 @@ As ferramentas utilizadas no projeto são:
 - Whatsapp e Microsoft Teams - Software de comunicação
 - Marvel App - Ilustração de Wireframes
 - Lucid Chart -  Diagramas de uso e de base de dados
-- SQLite - Aplicação para Banco de Dados
+- MySQL - Aplicação para Banco de Dados
 - Trello - Gerenciamento de tarefas e equipe
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versionamento. As ferramentas de comunicação utilizadas possuem
