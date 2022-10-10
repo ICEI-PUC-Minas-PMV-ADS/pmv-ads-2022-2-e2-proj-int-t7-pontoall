@@ -33,7 +33,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/rogeria.jpg" width="160" height="160">   | **Analista de RH** <br> 49 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Principais Aplicativos Utilizados** |MS Office, WhatsApp, Google Suite, Linkedin, Protheus
-|**Objetivos** |Ter acesso aos registros de pontos de forma eletrônica e relatório de horas extras com agilidade, para otimizar o processo de fechamento da folha de pagamento dos funcionários.|
+|**Objetivos** |Ter acesso aos registros de pontos de forma eletrônica e relatório de horas extras com agilidade, para otimizar o processo de fechamento da folha de pagamento dos colaboradores.|
 |**Desafios** |Assegurar que os colaboradores encontrarão facilidade na usabilidade da aplicação, de maneira simples e intuitiva.|
 
 
@@ -69,30 +69,31 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01 | A aplicação deve permitir o cadastro dos usuários administradores e colaboradores. | ALTA |
-|RF-02 | A aplicação deve possuir um botão (ícone) para registro de ponto na tela principal. | ALTA|
-|RF-03 | A aplicação deve permitir o registro de ponto do colaborador. | ALTA |
-|RF-04 | A aplicação deve permitir que o colaborador emita relatórios com relação ao seu registro de ponto. | ALTA |
-|RF-05 | A aplicação deve permitir o gerenciamento dos colaboradores pelo administrador. | ALTA |
-|RF-06 | A aplicação deve permitir que o administrador visualize o banco de horas de todos os seus colaboradores. | ALTA |
-|RF-07 | A aplicação deve fornecer uma página com relatório de horas no final do mês para o administrador. | ALTA |
-|RF-08 | A aplicação deve executar o cálculo das horas trabalhadas do colaborador. | ALTA |
-|RF-09 | A aplicação deve calcular o banco de horas do colaborador. | ALTA |
-|RF-10 | A aplicação deve informar ao usuário a confirmação de que o ponto foi registrado, de forma instantânea. | ALTA |
-|RF-11 | A aplicação deve possuir marcação de geolocalização para monitoramento do colaborador. | MÉDIA |
-|RF-12 | A aplicação deve fornecer, em caso de não conformidade no registro de ponto, aviso ao administrador. (Jornada incompleta, atrasos, faltas, etc.) | BAIXA |
+|RF-001 | A aplicação deverá permitir que o usuário acesse o sistema com Nome de Usuário e Senha. | ALTA |
+|RF-002 | A aplicação deve permitir o gerenciamento de usuários com o perfil de administrador. | ALTA|
+|RF-003 | A aplicação deve possuir um botão (ícone) para registro de ponto na tela principal. | ALTA |
+|RF-004 | A aplicação deve permitir o registro de ponto do colaborador. | ALTA |
+|RF-005 | A aplicação deve permitir que o colaborador emita relatórios com relação ao seu registro de ponto, tais como horas trabalhadas na semana, resuma de horas extras e banco de horas. | ALTA |
+|RF-006 | A aplicação deve permitir aos administradores o gerenciamento dos colaboradores. | ALTA |
+|RF-007 | A aplicação deve permitir que o administrador visualize o banco de horas de todos os seus colaboradores. | ALTA |
+|RF-008 | A aplicação deve permitir que o administrador emita os relatorios individuas mensais dos colaboradores. | ALTA |
+|RF-009 | A aplicação deve executar o cálculo das horas trabalhadas do colaborador. | ALTA |
+|RF-010 | A aplicação deve calcular o banco de horas do colaborador. | ALTA |
+|RF-011 | A aplicação deve possuir marcação de geolocalização para monitoramento do colaborador. | MÉDIA |
+|RF-012 | A aplicação deve fornecer, em caso de não conformidade no registro de ponto, aviso ao administrador. (Jornada incompleta, atrasos, faltas, etc.) | BAIXA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis. | ALTA |
-|RNF-002 | Os alertas da aplicação deverão ser enviadas para o colaborador na tela diretamente. |ALTA| 
-|RNF-003| Os relatórios devem ser emitidos em PDF. |  MÉDIA | 
-|RNF-004| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA | 
-|RNF-005| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
-|RNF-006| Os alertas da aplicação deverão ser enviadas para o administrador via e-mail. |  BAIXA |
+|RNF-001| O sistema deve ser responsivo. | ALTA |
+|RNF-002| A aplicação deve informar ao usuario após todas as suas ações sucesso ou fracasso. |ALTA|
+|RNF-003| Os dados do usuário devem ser armazenados em um banco de dados MySQL. |  ALTA |  
+|RNF-004| Os relatórios devem ser emitidos em PDF. |  MÉDIA | 
+|RNF-005| O sistema deve buscar localização do usuário através da Google Geocoding API. |  MÉDIA |
+|RNF-006| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
+|RNF-007| Os alertas da aplicação deverão ser enviadas para o administrador via e-mail. |  BAIXA |
 
 
 ## Restrições
@@ -108,15 +109,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+Na Linguagem de modelagem unificada (UML), o diagrama de caso de uso resume os detalhes dos usuários do seu sistema (também conhecidos como atores) e as interações deles com o sistema.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+O objetivo do diagrama de caso de uso em UML é demonstrar as diferentes maneiras que o usuário pode interagir com um sistema.
 
-<!--- Eliminar após publicação
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
------->
+![Diagrama UML](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/diagrama.jpeg)

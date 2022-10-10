@@ -9,28 +9,73 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+O Fluxo de usuário (User Flow) foi desenvolvido para mapear todas as telas do site e traçar os possíveis caminhos e ações dos usuarios, bem como, elucidar as trilhas de acesso de acordo com os niveis de acesso baseados no cadastro dos mesmos. 
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+### Fluxo de Administradores
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+![Userflow Ponto ALL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/383ce4ef1cd903700677d2c9758e8b2451c8cb79/docs/img/adminfluxo.jpeg)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
+### Fluxo de Colaboradores
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+![Userflow Ponto ALL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/383ce4ef1cd903700677d2c9758e8b2451c8cb79/docs/img/colaboradorfluxo2.jpeg)
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Apresentamos os Wireframes do sistema com as telas previstas.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+Tela: Home sem logar
+![Tela: Home sem logar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/04f1df3a03882188f7d1a55709de207bd0815884/docs/img/WF01%20-%20Home%20-%20login.png)
+ .
+ .
+Tela: Home logada - Painel Administrador
+![Tela: Home logada - Painel Administrador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/04f1df3a03882188f7d1a55709de207bd0815884/docs/img/WF02%20-%20Home%20-%20logada%20Administrador.png)
+.
+.
+Tela: Home logada - Painel Gerência
+![Tela: Home logada - Painel Gerência](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/04f1df3a03882188f7d1a55709de207bd0815884/docs/img/WF02%20-%20Home%20-%20logada%20Gerencia.png)
+.
+.
+Tela: Home logada - Painel Colaborador
+![Tela: Home logada - Painel Colaborador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/04f1df3a03882188f7d1a55709de207bd0815884/docs/img/WF02%20-%20Home%20-%20logada%20Colaborador.png)
+.
+.
+Tela: Home logada - Meus Pontos
+![Tela: Home logada - Meus Pontos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/d2a9930868df385342a5b447a17ca56479606891/docs/img/WF03%20-%20Meus%20Pontos%20-%20Vis%C3%A3o%20Admin.png)
+.
+.
+Tela: Home logada - Relatórios
+![Tela: Home logada - Relatórios](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/d2a9930868df385342a5b447a17ca56479606891/docs/img/WF04%20-%20Relatorios-%20Vis%C3%A3o%20Admin%20.png)
+.
+.
+Tela: Home logada - Colaboradores
+![Tela: Home logada - Colaboradores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/d2a9930868df385342a5b447a17ca56479606891/docs/img/WF05%20-%20Colaboradores-%20Vis%C3%A3o%20Admin%20.png)
+.
+.
+Tela: Home logada - Colaboradores Ativos
+![Tela: Home logada - Colaboradores Ativos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/d2a9930868df385342a5b447a17ca56479606891/docs/img/WF05-1%20-%20Colaboradores%20ativos-%20Vis%C3%A3o%20Admin%20.png)
+.
+.
+Tela: Home logada - Colaboradores Inativos
+![Tela: Home logada - Colaboradores Inativos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/d2a9930868df385342a5b447a17ca56479606891/docs/img/WF05-2%20-%20Colaboradores%20inativos-%20Vis%C3%A3o%20Admin%20.png)
+.
+.
+Tela: Home logada - Incluir Colaboradores
+![Tela: Home logada - Incluir Colaboradores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/d2a9930868df385342a5b447a17ca56479606891/docs/img/WF05-3%20-%20Cadastro%20de%20colaboradores-%20Vis%C3%A3o%20Admin%20.png)
+.
+.
+Tela: Home logada - Banco de Horas
+![Tela: Home logada - Banco de Horas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/d2a9930868df385342a5b447a17ca56479606891/docs/img/WF06%20-%20Banco%20de%20Horas-%20Vis%C3%A3o%20Admin%20.png)
+.
+.
+Tela: Home logada - Ocorrências e Alertas
+![Tela: Home logada - Ocorrências e Alertas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/d2a9930868df385342a5b447a17ca56479606891/docs/img/WF07%20-%20Ocorrencias%20e%20alertas-%20Vis%C3%A3o%20Admin%20.png)
+.
+.
+Tela: Home logada - Configurações do Sistema
+![Tela: Home logada - Configurações do Sistema](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/d2a9930868df385342a5b447a17ca56479606891/docs/img/WF08%20-%20Configura%C3%A7%C3%B5es-%20Vis%C3%A3o%20Admin%20.png)
+.
+.
+
+
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+

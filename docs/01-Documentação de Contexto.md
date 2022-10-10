@@ -29,14 +29,14 @@ Como objetivos específicos, podemos ressaltar:
 
 O Instituto de Pesquisa Econômica Aplicada (Ipea) divulgou um estudo sobre o trabalho remoto no país durante a pandemia de Covid-19, onde o percentual de pessoas em home office foram responsáveis por 17,4% da massa de trabalho em novembro de 2020 ³, podendo concluir que a contribuição delas é similar à registrada pelos trabalhadores da indústria ou do setor público.
 
-Adicionalmente, os empregadores têm dificuldade de implantar ferramentas que possibilitem o controle de jornada de seus funcionários, já que estes não estarão mais fisicamente nas empresas, sendo de extrema necessidade uma aplicação que registre as batidas e possibilitem a auditagem, tanto por empregado quanto por empregador.
+Adicionalmente, os empregadores têm dificuldade de implantar ferramentas que possibilitem o controle de jornada de seus colaboradores, já que estes não estarão mais fisicamente nas empresas, sendo de extrema necessidade uma aplicação que registre as batidas e possibilitem a auditagem, tanto por empregado quanto por empregador.
 
 
 ## Público-Alvo
 
 A aplicação “.All” foi pensada para uma empresa que necessita do controle de horas dos empregados contratados.
 
-Desta forma, estabeleceu-se como público-alvo da aplicação, empresas que possuem funcionários na modalidade híbrida ou "home office".
+Desta forma, estabeleceu-se como público-alvo da aplicação, empresas que possuem colaboradores na modalidade híbrida ou "home office".
 
 
 ## Referências Bibliográficas
