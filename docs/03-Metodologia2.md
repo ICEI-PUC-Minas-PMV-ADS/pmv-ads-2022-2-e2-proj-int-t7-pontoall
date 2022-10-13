@@ -91,7 +91,7 @@ lista juntamente com um comentário sobre o que está travando a tarefa.
 
 
 
-![Diagrama UML](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/7191b65b451c009743a0b2a352f1af4d62d5a2b5/docs/img/diagrama.jpeg)
+![Trello em 13/10](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/e8d1c5ce743dba52b00999297ce99bb0e019e456/docs/img/Trello%201310.png)
 
 ### Ferramentas
 
