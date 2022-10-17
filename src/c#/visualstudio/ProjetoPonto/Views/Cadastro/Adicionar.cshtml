@@ -1,0 +1,43 @@
+﻿@model  ProjetoPonto.Models.Cadastro
+@{
+    ViewBag.Title = "Adicionar colaborador";
+}
+
+@using (Html.BeginForm("Adicionar", "Cadastro", FormMethod.Post))
+{
+    <h2>Cadastrar Colaborador</h2>
+
+    //cria a tag do formulário
+    @Html.ValidationSummary(true)
+    if (@ViewBag.Message != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @ViewBag.Message
+        </div>
+    }
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.Nome)
+        @Html.TextBoxFor(a => a.Nome, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.Nome, "", new { @class = "form-text text-muted" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.CPF)
+        @Html.TextBoxFor(a => a.CPF, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.CPF, "", new { @class = "form-text text-muted" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.Email)
+        @Html.TextBoxFor(a => a.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.Email, "", new { @class = "form-text text-muted" })
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+
+}
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
