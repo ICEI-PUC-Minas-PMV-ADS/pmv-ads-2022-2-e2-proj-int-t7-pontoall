@@ -9,12 +9,20 @@ Definição de como o software é estruturado em termos dos componentes que faze
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
 ![Diagrama UML](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/079daeebfbcc917e6104d49d808b93530d3f19a6/docs/img/Diagramas%20de%20Classe%20UML_rev1.png)
+.
+.
+Atualizado em 17/10/2022.(Em validação)
+![Diagrama UML](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/a6d36a56f08b4bc09efebb8b21b8fe5cb5dd7583/docs/img/Diagrama%20de%20Classes%20-%20171022.png)
 
 ## Modelo ER (Projeto Conceitual)
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 ![Modelo Entidade Relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/77fdf02f32d87f66139133b8409d217ce1767023/docs/img/ModeloRelacional.png)
+.
+.
+Atualizado em 17/10/2022.(Em validação)
+![Modelo Entidade Relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/a6d36a56f08b4bc09efebb8b21b8fe5cb5dd7583/docs/img/Diagrama%20ER%20-%20171022.png)
 
 
 
@@ -23,6 +31,12 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
 ![Projeto da Base de Dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/079daeebfbcc917e6104d49d808b93530d3f19a6/docs/img/Projeto%20de%20banco%20de%20dados.png)
+.
+.
+Atualizado em 17/10/2022.(Em validação)
+
+![Projeto da Base de Dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/a6d36a56f08b4bc09efebb8b21b8fe5cb5dd7583/docs/img/Projeto%20de%20banco%20de%20dados%20-%20171022A.png)
+![Projeto da Base de Dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/a6d36a56f08b4bc09efebb8b21b8fe5cb5dd7583/docs/img/Projeto%20de%20banco%20de%20dados%20-%20171022B.png)
 
 ## Tecnologias Utilizadas
 
