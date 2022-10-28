@@ -73,39 +73,3 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |Passos|<p>- Acessar o navegador<br>- Informar a URL da aplicação. ALL<br>- Realizar login no site.<br>- Na página inicial já logada o usuário deve acionar o botão (registrar ponto)<br>- Aguardar a confirmação do registro por mensagem na tela.</p><p>- A informação da localização deverá aparecer na tela.</p><p></p><p></p>|
 |Critério do Êxito|- O endereço do local do usuário deverá ser informado.|
 
-| **Tipo do Teste:** | Não Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Usabilidade |
-| **Objetivo do Teste:** | Testar se a aplicação não fica distorcida quando acessado por um ambiente ou dispositivo mobile. |
-| **Requisitos que motivaram esse teste:** | RNF-001 - O sistema deve ser responsivo. |
-
-| **Tipo do Teste:** | Não Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Usabilidade |
-| **Objetivo do Teste:** | Verificar se a aplicação está retornando todas as informações necessárias para direcionar o usuário. |
-| **Requisitos que motivaram esse teste:** | RNF-002 - A aplicação deve informar ao usuário após todas as suas ações sucesso ou fracasso. |
-
-| **Tipo do Teste:** | Não Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Tecnologia Envolvida |
-| **Objetivo do Teste:** | Verificar e testar se o sistema está fazendo uso do banco de dados solicitado. |
-| **Requisitos que motivaram esse teste:** | RNF-003 - Os dados do usuário devem ser armazenados em um banco de dados MySQL. |
-
-| **Tipo do Teste:** | Não Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Implementação |
-| **Objetivo do Teste:** | Testar a exportação dos relatórios gerados pelo sistema no formato solicitado. |
-| **Requisitos que motivaram esse teste:** | RNF-004 - Os relatórios devem ser exibidos em tela. |
-
-| **Tipo do Teste:** | Não Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Tecnologia Envolvida |
-| **Objetivo do Teste:** | Verificar e testar se o sistema está fazendo uso da API solicitada. |
-| **Requisitos que motivaram esse teste:** | RNF-005 - O sistema deve buscar localização do usuário através da Google Geocoding API. |
-
-| **Tipo do Teste:** | Não Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Usabilidade |
-| **Objetivo do Teste:** | Testar se a navegação do usuário pela aplicação e suas funções é realizada sem interrupção. |
-| **Requisitos que motivaram esse teste:** | RNF-006 - Deve processar requisições do usuário em no máximo 3s. |
-
