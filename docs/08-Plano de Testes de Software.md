@@ -24,77 +24,54 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 ##  3. Abordagem e Detalhmento de Testes
 
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de acesso a aplicação mediante usuário e senha previamente cadastrados. |
-| **Requisitos que motivaram esse teste:** | RF-001 - A aplicação deverá permitir que o usuário acesse o sistema com Nome de Usuário e Senha. |
+|**Caso de Teste**|**CT-01 –Login**|
+| :-: | :-: |
+|Requisito Associado|<p>RF-001 - A aplicação deverá permitir que o usuário acesse o sistema com Nome de Usuário e Senha.</p><p></p>|
+|Objetivo do Teste|Verificar se o usuário consegue realizar cadastro e efetuar login no sistema.|
+|Passos|<p>-Acessar o navegador.</p><p>-Informar ao navegador à URL da aplicação .All.</p><p>-Selecionar no menu da aplicação a opção login.</p><p>-Informar dados de login.</p><p>-Selecionar o botão ENTRAR para efetuar o login.</p><p></p>|
+|Critério do Êxito|- O usuário consegue acessar, informar todos os dados cadastrais e efetuar login sem entraves no sistema.|
 
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de cadastrar, editar, inativar e excluir e acesso dos usuários com perfil administrador. |
-| **Requisitos que motivaram esse teste:** | RF-002 - A aplicação deve permitir o gerenciamento de usuários com o perfil de administrador. |
+|**Caso de Teste**|<p>**CT-02– Efetuar registro de ponto eletrônico**</p><p></p>|
+| :-: | :-: |
+|Requisito Associado|<p>RF-002 A aplicação deve permitir o registro de ponto do colaborador.</p><p></p>|
+|Objetivo do Teste|<p></p><p>Verificar se o usuário já logado consegue efetuar o batimento do ponto eletrônico e obter registro.</p><p></p>|
+|Passos|<p>- Acessar o navegador<br>- Informar a URL da aplicação. ALL<br>- Realizar login no site.<br>- Na página inicial já logada o usuário deve acionar o botão (registrar ponto)<br>- Aguardar a confirmação do registro por mensagem na tela.</p><p></p><p></p><p></p>|
+|Critério do Êxito|<p>-Aparecerá na tela da aplicação “Registro realizado com sucesso”, informado a hora exata da realização do ponto.</p><p></p>|
 
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade do botão e ao clicá-lo, o registro das informações no banco dedados. |
-| **Requisitos que motivaram esse teste:** | RF-003 - A aplicação deve possuir um botão (ícone) para registro de ponto na tela principal. |
+|**Caso de Teste**|<p>**CT-03 Emissão de Relatórios** </p><p></p>|
+| :-: | :-: |
+|Requisito Associado|<p>RF-003 A aplicação deve permitir que o colaborador emita relatório com relação ao seu registro de ponto e banco de horas.</p><p></p>|
+|Objetivo do Teste|<p></p><p>Verificar se o usuário terá sucesso no processo de emissão de relatórios (horas trabalhadas, resuma de horas, banco de horas)</p><p></p>|
+|Passos|<p>` `Acessar o navegador<br>- Informar a URL da aplicação .ALL<br>- Realizar login no site<br>- Na página inicial já logada no perfil do usuário, acessar menu na opção Relatórios.</p><p>-Navegar na página Relatórios </p><p>-Selecionar relatório desejado no menu de seleção. </p><p>-Emitir relatório clicando no botão Gerar Relatório.</p><p></p>|
+|Critério do Êxito|<p></p><p>-Ser capaz de selecionar e emitir relatório desejado.</p><p></p>|
 
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de listar o horário e data que o usuário registra o ponto na aplicação, gravando a informação no banco de dados. |
-| **Requisitos que motivaram esse teste:** | RF-004 - A aplicação deve permitir o registro de ponto do colaborador. |
+|**Caso de Teste**|<p>**CT-04 Gerenciamento de colaboradores**</p><p></p>|
+| :-: | :-: |
+|Requisito Associado|<p>RF-004 A aplicação deve permitir aos administradores o gerenciamento dos colaboradores.</p><p></p>|
+|Objetivo do Teste|<p>- Verificar que o administrador terá acesso ao gerenciamento dos colaboradores.</p><p></p>|
+|Passos|<p>-Acessar o navegador<br>- Informar a URL da aplicação .ALL<br>- Realizar login no site como adm.</p><p>- Na página inicial já logada no perfil administrador, acessar menu Colaboradores.</p><p>-Clicar no botão Incluir/Editar Colaborador.</p>|
+|Critério do Êxito|<p>- O usuário logado como adm consegue incluir colaborador e ou editar os dados.</p><p></p>|
 
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de gerar relatório de ponto de cada colaborador. |
-| **Requisitos que motivaram esse teste:** | RF-005 - A aplicação deve permitir que o colaborador emita relatórios com relação ao seu registro de ponto, tais como horas trabalhadas na semana, resuma de horas extras e banco de horas. |
+|**Caso de Teste**|**CT-05 Visualização de Banco de Horas pelo ADM**|
+| :-: | :-: |
+|Requisito Associado|<p>RF-005A aplicação deve permitir que o administrador visualize o banco de horas de todos os seus colaboradores.</p><p></p>|
+|Objetivo do Teste|<p>- Verificar que o administrador terá acesso ao Banco de Horas dos colaboradores.</p><p></p>|
+|Passos|<p>-Acessar o navegador<br>- Informar a URL da aplicação .ALL<br>- Realizar login no site como adm.</p><p>- Na página inicial já logada no perfil administradior, acessar menu na opção Banco de Horas.</p><p>-Navegar na página Banco de Horas. </p><p>-Na opção selecionar ciclo de banco de horas, filtrar pelo ciclo desejado.</p><p>-Visualizar dados do Banco de Horas dos colaboradores.</p><p></p>|
+|Critério do Êxito|<p>- O usuário logado como administrador consegue ter acesso às informações solicitadas.</p><p></p>|
 
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de cadastrar, editar, inativar e excluir usuários, no banco de dados. |
-| **Requisitos que motivaram esse teste:** | RF-006 - A aplicação deve permitir aos administradores o gerenciamento dos colaboradores. |
+|**Caso de Teste**|**CT-06 Cálculo de horas**|
+| :-: | :-: |
+|Requisito Associado|<p>RF-006 A aplicação deve executar o cálculo das horas trabalhadas do colaborador.</p><p></p>|
+|Objetivo do Teste|<p>-Verificar se o usuário conseguirá realizar os cálculos de horas trabalhadas pela aplicação.</p><p></p>|
+|Passos|<p>` `Acessar o navegador<br>- Informar a URL da aplicação .ALL<br>- Realizar login no site<br>- Na página inicial já logada no perfil do usuário, acessar menu na opção Relatórios.</p><p>-Navegar na página Relatórios </p><p>-Selecionar relatório desejado no menu de seleção. </p><p>-Emitir relatório clicando no botão Gerar Relatório.</p><p></p>|
+|Critério do Êxito|- O usuário logado consegue ter acesso às informações solicitadas.|
 
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de visualizar o banco de horas de cada colaborador. |
-| **Requisitos que motivaram esse teste:** | RF-007 - A aplicação deve permitir que o administrador visualize o banco de horas de todos os seus colaboradores. |
-
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de gerar relatório de ponto possui todas as informações de cada colaborador. |
-| **Requisitos que motivaram esse teste:** | RF-008 - A aplicação deve permitir que o administrador emita os relatórios individuas mensais dos colaboradores. |
-
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade |
-| **Requisitos que motivaram esse teste:** | RF-009 - A aplicação deve executar o cálculo das horas trabalhadas do colaborador. |
-
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de cálculo automático das horas, mediante registro de pontos e saldo do colaborador em tela. |
-| **Requisitos que motivaram esse teste:** | RF-010 - A aplicação deve calcular o banco de horas do colaborador. |
-
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de visualização do local, no mapa, onde foi realizado o registro do ponto, através das coordenadas geográficas, no momento de registro ponto pelo colaborador. |
-| **Requisitos que motivaram esse teste:** | RF-011 - A aplicação deve possuir marcação de geolocalização para monitoramento do colaborador. |
-
-| **Tipo do Teste:** | Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Requisitos |
-| **Objetivo do Teste:** | Testar a funcionalidade de exibição de alertas para casos de não conformidade no registro de ponto dos colabores, nos acessos com perfil de administrador. |
-| **Requisitos que motivaram esse teste:** | RF-012 - A aplicação deve fornecer, em caso de não conformidade no registro de ponto, aviso ao administrador. (Jornada incompleta, atrasos, faltas, etc.) |
+|**Caso de Teste**|**CT-07 Opção de Geolocalização**|
+| :-: | :-: |
+|Requisito Associado|<p>RF-007 A aplicação deve possuir marcação de geolocalização para monitoramento do colaborador.</p><p></p>|
+|Objetivo do Teste|-Verificar o envio das informações de geolocalização do usuário. |
+|Passos|<p>- Acessar o navegador<br>- Informar a URL da aplicação. ALL<br>- Realizar login no site.<br>- Na página inicial já logada o usuário deve acionar o botão (registrar ponto)<br>- Aguardar a confirmação do registro por mensagem na tela.</p><p>- A informação da localização deverá aparecer na tela.</p><p></p><p></p>|
+|Critério do Êxito|- O endereço do local do usuário deverá ser informado.|
 
 | **Tipo do Teste:** | Não Funcional |
 | --- | --- |
