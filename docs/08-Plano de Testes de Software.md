@@ -95,7 +95,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | --- | --- |
 | **Subtipo do Teste:** | Implementação |
 | **Objetivo do Teste:** | Testar a exportação dos relatórios gerados pelo sistema no formato solicitado. |
-| **Requisitos que motivaram esse teste:** | RNF-004 - Os relatórios devem ser emitidos em PDF. |
+| **Requisitos que motivaram esse teste:** | RNF-004 - Os relatórios devem ser exibidos em tela. |
 
 | **Tipo do Teste:** | Não Funcional |
 | --- | --- |
@@ -109,8 +109,3 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | **Objetivo do Teste:** | Testar se a navegação do usuário pela aplicação e suas funções é realizada sem interrupção. |
 | **Requisitos que motivaram esse teste:** | RNF-006 - Deve processar requisições do usuário em no máximo 3s. |
 
-| **Tipo do Teste:** | Não Funcional |
-| --- | --- |
-| **Subtipo do Teste:** | Implementação |
-| **Objetivo do Teste:** | Testar se alertas de não conformidade são reportados conforme solicitado ao administrador da aplicação. |
-| **Requisitos que motivaram esse teste:** | RNF-007 - Os alertas da aplicação deverão ser enviados para o administrador via e-mail. |
