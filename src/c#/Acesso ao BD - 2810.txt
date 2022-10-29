@@ -1,0 +1,14 @@
+Servidor MySQL: mysql8001.site4now.net
+
+Usuario: a8ee8d_allpont
+
+Senha: SuperSenha2022
+
+
+Strings de conexao:
+
+ASP.NET
+"Server=MYSQL8001.site4now.net;Database=db_a8ee8d_allpont;Uid=a8ee8d_allpont;Pwd=SuperSenha2022"
+
+PHP
+"Driver={MySQL ODBC 8.0 UNICODE Driver};Server=MYSQL8001.site4now.net;Database=db_a8ee8d_allpont;Uid=a8ee8d_allpont;Password=SuperSenha2022"
