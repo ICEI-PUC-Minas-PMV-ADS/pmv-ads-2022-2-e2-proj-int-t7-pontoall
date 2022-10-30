@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Display location in map</title>
+  <title>Ponto All - Registro de Ponto.</title>
   <style>
     .gfg {
       font-size: 40px;
@@ -26,11 +26,11 @@
 	
  	<script type="text/javascript">
  	now = new Date
- 	var dia     = now.getDate();           // 1-31
-	var hora    = now.getHours();          // 0-23
-	var min     = now.getMinutes();        // 0-59
+ 	var dia     = now.getDate();           // 01-31
+	var hora    = now.getHours();          // 00-23
+	var min     = now.getMinutes();        // 00-59
  	var str_hora = hora + ':' + min;
-	document.write ("Hoje é " + now.getDate() + " de " + now.getMonth() + " de " + now.getFullYear() )
+	document.write ("Hoje é " + now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear() )
 	document.write(", " +str_hora)
 	
 	function getlocation() {
