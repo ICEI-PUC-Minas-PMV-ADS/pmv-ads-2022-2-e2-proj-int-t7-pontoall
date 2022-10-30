@@ -13,7 +13,7 @@ O Fluxo de usuário (User Flow) foi desenvolvido para mapear todas as telas do s
 
 ### Fluxo de Administradores
 
-![Userflow Ponto ALL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/383ce4ef1cd903700677d2c9758e8b2451c8cb79/docs/img/adminfluxo.jpg)
+![Userflow Ponto ALL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/adminfluxo.jpg)
 
 ### Fluxo de Colaboradores
 
