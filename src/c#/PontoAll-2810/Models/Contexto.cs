@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using PontoAll_2810.Models;
 
 namespace PontoAll_2810.Models
 {
@@ -14,6 +15,10 @@ namespace PontoAll_2810.Models
         }
 
         public DbSet<Usuario> Usuario { get; set; }
+
+        public DbSet<BancoHoras> BancoHoras { get; set; }
+
+        public DbSet<RegistroPonto> RegistroPonto { get; set; }
 
     }
 }

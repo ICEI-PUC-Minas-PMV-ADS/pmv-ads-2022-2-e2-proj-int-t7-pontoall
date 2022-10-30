@@ -127,7 +127,6 @@ C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\runtimes\win
 C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.csproj.AssemblyReference.cache
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.AssemblyInfoInputs.cache
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.AssemblyInfo.cs
@@ -167,3 +166,14 @@ C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Details.cshtml.g.cs
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Edit.cshtml.g.cs
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Index.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.csproj.AssemblyReference.cache
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Create.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Delete.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Details.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Edit.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Index.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Create.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Delete.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Details.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Edit.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Index.cshtml.g.cs
