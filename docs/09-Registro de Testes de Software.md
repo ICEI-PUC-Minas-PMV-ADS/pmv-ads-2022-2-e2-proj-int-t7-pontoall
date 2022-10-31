@@ -36,17 +36,17 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 | Observação | Na página inicial, a aplicação apresenta a funcionalidade e foi realizado com sucesso. Caso o usuário digite a senha errada a aplicação retorna a informação para o usuário. O Cadastro de usuários só pode ser feito pelo Administrador do sistema. |
 |  	|  	|
 | 2 	| Efetuar Registro de Ponto Eletrônico	|
-|:---:	|:---:	|
+||	|
 |	Requisito	| RF-002 A aplicação deve permitir o registro de ponto do colaborador. |
 | Observação | Após o login o botão de registrar ponto é apresentado e o teste da funcionalidade foi realizado com sucesso, retornando a data, hora e local do registro do ponto. |
 |  	|  	|
 | 3 	| Registro de Geolocalização	|
-|:---:	|:---:	|
+|	|	|
 |	Requisito	| RF-007 A aplicação deve possuir marcação de geolocalização para monitoramento do colaborador. |
 | Observação | Após o login o botão de registrar ponto é apresentado e o teste da funcionalidade foi realizado com sucesso. O usuário deve permitir a localização do dispositivo, caso contrário ele retorna posição "undefined". |
 |  	|  	|
 | 4 	| Gerenciamento de Colaboradores	|
-|:---:	|:---:	|
+|	|	|
 |	Requisito	| RF-004 A aplicação deve permitir aos administradores o gerenciamento dos colaboradores. |
 | Observação | Foi possível visualizar, cadastrar, editar e excluir colaboradores com sucesso na aplicação. Todas as ações refletiram no banco de dados da aplicação. |
 |  	|  	|
