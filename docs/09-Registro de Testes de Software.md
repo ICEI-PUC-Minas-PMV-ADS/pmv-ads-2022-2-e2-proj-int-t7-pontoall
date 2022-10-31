@@ -9,7 +9,6 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 |	Vídeo 	| <video src="https://user-images.githubusercontent.com/101529285/198917409-c5324488-5a0e-4561-98f7-987cfaaae496.mp4"> |
 |  	|  	|
 | Testes 	| CT02 – Efetuar registro de ponto eletrônico e CT07 – Opção de Geolocalização	|
-|:---:	|:---:	|
 |	Vídeo 	| <video src="https://user-images.githubusercontent.com/101529285/198917414-6ac93d9c-a99c-45dd-8cb0-4c45f1fd0aac.mp4"> |
 |  	|  	|
 | Testes 	| CT03 - Emissão de Relatórios (Em Implementação)	|
@@ -17,7 +16,6 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 |	Vídeo 	|  |
 |  	|  	|
 | Testes 	| CT04 – Gerenciamento de colaboradores	|
-|:---:	|:---:	|
 |	Vídeo 	| <video src="https://user-images.githubusercontent.com/101529285/198917419-a14259ed-50bc-46f2-81c5-48c980576a39.mp4"> |
 |  	|  	|
 | Testes 	| CT05 – Visualização de Banco de Horas pelo ADM (Em Implementação)	|
