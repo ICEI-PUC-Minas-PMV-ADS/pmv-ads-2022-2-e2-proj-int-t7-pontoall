@@ -27,13 +27,9 @@ Criação de uma aplicação com a premissa da gestão e operação do sistema d
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para visualizar a primeira versão segue o link: https://www.loom.com/share/f4593f2895f542f7883cd1f931568f06
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso.
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+O estágio atual apresenta a Prova de Conceito da Arquitetura (POC) que demonstra o uso do front-end e back-end nas funcionaidades cadastro, login e buscar livros.
 
 # Documentação
 
