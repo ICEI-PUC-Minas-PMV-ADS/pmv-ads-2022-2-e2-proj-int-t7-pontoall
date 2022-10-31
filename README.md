@@ -27,7 +27,7 @@ Criação de uma aplicação com a premissa da gestão e operação do sistema d
 
 ## Instruções de utilização
 
-Para visualizar a primeira versão segue o link: https://www.loom.com/share/f4593f2895f542f7883cd1f931568f06
+Para visualizar o POC (Proof of Concept) da primeira versão acessar o link: https://www.loom.com/share/f4593f2895f542f7883cd1f931568f06
 
 O estágio atual apresenta a Prova de Conceito da Arquitetura (POC) que demonstra o uso do front-end e back-end nas funcionaidades cadastro, login e buscar livros.
 
