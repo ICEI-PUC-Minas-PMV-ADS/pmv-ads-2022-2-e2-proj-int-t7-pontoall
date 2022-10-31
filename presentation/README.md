@@ -8,3 +8,14 @@ E mais, ela também ajuda a sua empresa a evitar problemas trabalhistas e preju�
 A .All está pontualmente à disposição!
 
 https://user-images.githubusercontent.com/101529285/189554052-cc8d4e88-8c0b-4869-ac20-fa5bc545c11f.mp4
+
+https://user-images.githubusercontent.com/101529285/198917409-c5324488-5a0e-4561-98f7-987cfaaae496.mp4
+
+
+
+https://user-images.githubusercontent.com/101529285/198917414-6ac93d9c-a99c-45dd-8cb0-4c45f1fd0aac.mp4
+
+
+
+https://user-images.githubusercontent.com/101529285/198917419-a14259ed-50bc-46f2-81c5-48c980576a39.mp4
+
