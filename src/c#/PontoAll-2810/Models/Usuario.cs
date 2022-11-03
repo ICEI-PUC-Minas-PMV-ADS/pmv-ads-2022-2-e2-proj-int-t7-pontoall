@@ -29,7 +29,7 @@ namespace PontoAll_2810.Models
         [Required(ErrorMessage = "Obrigatório Informar o E-mail!")]
         [Display(Name = "Email")]
         [Column("Email")]
-        public string Email { get; set; }
+        public string Email { get; set; }        
 
         [Display(Name = "Celular")]
         [Column("Celular")]
