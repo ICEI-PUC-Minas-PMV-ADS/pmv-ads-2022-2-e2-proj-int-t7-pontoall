@@ -6,6 +6,37 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Operadores\**" />
+    <Compile Remove="Views\Operadors\**" />
+    <Compile Remove="Views\Operador\**" />
+    <Content Remove="Views\Operadores\**" />
+    <Content Remove="Views\Operadors\**" />
+    <Content Remove="Views\Operador\**" />
+    <EmbeddedResource Remove="Views\Operadores\**" />
+    <EmbeddedResource Remove="Views\Operadors\**" />
+    <EmbeddedResource Remove="Views\Operador\**" />
+    <None Remove="Views\Operadores\**" />
+    <None Remove="Views\Operadors\**" />
+    <None Remove="Views\Operador\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\OperadorController.cs" />
+    <Compile Remove="Controllers\OperadoresController.cs" />
+    <Compile Remove="Migrations\20221030205107_intial.cs" />
+    <Compile Remove="Migrations\20221030205107_intial.Designer.cs" />
+    <Compile Remove="Migrations\20221030205757_intial2.cs" />
+    <Compile Remove="Migrations\20221030205757_intial2.Designer.cs" />
+    <Compile Remove="Migrations\20221101215350_Initial3.cs" />
+    <Compile Remove="Migrations\20221101215350_Initial3.Designer.cs" />
+    <Compile Remove="Migrations\20221101230020_m22.cs" />
+    <Compile Remove="Migrations\20221101230020_m22.Designer.cs" />
+    <Compile Remove="Migrations\20221101232034_initial3.cs" />
+    <Compile Remove="Migrations\20221101232034_initial3.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.30" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.30">

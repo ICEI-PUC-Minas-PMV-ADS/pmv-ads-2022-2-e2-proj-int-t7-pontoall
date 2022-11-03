@@ -11,6 +11,7 @@ namespace PontoAll_2810.Models
     public class Usuario
     {
         [Key]
+
         [Display(Name = "Usu_Id")]
         [Column("Usu_Id")]
         public int Id { get; set; }
@@ -41,7 +42,7 @@ namespace PontoAll_2810.Models
 
         [Display(Name = "DataCadastro")]
         [Column("DataCadastro")]
-        public string DataCadastro { get; set; }
+        public string  DataCadastro { get; set; }
 
         [Display(Name = "Admissao1")]
         [Column("Admissao")]
@@ -69,6 +70,10 @@ namespace PontoAll_2810.Models
         [Display(Name = "Desligamento")]
         [Column("Desligamento")]
         public string Desligamento { get; set; }
+        // Ajuda no menu
+        public ICollection<Usuario> Usuarios { get; set; }
+      
+       
 
 
     }

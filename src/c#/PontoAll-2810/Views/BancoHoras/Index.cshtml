@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Controle de Banco de Horas</h1>
 
 <p>
-    <a asp-action="Create">Criar novo</a>
+    <a asp-action="Create" class="btn btn-success">Criar novo Registro no Banco de Horas</a>
 </p>
 <table class="table">
     <thead>
@@ -43,9 +43,9 @@
                 @Html.DisplayFor(modelItem => item.SaldoBancoHoras)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdBancoHoras">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.IdBancoHoras">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdBancoHoras">Deletar</a>
+                <a asp-action="Edit" class="btn btn-info" asp-route-id="@item.IdBancoHoras">Editar</a> |
+                <a asp-action="Details" class="btn btn-info" asp-route-id="@item.IdBancoHoras">Detalhes</a> |
+                <a asp-action="Delete" class="btn btn-info" asp-route-id="@item.IdBancoHoras">Deletar</a>
             </td>
         </tr>
 }

@@ -25,7 +25,7 @@ namespace PontoAll_2810
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string stringConexao = "Server=MYSQL8001.site4now.net;Database=db_a8ee8d_allpont;Uid=a8ee8d_allpont;Pwd=SuperSenha2022";
+            string stringConexao = "Server=MYSQL8001.site4now.net;Database=db_a8f0db_central;Uid=a8f0db_central;Pwd=Senha2022";
             services.AddDbContext<Contexto>(options =>
             options.UseMySQL(stringConexao));
 

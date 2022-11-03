@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -59,9 +57,7 @@ namespace PontoAll_2810.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Sobrescreve a senha em MD5
-                usuario.Senha = GerarHashMd5(usuario.Senha);
-
+                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -101,16 +97,7 @@ namespace PontoAll_2810.Controllers
             {
                 try
                 {
-                    // Obtem a senha em MD5
-                    var senhaMD5 = GerarHashMd5(usuario.Senha);
-
-                    // Caso a senha informada pelo usuário não for a mesma
-                    // (ou seja, o sistema NãO retornou o md5 anterior), aplicamos novamente o algoritmo de md5
-                    if (!usuario.Senha.Equals(senhaMD5))
-                    {
-                        usuario.Senha = senhaMD5;
-                    }
-
+                    usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                     _context.Update(usuario);
                     await _context.SaveChangesAsync();
                 }
@@ -162,24 +149,6 @@ namespace PontoAll_2810.Controllers
         private bool UsuarioExists(int id)
         {
             return _context.Usuario.Any(e => e.Id == id);
-        }
-
-        public static string GerarHashMd5(string input)
-        {
-            MD5 md5Hash = MD5.Create();
-            // Converter a String para array de bytes, que é como a biblioteca trabalha.
-            byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(input));
-
-            // Cria-se um StringBuilder para recompôr a string.
-            StringBuilder sBuilder = new StringBuilder();
-
-            // Loop para formatar cada byte como uma String em hexadecimal
-            for (int i = 0; i < data.Length; i++)
-            {
-                sBuilder.Append(data[i].ToString("x2"));
-            }
-
-            return sBuilder.ToString();
         }
     }
 }

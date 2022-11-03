@@ -20,5 +20,7 @@ namespace PontoAll_2810.Models
 
         public DbSet<RegistroPonto> RegistroPonto { get; set; }
 
+        public DbSet<Operador> Operador { get; set; }
+
     }
 }

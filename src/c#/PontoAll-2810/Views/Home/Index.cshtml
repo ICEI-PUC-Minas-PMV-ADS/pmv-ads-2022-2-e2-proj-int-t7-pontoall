@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Pagina Inicial";
 }
+
 <section class="pb-4">
     <div class="text-center">
         <h1 class="display-4">Seja Bem Vindo ao Ponto All.</h1>
@@ -35,55 +36,65 @@
                             <input class="form-check-input" type="checkbox" value="" id="xxx" checked="">
                             <label class="form-check-label" for="form2Example31"> Manter conectado </label>
                             <br>
-                            </br>
-
+                            
                         </div>
                     </div>
-                    
+
                     <div class="col">
                         <!-- Simple link
-                        <a href="#!">Forgot password?</a>
+                            <a href="#!">Forgot password?</a>
+                        </div> -->
+                    </div>
+
+                    <!-- Submit button -->
+                    <input type="button" class="btn btn-primary btn-block mb-4" value="Enviar" onClick="logar()" />
+
+                    <script>
+                        function logar() {
+                            var x = document.getElementById("elemento1").value;
+                            var y = document.getElementById("elemento2").value;
+
+                            if (x != "" && y != "") {
+                                window.location.href = './Home/Principal';
+                            } else {
+                                alert("Favor preencher todos os campos");
+                            }
+                        }
+
+                    </script>
+
+                    <!-- Register buttons
+                    <div class="text-center">
+                        <p>Not a member? <a href="#!">Register</a></p>
+                        <p>or sign up with:</p>
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </button>
+
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-google"></i>
+                        </button>
+
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-github"></i>
+                        </button>
                     </div> -->
                 </div>
-
-                <!-- Submit button -->
-                <input type="button" class="btn btn-primary btn-block mb-4" value="Enviar" onClick="logar()" />
-
-                <script>
-                    function logar() {
-                        var x = document.getElementById("elemento1").value;
-                        var y = document.getElementById("elemento2").value;
-
-                        if (x != "" && y != "") {
-                            window.location.href = './Home/Principal';
-                        } else {
-                            alert("Favor preencher todos os campos");
-                        }
-                    }
-
-                </script>
-
-                <!-- Register buttons 
-                <div class="text-center">
-                    <p>Not a member? <a href="#!">Register</a></p>
-                    <p>or sign up with:</p>
-                    <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-facebook-f"></i>
-                    </button>
-
-                    <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-google"></i>
-                    </button>
-
-                    <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-twitter"></i>
-                    </button>
-
-                    <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-github"></i>
-                    </button>
-                </div> -->
             </form>
         </section>
     </div>
 </section>
+
+<!-- Footer -->
+<footer class="bg-light text-center fixed-bottom">
+    <!-- Copyright -->
+    <div class="text-center text-white p-2" style="background-color: #687A86">
+        © Copyright Ponto All - 2022
+    </div>
+    <!-- Copyright -->
+
+</footer>
