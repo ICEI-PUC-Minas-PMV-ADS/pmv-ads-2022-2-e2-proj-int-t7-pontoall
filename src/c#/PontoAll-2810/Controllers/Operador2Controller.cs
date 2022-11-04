@@ -101,7 +101,7 @@ namespace PontoAll_2810.Controllers
         // GET: Operador2/Create
         public IActionResult Create()
         {
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Nome");
+            ViewData["UsuarioId"] = new SelectList(_context.Colaborador, "Id", "Nome");
             return View();
         }
 
@@ -119,7 +119,7 @@ namespace PontoAll_2810.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Nome", operador.UsuarioId);
+            ViewData["UsuarioId"] = new SelectList(_context.Colaborador, "Id", "Nome", operador.UsuarioId);
             return View(operador);
         }
 
@@ -136,7 +136,7 @@ namespace PontoAll_2810.Controllers
             {
                 return NotFound();
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Nome", operador.UsuarioId);
+            ViewData["UsuarioId"] = new SelectList(_context.Colaborador, "Id", "Nome", operador.UsuarioId);
             return View(operador);
         }
 
@@ -173,7 +173,7 @@ namespace PontoAll_2810.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Nome", operador.UsuarioId);
+            ViewData["UsuarioId"] = new SelectList(_context.Colaborador, "Id", "Nome", operador.UsuarioId);
             return View(operador);
         }
 

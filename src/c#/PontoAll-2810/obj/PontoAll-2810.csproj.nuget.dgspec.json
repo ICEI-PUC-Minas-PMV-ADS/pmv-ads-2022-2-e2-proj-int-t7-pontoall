@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Suporte\\source\\repos\\PontoAll-2810\\PontoAll-2810.csproj": {}
+    "C:\\Users\\Suporte\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t7-pontoall\\src\\c#\\PontoAll-2810\\PontoAll-2810.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Suporte\\source\\repos\\PontoAll-2810\\PontoAll-2810.csproj": {
+    "C:\\Users\\Suporte\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t7-pontoall\\src\\c#\\PontoAll-2810\\PontoAll-2810.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suporte\\source\\repos\\PontoAll-2810\\PontoAll-2810.csproj",
+        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t7-pontoall\\src\\c#\\PontoAll-2810\\PontoAll-2810.csproj",
         "projectName": "PontoAll-2810",
-        "projectPath": "C:\\Users\\Suporte\\source\\repos\\PontoAll-2810\\PontoAll-2810.csproj",
+        "projectPath": "C:\\Users\\Suporte\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t7-pontoall\\src\\c#\\PontoAll-2810\\PontoAll-2810.csproj",
         "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suporte\\source\\repos\\PontoAll-2810\\obj\\",
+        "outputPath": "C:\\Users\\Suporte\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t7-pontoall\\src\\c#\\PontoAll-2810\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config",

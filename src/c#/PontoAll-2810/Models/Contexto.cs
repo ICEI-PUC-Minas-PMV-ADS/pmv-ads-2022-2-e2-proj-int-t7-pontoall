@@ -14,7 +14,7 @@ namespace PontoAll_2810.Models
             Database.EnsureCreated();
         }
 
-        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Colaborador> Colaborador { get; set; }
 
         public DbSet<BancoHoras> BancoHoras { get; set; }
 

@@ -29,12 +29,13 @@ namespace PontoAll_2810.Models
                 
         [ForeignKey("UsuarioId")]
 
-        public Usuario Usuario {get; set;}
+        public Colaborador Usuario {get; set;}
+
+        
     }
     public enum Perfil
     {
         Admin,
-        Operador,
-        Auditoria
+        Operador
     }
 }
