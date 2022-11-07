@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using PontoAll_2810.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace PontoAll_2810
 {
@@ -24,10 +25,25 @@ namespace PontoAll_2810
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
+
         {
             string stringConexao = "Server=MYSQL8001.site4now.net;Database=db_a8f0db_central;Uid=a8f0db_central;Pwd=Senha2022";
             services.AddDbContext<Contexto>(options =>
             options.UseMySQL(stringConexao));
+
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                // This Lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = Microsoft.AspNetCore.Http.SameSiteMode.None;
+            });
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.AccessDeniedPath = "/User/AccessDenied/";
+                    options.LoginPath = "/User/Login/";
+                });
 
             services.AddControllersWithViews();
         }
@@ -50,8 +66,12 @@ namespace PontoAll_2810
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseCookiePolicy();
 
+            app.UseAuthentication();
+
+            app.UseAuthorization();
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

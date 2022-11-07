@@ -1,0 +1,20 @@
+Servidor MySQL: mysql8001.site4now.net
+
+Usuario: a8f0db_central
+
+Senha: Senha2022
+
+----------------------------------------------------------------------------------------
+
+Strings de conexao:
+
+ASP.NET
+"Server=MYSQL8001.site4now.net;Database=db_a8f0db_central;Uid=a8f0db_central;Pwd=Senha2022"
+
+PHP
+"Driver={MySQL ODBC 8.0 UNICODE Driver};Server=MYSQL8001.site4now.net;Database=db_a8f0db_central;Uid=a8f0db_central;Password=Senha2022"
+
+----------------------------------------------------------------------------------------
+
+Login SmarterASP.NET: flavianeapferreira2@gmail.com
+Senha: Senha2022

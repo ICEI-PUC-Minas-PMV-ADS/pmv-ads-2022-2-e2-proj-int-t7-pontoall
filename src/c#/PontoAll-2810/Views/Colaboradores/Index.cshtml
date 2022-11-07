@@ -13,10 +13,13 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Jornada)
+                @Html.DisplayNameFor(model => model.CargaHoraria)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.DataCadastro)
@@ -26,7 +29,7 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Funcao)
-            </th>            
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Desligamento)
             </th>
@@ -37,17 +40,20 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Jornada)
+                @Html.DisplayFor(modelItem => item.CargaHoraria)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DataCadastro)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Admissao)
-            </td>  
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Funcao)
             </td>

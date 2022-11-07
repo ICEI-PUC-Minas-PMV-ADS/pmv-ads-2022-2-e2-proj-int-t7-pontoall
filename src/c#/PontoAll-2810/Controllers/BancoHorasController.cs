@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PontoAll_2810.Models;
 using System.Linq;
@@ -6,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace PontoAll_2810.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class BancoHorasController : Controller
     {
         private readonly Contexto _context;

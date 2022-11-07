@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace PontoAll_2810.Models
 {
-    [Table("Usuario")]
+    [Table("Colaborador")]
     public class Colaborador
     {
         [Key]
 
-        [Display(Name = "Usu_Id")]
+        [Display(Name = "Registro")]
         [Column("Usu_Id")]        
         public int Id { get; set; }
 
@@ -27,6 +27,8 @@ namespace PontoAll_2810.Models
         [Column("CPF")]
         public string CPF { get; set; }
 
+
+
         [Required(ErrorMessage = "Obrigatório Informar o E-mail!")]
         [Display(Name = "Email")]
         [Column("Email")]
@@ -39,16 +41,16 @@ namespace PontoAll_2810.Models
         public string Celular { get; set; }
 
         
-        [Display(Name = "Jornada")]
-        [Column("Jornada")]        
-        public string Jornada { get; set; }
+        [Display(Name = "CH Contrato")]
+        [Column("CargaHoraria")]        
+        public string CargaHoraria { get; set; }
 
-        [Display(Name = "DataCadastro")]
+        [Display(Name = "Data do Cadastro")]
         [Column("DataCadastro")]
         [DataType(DataType.Date)]
         public string  DataCadastro { get; set; }
 
-        [Display(Name = "Admissao1")]
+        [Display(Name = "Admissão")]
         [Column("Admissao")]
         [DataType(DataType.Date)]
         public string Admissao { get; set; }
@@ -63,7 +65,7 @@ namespace PontoAll_2810.Models
         [Column("Matricula")]
         public string Matricula { get; set; }
 
-       
+        [Display(Name = "Função")]
         public Funcao Funcao { get; set; }
 
         [Display(Name = "Salario")]
@@ -78,23 +80,17 @@ namespace PontoAll_2810.Models
         public ICollection<Colaborador> Usuarios { get; set; }
 
 
-       
-
-
 
     }
 }
 public enum Funcao
 {
     Estagiario,
-    DesenvolvedorJunior,
-    DesenvolvedorPleno,
-    DesenvolvedorSenior,
-    AnalistaJunior,
-    AnalistaPleno,
-    AnalistaSenior,
-    AtendenteI,
-    AtendenteII,
+    Desenvolvedor,    
+    Analista,   
+    Atendente,
+    Advogado,
     Supervisor,
+    TecnicoInformatica,
     AuxiliarServiçosGerais
 }

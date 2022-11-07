@@ -56,6 +56,10 @@ namespace PontoAll_2810.Migrations
                         .HasColumnName("CPF")
                         .HasColumnType("text");
 
+                    b.Property<string>("CargaHoraria")
+                        .HasColumnName("CargaHoraria")
+                        .HasColumnType("text");
+
                     b.Property<string>("Celular")
                         .HasColumnName("Celular")
                         .HasColumnType("text");
@@ -79,11 +83,6 @@ namespace PontoAll_2810.Migrations
                     b.Property<int>("Funcao")
                         .HasColumnType("int");
 
-                    b.Property<string>("Jornada")
-                        .IsRequired()
-                        .HasColumnName("Jornada")
-                        .HasColumnType("text");
-
                     b.Property<string>("Matricula")
                         .HasColumnName("Matricula")
                         .HasColumnType("text");
@@ -106,34 +105,7 @@ namespace PontoAll_2810.Migrations
 
                     b.HasIndex("ColaboradorId");
 
-                    b.ToTable("Usuario");
-                });
-
-            modelBuilder.Entity("PontoAll_2810.Models.Operador", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("Perfil")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Senha")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId");
-
-                    b.ToTable("Operador");
+                    b.ToTable("Colaborador");
                 });
 
             modelBuilder.Entity("PontoAll_2810.Models.RegistroPonto", b =>
@@ -152,12 +124,53 @@ namespace PontoAll_2810.Migrations
                     b.Property<string>("LocalizacaoRegistro")
                         .HasColumnType("text");
 
+                    b.Property<int>("Perfil")
+                        .HasColumnType("int");
+
                     b.Property<string>("SomaHora")
                         .HasColumnType("text");
 
+                    b.Property<int?>("UsuarioId")
+                        .HasColumnType("int");
+
                     b.HasKey("IdRegistroPonto");
 
+                    b.HasIndex("UsuarioId");
+
                     b.ToTable("RegistroPonto");
+                });
+
+            modelBuilder.Entity("PontoAll_2810.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("MatriculaId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Perfil")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MatriculaId");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("User");
                 });
 
             modelBuilder.Entity("PontoAll_2810.Models.Colaborador", b =>
@@ -167,8 +180,19 @@ namespace PontoAll_2810.Migrations
                         .HasForeignKey("ColaboradorId");
                 });
 
-            modelBuilder.Entity("PontoAll_2810.Models.Operador", b =>
+            modelBuilder.Entity("PontoAll_2810.Models.RegistroPonto", b =>
                 {
+                    b.HasOne("PontoAll_2810.Models.Colaborador", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId");
+                });
+
+            modelBuilder.Entity("PontoAll_2810.Models.User", b =>
+                {
+                    b.HasOne("PontoAll_2810.Models.Colaborador", "Matricula")
+                        .WithMany()
+                        .HasForeignKey("MatriculaId");
+
                     b.HasOne("PontoAll_2810.Models.Colaborador", "Usuario")
                         .WithMany()
                         .HasForeignKey("UsuarioId")

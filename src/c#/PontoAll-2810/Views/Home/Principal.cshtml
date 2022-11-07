@@ -11,7 +11,7 @@
     <h4> Registo de Ponto</h4>
     <br />
     <br />
-    <div>        
+    <div>
         <div class="gfg">Sistema de Ponto</div>
 
         <p><strong id="conteudo" /></p>
@@ -50,10 +50,62 @@
 
         </script>
         <button class="geeks" type="button" onclick="getlocation()">Registrar Ponto.</button>
-        <div id="demo2" style="width: 500px; height: 500px"></div>
+                   <br />
+                    <i class="fa fa-clock-o"> 00:00</i>
+                </div>
+                <div class="contentBlk">
+                    Você está atualmente<br />
 
+                    <span class="clockstatus workStatus"></span>
+                    <form action="" method="post" class="clockBtn">
+                        <input type="hidden" name="vhora" value="15" />
+                        <input type="hidden" name="entryId" value="" />
+                        <input type="hidden" name="weekNo" value="45" />
+                        <input type="hidden" name="clockYear" value="2022" />
+                        <input type="hidden" name="running" id="running" value="0" />
+                        <input type="hidden" name="isRecord" id="isRecord" value="1" />
+                        <button type="submit" name="submit" id="timetrack" value="toggleTime" class="btn btn-lg btn-icon" value2="toggleTime"><i class=""></i> <span></span></button>
+                    </form>
+                </div>
+            </div>
+        
 
-    </div>
-    
+        <script>
+            jQuery(function ($) {
 
-</div>
+                /** ******************************
+                * Time Clock
+                ****************************** **/
+                var isRunning = $('#running').val();
+                if (isRunning == '0') {
+                    if ($("#timetrack").hasClass("btn-warning")) {
+                        $("#timetrack").removeClass("btn-warning");
+                        $("#timetrack").addClass('btn-success');
+                    }
+                    if ($("#timetrack i").hasClass("fa fa-sign-out")) {
+                        $("#timetrack i").removeClass("fa fa-sign-out");
+                        $("#timetrack i").addClass('fa fa-sign-in');
+                    }
+                    $("#timetrack").addClass('btn-success');
+                    $("#timetrack i").addClass('fa fa-sign-in');
+                    $(".workStatus").html("INATIVO");
+                    $("#timetrack span").html("ATIVAR");
+                } else {
+                    if ($("#timetrack").hasClass("btn-success")) {
+                        $("#timetrack").removeClass("btn-success");
+                        $("#timetrack").addClass('btn-warning');
+                    }
+                    if ($("#timetrack i").hasClass("fa fa-sign-in")) {
+                        $("#timetrack i").removeClass("fa fa-sign-in");
+                        $("#timetrack i").addClass('fa fa-sign-out');
+                    }
+                    $("#timetrack").addClass('btn-warning');
+                    $("#timetrack i").addClass('fa fa-sign-out');
+                    $(".workStatus").html("ATIVO");
+                    $("#timetrack span").html("DESATIVAR");
+                }
+
+            });
+        </script>
+
+   

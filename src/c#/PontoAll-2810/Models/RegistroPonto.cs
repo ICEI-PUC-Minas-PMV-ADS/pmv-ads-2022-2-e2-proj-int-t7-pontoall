@@ -18,7 +18,22 @@ namespace PontoAll_2810.Models
         public string HoraRegistro { get; set; }
         
         public string LocalizacaoRegistro { get; set; }
-        
+
+        public Perfil Perfil { get; set; }
+
         public string SomaHora { get; set; }
+
+        [ForeignKey("UsuarioId")]
+
+        public Colaborador Usuario { get; set; }
+
+        //[ForeignKey("MatriculaId")]
+       // public Colaborador Matricula { get; set; }
     }
+   }
+
+public enum TipoPonto
+{
+    entrada,
+    saida
 }
