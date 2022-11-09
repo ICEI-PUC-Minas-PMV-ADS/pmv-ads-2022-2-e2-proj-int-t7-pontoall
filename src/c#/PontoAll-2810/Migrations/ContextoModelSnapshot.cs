@@ -144,7 +144,7 @@ namespace PontoAll_2810.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnName("UserId")
+                        .HasColumnName("Id")
                         .HasColumnType("int");
 
                     b.Property<int?>("MatriculaId")

@@ -11,7 +11,7 @@ namespace PontoAll_2810.Models
     {
         [Key]
         [Display(Name = "Login")]
-        [Column("UserId")]
+        [Column("Id")]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Obrigatório Infomar o nome!")]

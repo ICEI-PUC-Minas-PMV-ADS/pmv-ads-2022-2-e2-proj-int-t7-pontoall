@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PontoAll_2810.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace PontoAll_2810.Controllers
 {
@@ -24,12 +25,11 @@ namespace PontoAll_2810.Controllers
         {
             return View();
         }
-
+    //Região sensivel do login
         [HttpPost]
-        public async Task<IActionResult> Login([Bind("UserId,Nome,Senha")] User user1)
+        public async Task<IActionResult> Login([Bind("UserId,UsuarioId,Nome,Senha")] User user)
         {           
-            var user2 = await _context.User                
-                .FirstOrDefaultAsync(m => m.Id == user1.Id);
+            var user1 = await _context.User.FirstOrDefaultAsync(m => m.Nome == user.Nome);
 
             if (user1 == null)
             {
@@ -37,15 +37,15 @@ namespace PontoAll_2810.Controllers
                 return View();
             }
 
-            bool isSenhaOK = BCrypt.Net.BCrypt.Verify(user1.Senha, user2.Senha);
-
+            bool isSenhaOK = BCrypt.Net.BCrypt.Verify(user.Senha, user1.Senha);
+    //Região sensivel do login
             if (isSenhaOK)
             {
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, user2.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, user2.Nome),
-                    new Claim(ClaimTypes.Role, user2.Perfil.ToString())
+                    new Claim(ClaimTypes.Name, user1.Nome),
+                    new Claim(ClaimTypes.NameIdentifier, user1.Nome),
+                    new Claim(ClaimTypes.Role, user1.Perfil.ToString())
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
