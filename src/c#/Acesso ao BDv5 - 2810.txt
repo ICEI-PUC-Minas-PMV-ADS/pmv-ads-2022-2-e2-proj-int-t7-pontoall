@@ -10,6 +10,9 @@ Strings de conexao:
 
 ASP.NET
 "Server=MYSQL8001.site4now.net;Database=db_a8f0db_central;Uid=a8f0db_central;Pwd=Senha2022"
+Emergencial:
+
+"Server=MYSQL5044.site4now.net;Database=db_a8ec8a_web;Uid=a8ec8a_web;Pwd=Senha2022"
 
 PHP
 "Driver={MySQL ODBC 8.0 UNICODE Driver};Server=MYSQL8001.site4now.net;Database=db_a8f0db_central;Uid=a8f0db_central;Password=Senha2022"
@@ -18,3 +21,6 @@ PHP
 
 Login SmarterASP.NET: flavianeapferreira2@gmail.com
 Senha: Senha2022
+
+
+
