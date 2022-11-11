@@ -9,6 +9,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PontoAll_2810.Models;
 using Microsoft.AspNetCore.Identity;
+using Hanssens.Net;
+using Xamarin.Forms.PlatformConfiguration;
+using EO.WebBrowser.DOM;
 
 namespace PontoAll_2810.Controllers
 {
@@ -57,9 +60,12 @@ namespace PontoAll_2810.Controllers
                     AllowRefresh = true,
                     ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(7),
                     IsPersistent = true
+                   
+                    
                 };
-
-                await HttpContext.SignInAsync(principal, props);
+                               
+             
+                    await HttpContext.SignInAsync(principal, props);
 
                 return Redirect("/");
 

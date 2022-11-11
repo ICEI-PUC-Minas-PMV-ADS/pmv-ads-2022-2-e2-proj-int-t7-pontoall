@@ -161,7 +161,6 @@ C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\Microsoft.Bc
 C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.csproj.AssemblyReference.cache
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Create.cshtml.g.cs
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Delete.cshtml.g.cs
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Details.cshtml.g.cs
@@ -555,3 +554,17 @@ C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\User\Login.cshtml.g.cs
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\User\Relatorio.cshtml.g.cs
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\User\AccessDenied.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Marcador\Create.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Marcador\Delete.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Marcador\Details.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Marcador\Edit.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Marcador\Index.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\LocalStorage.dll
+C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\EO.Base.dll
+C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\EO.WebBrowser.dll
+C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\EO.WebEngine.dll
+C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\Xamarin.Forms.Core.dll
+C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\Xamarin.Forms.Platform.dll
+C:\Users\Suporte\source\repos\PontoAll-2810\bin\Debug\netcoreapp3.1\Xamarin.Forms.Xaml.dll
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.csproj.AssemblyReference.cache
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Marcador\Relatorio.cshtml.g.cs

@@ -26,25 +26,26 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <!--li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-            </!--li-->
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    </!--li-->
 
                         @if (User.Identity.IsAuthenticated)
                         {
+
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="BancoHoras" asp-action="Index">Banco de Horas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Colaboradores" asp-action="Index">Colaboradores</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">Usuarios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Principal">Registrar Ponto</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Marcador" asp-action="Create">Registrar Ponto</a>
                             </li>
                             @if (User.IsInRole("Admin"))
                             {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="BancoHoras" asp-action="Index">Banco de Horas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Colaboradores" asp-action="Index">Colaboradores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">Usuarios</a>
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="RegistroPontos" asp-action="Index">Editar Ponto</a>
                                 </li>
@@ -54,8 +55,8 @@
 
 
                         <!--li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sair</a>
-            </!--li-->
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sair</a>
+    </!--li-->
                     </ul>
                     <ul class="navbar-nav">
 

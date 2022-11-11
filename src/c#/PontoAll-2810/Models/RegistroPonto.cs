@@ -28,9 +28,17 @@ namespace PontoAll_2810.Models
         public Colaborador Usuario { get; set; }
 
         //[ForeignKey("MatriculaId")]
-       // public Colaborador Matricula { get; set; }
+        // public Colaborador Matricula { get; set; }
+
+        public string CalculoHoras()
+        {
+
+            return ("1");
+        }
     }
-   }
+     
+}
+
 
 public enum TipoPonto
 {
