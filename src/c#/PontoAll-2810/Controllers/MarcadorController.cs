@@ -57,12 +57,12 @@ namespace PontoAll_2810.Controllers
         {
             string nome = User.Identity.Name;
             var user = await _context.User.FirstOrDefaultAsync(m => m.Nome == nome);
-            var ultimoPonto = await _context.RegistroPonto.OrderByDescending(r => r.IdRegistroPonto).FirstOrDefaultAsync(r => r.UserId == user.Id);
-            
+            var ultimoPonto = await _context.RegistroPonto.OrderByDescending(r => r.IdRegistroPonto).FirstOrDefaultAsync(r => r.UserId == user.Id); // (Comentar essa linha para inserir a primeira marcação do usuario por enquanto)
+
             registroPonto.DataRegistro = DateTime.Now.ToString("dd/MM/yyyy");// melhorado em 16/11/2022
             registroPonto.HoraRegistro = DateTime.Now.ToString("HH:mm"); // melhorado em 16/11/2022
             registroPonto.Perfil = (Perfil)1;
-            registroPonto.SomaHora = registroPonto.CalculoHoras(registroPonto.HoraRegistro, ultimoPonto.HoraRegistro);
+            registroPonto.SomaHora = registroPonto.CalculoHoras(registroPonto.HoraRegistro, ultimoPonto.HoraRegistro); // (Comentar essa linha para inserir a primeira marcação do usuario por enquanto)
             registroPonto.LocalizacaoRegistro = "0";
             registroPonto.UserId = user.Id;
 
