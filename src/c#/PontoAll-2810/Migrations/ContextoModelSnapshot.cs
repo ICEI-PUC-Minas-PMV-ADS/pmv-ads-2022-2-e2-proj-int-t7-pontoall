@@ -130,12 +130,10 @@ namespace PontoAll_2810.Migrations
                     b.Property<string>("SomaHora")
                         .HasColumnType("text");
 
-                    b.Property<int?>("UsuarioId")
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("IdRegistroPonto");
-
-                    b.HasIndex("UsuarioId");
 
                     b.ToTable("RegistroPonto");
                 });
@@ -178,13 +176,6 @@ namespace PontoAll_2810.Migrations
                     b.HasOne("PontoAll_2810.Models.Colaborador", null)
                         .WithMany("Usuarios")
                         .HasForeignKey("ColaboradorId");
-                });
-
-            modelBuilder.Entity("PontoAll_2810.Models.RegistroPonto", b =>
-                {
-                    b.HasOne("PontoAll_2810.Models.Colaborador", "Usuario")
-                        .WithMany()
-                        .HasForeignKey("UsuarioId");
                 });
 
             modelBuilder.Entity("PontoAll_2810.Models.User", b =>

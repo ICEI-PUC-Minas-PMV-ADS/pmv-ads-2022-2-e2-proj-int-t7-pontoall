@@ -53,6 +53,14 @@
     <Compile Remove="Migrations\20221107002257_initial.Designer.cs" />
     <Compile Remove="Migrations\20221107004149_initial.cs" />
     <Compile Remove="Migrations\20221107004149_initial.Designer.cs" />
+    <Compile Remove="Migrations\20221107005855_initial.cs" />
+    <Compile Remove="Migrations\20221107005855_initial.Designer.cs" />
+    <Compile Remove="Migrations\20221109013312_incial2.cs" />
+    <Compile Remove="Migrations\20221109013312_incial2.Designer.cs" />
+    <Compile Remove="Migrations\20221116234432_inicial03.cs" />
+    <Compile Remove="Migrations\20221116234432_inicial03.Designer.cs" />
+    <Compile Remove="Migrations\20221117000325_inicial04.cs" />
+    <Compile Remove="Migrations\20221117000325_inicial04.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

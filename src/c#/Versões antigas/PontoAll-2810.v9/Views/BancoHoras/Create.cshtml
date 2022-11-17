@@ -1,0 +1,48 @@
+﻿@model PontoAll_2810.Models.BancoHoras
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Criar</h1>
+
+<h4>BancoHoras</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Matricula" class="control-label"></label>
+                <input asp-for="Matricula" class="form-control" />
+                <span asp-validation-for="Matricula" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ocorrencias" class="control-label"></label>
+                <input asp-for="Ocorrencias" class="form-control" />
+                <span asp-validation-for="Ocorrencias" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notificacoes" class="control-label"></label>
+                <input asp-for="Notificacoes" class="form-control" />
+                <span asp-validation-for="Notificacoes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SaldoBancoHoras" class="control-label"></label>
+                <input asp-for="SaldoBancoHoras" class="form-control" />
+                <span asp-validation-for="SaldoBancoHoras" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

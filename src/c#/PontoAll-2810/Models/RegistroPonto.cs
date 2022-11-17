@@ -23,17 +23,29 @@ namespace PontoAll_2810.Models
 
         public string SomaHora { get; set; }
 
-        [ForeignKey("UsuarioId")]
+        //[ForeignKey("UsuarioId")]
 
-        public Colaborador Usuario { get; set; }
+        public int UserId { get; set; }
 
         //[ForeignKey("MatriculaId")]
         // public Colaborador Matricula { get; set; }
 
-        public string CalculoHoras()
+        public string CalculoHoras(string hora, string sHora)
         {
+            var f = hora.Split(':');
+            var h = int.Parse(f[0]);
+            var m = int.Parse(f[1]);
 
-            return ("1");
+            var f2 = sHora.Split(':');
+            var h2 = int.Parse(f2[0]);
+            var m2 = int.Parse(f2[1]);
+
+            var time = new TimeSpan(h,m,0);
+            var time2 = new TimeSpan(h2, m2, 0);
+
+            var somaHora = time.Subtract(time2); 
+
+            return (somaHora.ToString());
         }
     }
      

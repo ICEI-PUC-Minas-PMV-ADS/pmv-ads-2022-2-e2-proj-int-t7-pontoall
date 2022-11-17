@@ -1,0 +1,60 @@
+﻿@model IEnumerable<PontoAll_2810.Models.RegistroPonto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DataRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LocalizacaoRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Perfil)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SomaHora)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocalizacaoRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Perfil)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SomaHora)
+            </td>
+            <td>
+                <a asp-action="Relatorio" class="btn btn-info" asp-route-id="@item.IdRegistroPonto">Relatório</a> |
+                <a asp-action="Edit" asp-route-id="@item.IdRegistroPonto">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdRegistroPonto">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdRegistroPonto">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

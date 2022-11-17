@@ -55,13 +55,16 @@ namespace PontoAll_2810.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdRegistroPonto,DataRegistro,HoraRegistro,LocalizacaoRegistro,Perfil,SomaHora")] RegistroPonto registroPonto)
         {
+            string nome = User.Identity.Name;
+            var user = await _context.User.FirstOrDefaultAsync(m => m.Nome == nome);
+            var ultimoPonto = await _context.RegistroPonto.OrderByDescending(r => r.IdRegistroPonto).FirstOrDefaultAsync(r => r.UserId == user.Id);
             
-            registroPonto.DataRegistro = DateTime.Now.ToString("MM/dd/yyyy");
-            registroPonto.HoraRegistro = DateTime.Now.ToString("HH:mm:ss");
+            registroPonto.DataRegistro = DateTime.Now.ToString("dd/MM/yyyy");// melhorado em 16/11/2022
+            registroPonto.HoraRegistro = DateTime.Now.ToString("HH:mm"); // melhorado em 16/11/2022
             registroPonto.Perfil = (Perfil)1;
-            registroPonto.SomaHora = "0";
+            registroPonto.SomaHora = registroPonto.CalculoHoras(registroPonto.HoraRegistro, ultimoPonto.HoraRegistro);
             registroPonto.LocalizacaoRegistro = "0";
-            //registroPonto.Usuario = 1;
+            registroPonto.UserId = user.Id;
 
 
             if (!ModelState.IsValid)
