@@ -19,10 +19,23 @@ namespace PontoAll_2810.Controllers
         }
 
         // GET: Marcador
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index2()
         {
             return View(await _context.RegistroPonto.ToListAsync());
         }
+        public async Task<IActionResult> Index()
+        {
+            string nome = User.Identity.Name;
+            var user = await _context.User.FirstOrDefaultAsync(m => m.Nome == nome);
+
+            var model = from registroPonto in _context.RegistroPonto
+                        orderby registroPonto.IdRegistroPonto
+                        where registroPonto.UserId == user.Id
+                        select registroPonto;
+
+            return View(model);
+        }
+
 
         // GET: Marcador/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -57,12 +70,18 @@ namespace PontoAll_2810.Controllers
         {
             string nome = User.Identity.Name;
             var user = await _context.User.FirstOrDefaultAsync(m => m.Nome == nome);
-            var ultimoPonto = await _context.RegistroPonto.OrderByDescending(r => r.IdRegistroPonto).FirstOrDefaultAsync(r => r.UserId == user.Id); // (Comentar essa linha para inserir a primeira marcação do usuario por enquanto)
+            var ultimoPonto = await _context.RegistroPonto.OrderByDescending(r => r.IdRegistroPonto).FirstOrDefaultAsync(r => r.UserId == user.Id) != null ? await _context.RegistroPonto.OrderByDescending(r => r.IdRegistroPonto).FirstOrDefaultAsync(r => r.UserId == user.Id) : null; // (Comentar essa linha para inserir a primeira marcação do usuario por enquanto)
 
             registroPonto.DataRegistro = DateTime.Now.ToString("dd/MM/yyyy");// melhorado em 16/11/2022
             registroPonto.HoraRegistro = DateTime.Now.ToString("HH:mm"); // melhorado em 16/11/2022
             registroPonto.Perfil = (Perfil)1;
-            registroPonto.SomaHora = registroPonto.CalculoHoras(registroPonto.HoraRegistro, ultimoPonto.HoraRegistro); // (Comentar essa linha para inserir a primeira marcação do usuario por enquanto)
+
+            if (ultimoPonto != null)
+                registroPonto.SomaHora = registroPonto.CalculoHoras(registroPonto.HoraRegistro, ultimoPonto.HoraRegistro);
+            else
+                registroPonto.SomaHora = "0";
+
+             // (Comentar essa linha para inserir a primeira marcação do usuario por enquanto)
             registroPonto.LocalizacaoRegistro = "0";
             registroPonto.UserId = user.Id;
 

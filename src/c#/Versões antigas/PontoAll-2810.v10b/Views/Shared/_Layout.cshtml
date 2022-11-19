@@ -1,0 +1,177 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sistema -Ponto All</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container" style="background-color: #BDD1FD; ">
+
+                <img src="~/img/LOGOTIPO_50.png" alt="logo PontoAll" id="imgdrive">
+                <!--img class="img-logo" src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/2ce2e4f128eee28e8bb303ac1c5becbda28b210d/Arquivos%20Design/Logo/LOGOTIPO_50.png alt="Logo Ponto All"-->
+
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <!--li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    </!--li-->
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Marcador" asp-action="Create">Registrar Ponto</a>
+                            </li>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="BancoHoras" asp-action="Index">Banco de Horas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Colaboradores" asp-action="Index">Colaboradores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">Usuarios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="RegistroPontos" asp-action="Index">Editar Ponto</a>
+                                </li>
+                            }
+
+                        }
+
+
+                        <!--li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sair</a>
+    </!--li-->
+                    </ul>
+                    <ul class="navbar-nav">
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                Olá, @User.Identity.Name <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Logout">Sair</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-danger" asp-area="" asp-controller="User" asp-action="Login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">Usuarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Colaboradores" asp-action="Index">Colaboradores</a>
+                            </li>
+                        }
+
+                    </ul>
+                </div>
+                <div>
+                    <!--ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-item" asp-area="" asp-controller="Home" asp-action="Principal">Registrar Ponto</a>
+        </li-->
+                    </!--ul>
+
+                    <div class="col-md-12 text-left">
+                        <!-- Codigo para inserir relogio ao vivo no menu do sistema-->
+                        <!--TITLE>Exibir Data e Hora em HTML </!--TITLE-->
+                        <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+                        <script type="text/javascript">
+                            jQuery(window).load(function ($) {
+                                atualizaRelogio();
+                            });
+                        </script>
+
+                        <!-- Codigo para inserir relogio ao vivo no menu do sistema-->
+                        <div>
+                            <a style="color:red" font-size: 12px;"> Data do Sistema: </a>
+                            <output id="data" style="color:red" font-size: 12px;"></output>
+                            <output id="hora" style="color:red" font-size: 12px;"></output>
+                        </div>
+                        <!--div>
+                <output id="hora"  font-size: 12px;"></output>
+            </!--div-->
+
+                        <script>
+                            function atualizaRelogio() {
+                                var momentoAtual = new Date();
+
+                                var vhora = momentoAtual.getHours();
+                                var vminuto = momentoAtual.getMinutes();
+                                var vsegundo = momentoAtual.getSeconds();
+
+                                var vdia = momentoAtual.getDate();
+                                var vmes = momentoAtual.getMonth() + 1;
+                                var vano = momentoAtual.getFullYear();
+
+                                if (vdia < 10) { vdia = "0" + vdia; }
+                                if (vmes < 10) { vmes = "0" + vmes; }
+                                if (vhora < 10) { vhora = "0" + vhora; }
+                                if (vminuto < 10) { vminuto = "0" + vminuto; }
+                                if (vsegundo < 10) { vsegundo = "0" + vsegundo; }
+
+                                dataFormat = vdia + " / " + vmes + " / " + vano;
+                                horaFormat = vhora + " : " + vminuto + " : " + vsegundo;
+
+                                document.getElementById("data").innerHTML = dataFormat;
+                                document.getElementById("hora").innerHTML = horaFormat;
+
+                                setTimeout("atualizaRelogio()", 1000);
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="bg-light text-center fixed-bottom">
+        <!-- Copyright -->
+        <div class="text-center text-white p-2" style="background-color: #47525E">
+
+            <img src="~/img/LOGOMARCA_100_Branca.png" alt="logo PontoAll" id="imgdrive">
+
+             -  ©Gestão de Colaboradores &Aacute; Ponto Online. Todos os Direitos Reservados a PontoAll Sistemas. 2022© </a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+    <!--footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; ©Gestão de Colaboradores &Aacute; Ponto Online. Todos os Direitos Reservados a PontoAll Sistemas. 2022© - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+
+    </!--footer-->
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿@model PontoAll_2810.Models.RegistroPonto
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>RegistroPonto</h4>
+    <hr />
+    <dl class="row">        
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataRegistro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataRegistro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HoraRegistro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HoraRegistro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LocalizacaoRegistro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LocalizacaoRegistro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SomaHora)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SomaHora)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-info" asp-route-id="@Model.IdRegistroPonto">Editar</a> |
+    <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+</div>

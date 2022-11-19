@@ -4,45 +4,46 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalhes da Marcação de @User.Identity.Name.</h1>
 
 <div>
-    <h4>RegistroPonto</h4>
+    <h4>Realizada em: @Html.DisplayFor(model => model.DataRegistro) as  @Html.DisplayFor(model => model.HoraRegistro). </h4>
+    <h4>Que gerou @Html.DisplayFor(model => model.SomaHora) horas no Banco de Horas do Colaborador. </h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataRegistro)
+        <dt class="col-sm-4">
+            Data
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-6">
             @Html.DisplayFor(model => model.DataRegistro)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.HoraRegistro)
+        <dt class="col-sm-4"">
+           Hora
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-6">
             @Html.DisplayFor(model => model.HoraRegistro)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LocalizacaoRegistro)
+        <dt class="col-sm-4"">
+            Localização
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-6">
             @Html.DisplayFor(model => model.LocalizacaoRegistro)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Perfil)
+        <dt class="col-sm-4"">
+            Perfil
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-6">
             @Html.DisplayFor(model => model.Perfil)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SomaHora)
+        <dt class="col-sm-4" ">
+            Registrando no Banco
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-6">
             @Html.DisplayFor(model => model.SomaHora)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.IdRegistroPonto">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <!--a asp-action="Edit" asp-route-id="@Model.IdRegistroPonto">Edit</a--> |
+    <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
 </div>

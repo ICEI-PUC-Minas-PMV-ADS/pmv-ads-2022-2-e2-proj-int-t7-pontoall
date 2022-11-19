@@ -1,0 +1,49 @@
+﻿@model PontoAll_2810.Models.User
+
+@{
+    ViewData["Title"] = "Relatorio";
+}
+
+<h2>Colaborador: @Model.Usuario.Nome</h2>
+
+<div>
+    <h4>Perfil Cadastrados</h4>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    CPF
+                </th>
+                <th>
+                    Perfil
+                </th>
+                <th>
+                    Senha
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.Usuario.Usuarios)
+        {
+            <tr>                
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+            </tr>
+        }
+    </tbody
+        >
+    </table>
+        
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+</div>

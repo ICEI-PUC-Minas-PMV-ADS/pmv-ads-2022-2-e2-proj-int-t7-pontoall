@@ -32,6 +32,8 @@ namespace PontoAll_2810.Models
 
         public string CalculoHoras(string hora, string sHora)
         {
+            
+            // trazer data , if faixa de horarios ,  
             var f = hora.Split(':');
             var h = int.Parse(f[0]);
             var m = int.Parse(f[1]);

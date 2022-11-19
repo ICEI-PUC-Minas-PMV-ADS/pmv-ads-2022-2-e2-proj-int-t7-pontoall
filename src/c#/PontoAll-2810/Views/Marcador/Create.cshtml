@@ -5,11 +5,11 @@
     Array teste = null;
 }
 
-<h1>Colaborador</h1>
+<h1>Colaborador:</h1>
 
 <h4>@User.Identity.Name</h4>
 <hr />
-<div class="row">
+<div class="row" background="red">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger" onload="getlocation()"></div>
@@ -74,6 +74,6 @@
 </script>
 
 <div>
-    <a asp-action="Index">Voltar para lista</a>
+    <!--a asp-action="Index">Voltar para lista</a-->
 </div>
 
