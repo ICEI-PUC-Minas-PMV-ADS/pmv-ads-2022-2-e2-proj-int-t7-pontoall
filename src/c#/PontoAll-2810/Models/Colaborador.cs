@@ -17,17 +17,15 @@ namespace PontoAll_2810.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Obrigatório Informar o Nome!")]
-        [Display(Name = "Nome")]
+        [Display(Name = "Nome Completo")]
         [Column("Nome")]
         [DataType(DataType.Text)]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Obrigatório Informar o CPF!")]
         [Display(Name = "CPF")]
-        [Column("CPF")]
+        [Column("CPF")]        
         public string CPF { get; set; }
-
-
 
         [Required(ErrorMessage = "Obrigatório Informar o E-mail!")]
         [Display(Name = "Email")]
@@ -43,8 +41,9 @@ namespace PontoAll_2810.Models
         
         [Display(Name = "CH Contrato")]
         [Column("CargaHoraria")]        
-        public string CargaHoraria { get; set; }
+        public CH CargaHoraria { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório Informar a Data de Cadastro!")]
         [Display(Name = "Data do Cadastro")]
         [Column("DataCadastro")]
         [DataType(DataType.Date)]
@@ -61,9 +60,9 @@ namespace PontoAll_2810.Models
         [Column("Senha")]
         public string Senha { get; set; }
 
-        [Display(Name = "Matricula")]
-        [Column("Matricula")]
-        public string Matricula { get; set; }
+        //[Display(Name = "Matricula")]
+        //[Column("Matricula")]
+        //public string Matricula { get; set; }
 
         [Display(Name = "Função")]
         public Funcao Funcao { get; set; }
@@ -92,5 +91,18 @@ public enum Funcao
     Advogado,
     Supervisor,
     TecnicoInformatica,
-    AuxiliarServiçosGerais
+    AuxiliarServiçosGerais,
+    Proprietario_ResponsavelLegal
+}
+public enum CH
+{    
+    CHSemanal_10Hs,
+    CHSemanal_20Hs,
+    CHSemanal_24Hs,
+    CHSemanal_30Hs,
+    CHSemanal_36Hs,
+    CHSemanal_40Hs,
+    CHSemanal_44Hs,
+    Frelancer,
+    Não_Aplicavel
 }

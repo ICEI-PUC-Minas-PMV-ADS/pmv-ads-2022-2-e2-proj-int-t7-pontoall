@@ -1,0 +1,49 @@
+﻿@model IEnumerable<PontoAll_2810.Models.RegistroPonto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ultimos registros de ponto do Colaborador: @User.Identity.Name.</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Usuario
+            </th>
+            <th>
+               Data
+            </th>
+            <th>
+                Hora
+            </th>            
+            <th>
+                Registrando no Banco
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraRegistro)
+            </td>            
+            <td>
+                @Html.DisplayFor(modelItem => item.SomaHora)
+            </td>
+            <td>
+                <a asp-action="Details" class="btn btn-info" asp-route-id="@item.IdRegistroPonto">Detalhes da Marcação</a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

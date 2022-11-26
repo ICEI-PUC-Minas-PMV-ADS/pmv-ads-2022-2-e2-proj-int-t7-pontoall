@@ -53,7 +53,7 @@ namespace PontoAll_2810.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,CPF,Email,Celular,CargaHoraria,DataCadastro,Admissao,Senha,Matricula,Cargo,Salario,Desligamento")] Colaborador Colaborador)
+        public async Task<IActionResult> Create([Bind("Id,Nome,CPF,Email,Celular,CargaHoraria,DataCadastro,Admissao,Senha,Funcao,Salario,Desligamento")] Colaborador Colaborador)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace PontoAll_2810.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,CPF,Email,Celular,CargaHoraria,DataCadastro,Admissao,Senha,Matricula,Cargo,Salario,Desligamento")] Colaborador Colaborador)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,CPF,Email,Celular,CargaHoraria,DataCadastro,Admissao,Senha,Funcao,Salario,Desligamento")] Colaborador Colaborador)
         {
             if (id != Colaborador.Id)
             {

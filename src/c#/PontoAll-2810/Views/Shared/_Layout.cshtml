@@ -23,15 +23,19 @@
                     <div class="collapse navbar-collapse" id="main-navbar" style="background-color: #BDD1FD">
                         <ul class="navbar-nav ml-auto navbar-center" style="background-color: #BDD1FD">
                             <!--li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-            </!--li-->
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    </!--li-->
 
                             @if (User.Identity.IsAuthenticated)
                             {
 
-                                <li class="nav-link">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Marcador" asp-action="Create">Registrar Ponto</a>
-                                </li>
+                                @if (User.IsInRole("Operador"))
+                                    {
+                                      <li class="nav-link">
+                                         <a class="nav-link text-dark" asp-area="" asp-controller="Marcador" asp-action="Create">Registrar Ponto</a>
+                                      </li>
+                                    }
+                                    
                                 @if (User.IsInRole("Admin"))
                                 {
                                     <li class="nav-link">
@@ -52,8 +56,8 @@
 
 
                             <!--li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sair</a>
-            </!--li-->
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sair</a>
+    </!--li-->
                         </ul>
                         <ul class="nav-link" style="background-color: #BDD1FD">
 
