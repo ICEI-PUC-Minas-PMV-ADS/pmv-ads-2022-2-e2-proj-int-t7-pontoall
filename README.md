@@ -31,9 +31,12 @@ Para visualizar o POC (Proof of Concept) da primeira versão:
 
 <video src="https://user-images.githubusercontent.com/101529285/198918712-3c695ee7-e583-4061-9ada-4f7125851227.mp4"></video>
 
-ou acesse o link: https://www.loom.com/share/f4593f2895f542f7883cd1f931568f06
+ou acesse o link: https://pontoall.azurewebsites.net/
 
-O estágio atual apresenta a Prova de Conceito da Arquitetura (POC) que demonstra o uso do front-end e back-end nas funcionalidades cadastro usuarios, login e registro de ponto.
+O estágio atual apresenta a Prova de Conceito da Arquitetura (POC) que demonstra o uso do front-end e back-end nas funcionalidades cadastro usuarios e gerenciamento de colaboradores, login e registro de ponto.
+
+Login: master
+Senha: 123456
 
 # Documentação
 
