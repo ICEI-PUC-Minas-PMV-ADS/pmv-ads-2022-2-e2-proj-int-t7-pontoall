@@ -1,0 +1,12 @@
+Servidor MySQL Azure: 031identidadepontoall.mysql.database.azure.com
+
+Usuario: rogerbmendes
+
+Senha: Senha2022
+
+
+Strings de conexao:
+
+ASP.NET
+"Server=031identidadepontoall.mysql.database.azure.com;UserID=rogerbmendes;Password=Senha2022;Database=db_a8f0db_central;"
+
