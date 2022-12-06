@@ -15,7 +15,7 @@ namespace PontoAll_2810.Models
                 Timeout = TimeSpan.FromSeconds(5)
             };
         }
-        private async Task<string> GetIPAddress()
+        public async Task<string> GetIPAddress()
         {
             var ipAddress = await _httpClient.GetAsync($"http://ipinfo.io/ip");
             if (ipAddress.IsSuccessStatusCode)

@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using PontoAll_2810.Models;
 
 namespace PontoAll_2810.Controllers
@@ -81,8 +83,9 @@ namespace PontoAll_2810.Controllers
             else
                 registroPonto.SomaHora = "0";
 
-            // (Comentar essa linha para inserir a primeira marcação do usuario por enquanto)
-            registroPonto.LocalizacaoRegistro = "0";
+            // função responsavel por preencher a localização
+            await PreencherLocalizacaoAsync(registroPonto);
+
             registroPonto.UserId = user.Id;
 
 
@@ -93,6 +96,19 @@ namespace PontoAll_2810.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(registroPonto);
+        }
+
+        private async Task PreencherLocalizacaoAsync(RegistroPonto registroPonto)
+        {
+            // instancia a classe que vcs criaram pra acessar o geo locator
+            var x = new GeoHelper();
+            // chama a funcao que obtem as coordenadas
+            var json = await x.GetGeoInfo();
+            // converte o resultado num objeto model (JSONToViewModel) que vcs mapearam
+            var objeto = JsonConvert.DeserializeObject<JSONToViewModel>(json);
+            // seta o valor no resultado - objeto que sera persistido contra o banco
+            registroPonto.LocalizacaoRegistro = objeto.City;
+            // GG MODAFOKA
         }
 
         // GET: Marcador/Edit/5
