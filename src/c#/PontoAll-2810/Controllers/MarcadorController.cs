@@ -81,7 +81,7 @@ namespace PontoAll_2810.Controllers
             else
                 registroPonto.SomaHora = "0";
 
-             // (Comentar essa linha para inserir a primeira marcação do usuario por enquanto)
+            // (Comentar essa linha para inserir a primeira marcação do usuario por enquanto)
             registroPonto.LocalizacaoRegistro = "0";
             registroPonto.UserId = user.Id;
 

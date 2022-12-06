@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using PontoAll_2810.Models;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,17 @@ namespace PontoAll_2810.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public async Task<IActionResult> GeoExample()
+        {
+            JSONToViewModel model = new JSONToViewModel();
+            GeoHelper geoHelper = new GeoHelper();
+            var result = await geoHelper.GetGeoInfo();
+            model = JsonConvert.DeserializeObject<JSONToViewModel>(result); //pulo do gato pode estar aqui
+            //TempData["GeoCode"] = result;
+
+            return View(model);        
         }
 
         public IActionResult Principal()
