@@ -2,44 +2,45 @@
 
 @{
     ViewData["Title"] = "Delete";
+    Layout = "~/Views/User/Relatorio.cshtml";
 }
 
-<h1>Excluir</h1>
+<h1>Delete</h1>
 
-<h3>Tem certeza que deseja excluir o registro?</h3>
+<h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4> @Html.DisplayFor(modelItem => Model.Matricula) </h4>
+    <h4>BancoHoras</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Matricula)
+            @Html.DisplayNameFor(model => model.UserId)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Matricula)
+            @Html.DisplayFor(model => model.UserId)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Ocorrencias)
+            @Html.DisplayNameFor(model => model.HoraEntrada)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Ocorrencias)
+            @Html.DisplayFor(model => model.HoraEntrada)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Notificacoes)
+            @Html.DisplayNameFor(model => model.HoraSaida)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Notificacoes)
+            @Html.DisplayFor(model => model.HoraSaida)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SaldoBancoHoras)
+            @Html.DisplayNameFor(model => model.Data)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SaldoBancoHoras)
+            @Html.DisplayFor(model => model.Data)
         </dd>
     </dl>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="IdBancoHoras" />
-        <input type="submit" value="Deletar" class="btn btn-danger" /> |
-        <a asp-action="Index" class="btn btn-info" >Voltar para lista</a>
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
     </form>
 </div>

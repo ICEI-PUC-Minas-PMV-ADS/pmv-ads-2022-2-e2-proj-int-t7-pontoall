@@ -27,7 +27,7 @@ namespace PontoAll_2810
         public void ConfigureServices(IServiceCollection services)
 
         {
-            string stringConexao = "Server=031identidadepontoall.mysql.database.azure.com;UserID=rogerbmendes;Password=Senha2022;Database=db_a8f0db_central;";
+            string stringConexao = "Server=MYSQL8001.site4now.net;Database=db_a8f0db_central;Uid=a8f0db_central;Pwd=Senha2022";
             services.AddDbContext<Contexto>(options =>
             options.UseMySQL(stringConexao));
 

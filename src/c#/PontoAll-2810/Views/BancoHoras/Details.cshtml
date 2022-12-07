@@ -2,41 +2,42 @@
 
 @{
     ViewData["Title"] = "Details";
+    Layout = "~/Views/User/Relatorio.cshtml";
 }
 
-<h1>Detalhes</h1>
+<h1>Details</h1>
 
 <div>
-    <h4>@Html.DisplayFor(modelItem => Model.Matricula)</h4>
+    <h4>BancoHoras</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Matricula)
+            @Html.DisplayNameFor(model => model.UserId)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Matricula)
+            @Html.DisplayFor(model => model.UserId)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Ocorrencias)
+            @Html.DisplayNameFor(model => model.HoraEntrada)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Ocorrencias)
+            @Html.DisplayFor(model => model.HoraEntrada)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Notificacoes)
+            @Html.DisplayNameFor(model => model.HoraSaida)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Notificacoes)
+            @Html.DisplayFor(model => model.HoraSaida)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SaldoBancoHoras)
+            @Html.DisplayNameFor(model => model.Data)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SaldoBancoHoras)
+            @Html.DisplayFor(model => model.Data)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" class="btn btn-info" asp-route-id="@Model.IdBancoHoras">Editar</a> |
-    <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+    <a asp-action="Edit" asp-route-id="@Model.IdBancoHoras">Edit</a> |
+    <a asp-action="Index">Back to List</a>
 </div>

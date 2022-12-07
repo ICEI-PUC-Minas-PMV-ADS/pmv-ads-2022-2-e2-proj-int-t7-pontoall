@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model PontoAll_2810.Models.JSONToViewModel
+@{
+    ViewData["Title"] = "GeoExample";
+
+}
+
+<h1> GeoExample </h1>
+
+<ul>
+    <li>
+        País:@Model.CountryName
+    </li>
+    <li>
+        Estado:@Model.RegionName
+    </li>
+    <li>
+        Cidade:@Model.City
+    </li>
+    <li>
+        Latitude Endereço:@Model.Latitude
+    </li>
+    <li>
+        Longitude Endereço:@Model.Longitude
+    </li>
+</ul>

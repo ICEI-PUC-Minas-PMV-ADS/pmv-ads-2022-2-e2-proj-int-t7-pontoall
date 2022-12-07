@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using PontoAll_2810.Models;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using PontoAll_2810.Models;
 
 namespace PontoAll_2810.Controllers
 {
-    [Authorize(Roles = "Admin")]
     public class BancoHorasController : Controller
     {
         private readonly Contexto _context;
@@ -52,7 +53,7 @@ namespace PontoAll_2810.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdBancoHoras,Matricula,Ocorrencias,Notificacoes,SaldoBancoHoras")] BancoHoras bancoHoras)
+        public async Task<IActionResult> Create([Bind("IdBancoHoras,UserId,HoraEntrada,HoraSaida,Data")] BancoHoras bancoHoras)
         {
             if (ModelState.IsValid)
             {
@@ -84,7 +85,7 @@ namespace PontoAll_2810.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdBancoHoras,Matricula,Ocorrencias,Notificacoes,SaldoBancoHoras")] BancoHoras bancoHoras)
+        public async Task<IActionResult> Edit(int id, [Bind("IdBancoHoras,UserId,HoraEntrada,HoraSaida,Data")] BancoHoras bancoHoras)
         {
             if (id != bancoHoras.IdBancoHoras)
             {

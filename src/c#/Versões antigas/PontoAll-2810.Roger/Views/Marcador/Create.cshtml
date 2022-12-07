@@ -1,0 +1,79 @@
+﻿@model PontoAll_2810.Models.RegistroPonto
+
+@{
+    ViewData["Title"] = "Create";
+    Array teste = null;
+}
+
+<h1>Colaborador:</h1>
+
+<h4>@User.Identity.Name</h4>
+<hr />
+<div class="row" background="red">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger" onload="getlocation()"></div>
+            <div class="form-group">
+                <!--label asp-for="DataRegistro" class="control-label"></!--label-->
+                <span asp-validation-for="DataRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <!--label asp-for="HoraRegistro" class="control-label"></!--label-->
+                <span asp-validation-for="HoraRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <!--label asp-for="LocalizacaoRegistro" class="control-label"></!--label-->
+                <span asp-validation-for="LocalizacaoRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <!--label asp-for="SomaHora" class="control-label"></!--label-->
+                <span asp-validation-for="SomaHora" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Registrar Ponto" class="btn btn-primary" onclick="getlocation()" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+            //now = new Date
+            //var teste = '';
+           // var dia = now.getDate();           // 01-31
+            //var hora = now.getHours();          // 00-23
+            //var min = now.getMinutes();        // 00-59
+            //var str_hora = hora + ':' + min;
+            //document.write("Hoje é " + now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear())
+           // document.write(", " + str_hora)
+
+            function getlocation() {
+
+                const address = document.querySelector("pre");
+
+                function onError() {
+                    address.textContent = "Erro ao carregar sua localização tente novamente!";
+                    alert("Erro ao carregar sua localização tente novamente!")
+                }
+
+                async function onSuccess(position) {
+                    const geocode = await fetch(`https://geocode.xyz/${position.coords.latitude},${position.coords.longitude}?json=1`);
+                    const geoResponse = await geocode.json();
+
+                    document.getElementById("conteudo").innerHTML = "Sua localização é: " + `${geoResponse.staddress}, ${geoResponse.stnumber}, ${geoResponse.city}, ${geoResponse.postal}, ${geoResponse.country} `
+                    teste = "Sua localização é: " + `${geoResponse.staddress}, ${geoResponse.stnumber}, ${geoResponse.city}, ${geoResponse.postal}, ${geoResponse.country} `;
+                    console.log(teste);
+                }
+
+                if (!navigator.geolocation) {
+                    onError();
+                } else {
+                        return (teste)
+                }
+            }
+
+</script>
+
+<div>
+    <!--a asp-action="Index">Voltar para lista</a-->
+</div>
+

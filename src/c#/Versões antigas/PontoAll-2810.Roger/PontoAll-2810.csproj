@@ -1,0 +1,103 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>PontoAll_2810</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Operadores\**" />
+    <Compile Remove="Views\Operadors\**" />
+    <Compile Remove="Views\Operador\**" />
+    <Content Remove="Views\Operadores\**" />
+    <Content Remove="Views\Operadors\**" />
+    <Content Remove="Views\Operador\**" />
+    <EmbeddedResource Remove="Views\Operadores\**" />
+    <EmbeddedResource Remove="Views\Operadors\**" />
+    <EmbeddedResource Remove="Views\Operador\**" />
+    <None Remove="Views\Operadores\**" />
+    <None Remove="Views\Operadors\**" />
+    <None Remove="Views\Operador\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\OperadorController.cs" />
+    <Compile Remove="Controllers\OperadoresController.cs" />
+    <Compile Remove="Migrations\20221030205107_intial.cs" />
+    <Compile Remove="Migrations\20221030205107_intial.Designer.cs" />
+    <Compile Remove="Migrations\20221030205757_intial2.cs" />
+    <Compile Remove="Migrations\20221030205757_intial2.Designer.cs" />
+    <Compile Remove="Migrations\20221101215350_Initial3.cs" />
+    <Compile Remove="Migrations\20221101215350_Initial3.Designer.cs" />
+    <Compile Remove="Migrations\20221101230020_m22.cs" />
+    <Compile Remove="Migrations\20221101230020_m22.Designer.cs" />
+    <Compile Remove="Migrations\20221101232034_initial3.cs" />
+    <Compile Remove="Migrations\20221101232034_initial3.Designer.cs" />
+    <Compile Remove="Migrations\20221101232416_initial.cs" />
+    <Compile Remove="Migrations\20221101232416_initial.Designer.cs" />
+    <Compile Remove="Migrations\20221103222814_intial2.cs" />
+    <Compile Remove="Migrations\20221103222814_intial2.Designer.cs" />
+    <Compile Remove="Migrations\20221103223133_inicial4.cs" />
+    <Compile Remove="Migrations\20221103223133_inicial4.Designer.cs" />
+    <Compile Remove="Migrations\20221103223548_inicial5.cs" />
+    <Compile Remove="Migrations\20221103223548_inicial5.Designer.cs" />
+    <Compile Remove="Migrations\20221104021129_Initial.cs" />
+    <Compile Remove="Migrations\20221104021129_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20221104025712_in.cs" />
+    <Compile Remove="Migrations\20221104025712_in.Designer.cs" />
+    <Compile Remove="Migrations\20221106231310_initial.cs" />
+    <Compile Remove="Migrations\20221106231310_initial.Designer.cs" />
+    <Compile Remove="Migrations\20221106233909_initial.cs" />
+    <Compile Remove="Migrations\20221106233909_initial.Designer.cs" />
+    <Compile Remove="Migrations\20221107002257_initial.cs" />
+    <Compile Remove="Migrations\20221107002257_initial.Designer.cs" />
+    <Compile Remove="Migrations\20221107004149_initial.cs" />
+    <Compile Remove="Migrations\20221107004149_initial.Designer.cs" />
+    <Compile Remove="Migrations\20221107005855_initial.cs" />
+    <Compile Remove="Migrations\20221107005855_initial.Designer.cs" />
+    <Compile Remove="Migrations\20221109013312_incial2.cs" />
+    <Compile Remove="Migrations\20221109013312_incial2.Designer.cs" />
+    <Compile Remove="Migrations\20221116234432_inicial03.cs" />
+    <Compile Remove="Migrations\20221116234432_inicial03.Designer.cs" />
+    <Compile Remove="Migrations\20221117000325_inicial04.cs" />
+    <Compile Remove="Migrations\20221117000325_inicial04.Designer.cs" />
+    <Compile Remove="Migrations\20221117000658_incial.cs" />
+    <Compile Remove="Migrations\20221117000658_incial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="EO.WebBrowser" Version="22.2.79" />
+    <PackageReference Include="LocalStorage" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.30">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.30">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

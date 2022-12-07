@@ -23,16 +23,16 @@ namespace PontoAll_2810.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Matricula")
+                    b.Property<DateTime>("Data")
+                        .HasColumnType("datetime");
+
+                    b.Property<string>("HoraEntrada")
                         .HasColumnType("text");
 
-                    b.Property<string>("Notificacoes")
+                    b.Property<string>("HoraSaida")
                         .HasColumnType("text");
 
-                    b.Property<string>("Ocorrencias")
-                        .HasColumnType("text");
-
-                    b.Property<string>("SaldoBancoHoras")
+                    b.Property<string>("UserId")
                         .HasColumnType("text");
 
                     b.HasKey("IdBancoHoras");
@@ -56,9 +56,9 @@ namespace PontoAll_2810.Migrations
                         .HasColumnName("CPF")
                         .HasColumnType("text");
 
-                    b.Property<string>("CargaHoraria")
+                    b.Property<int>("CargaHoraria")
                         .HasColumnName("CargaHoraria")
-                        .HasColumnType("text");
+                        .HasColumnType("int");
 
                     b.Property<string>("Celular")
                         .HasColumnName("Celular")
@@ -68,6 +68,7 @@ namespace PontoAll_2810.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("DataCadastro")
+                        .IsRequired()
                         .HasColumnName("DataCadastro")
                         .HasColumnType("text");
 
@@ -82,10 +83,6 @@ namespace PontoAll_2810.Migrations
 
                     b.Property<int>("Funcao")
                         .HasColumnType("int");
-
-                    b.Property<string>("Matricula")
-                        .HasColumnName("Matricula")
-                        .HasColumnType("text");
 
                     b.Property<string>("Nome")
                         .IsRequired()

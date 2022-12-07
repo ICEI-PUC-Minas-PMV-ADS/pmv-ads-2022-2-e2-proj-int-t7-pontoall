@@ -2,11 +2,12 @@
 
 @{
     ViewData["Title"] = "Edit";
+    Layout = "~/Views/User/Relatorio.cshtml";
 }
 
-<h1>Editar Banco de Horas</h1>
+<h1>Edit</h1>
 
-<h4> Matricula</h4>
+<h4>BancoHoras</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,36 +15,33 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdBancoHoras" />
             <div class="form-group">
-                <label asp-for="Matricula" class="control-label"></label>
-                <input asp-for="Matricula" class="form-control" />
-                <span asp-validation-for="Matricula" class="text-danger"></span>
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" />
+                <span asp-validation-for="UserId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Ocorrencias" class="control-label"></label>
-                <input asp-for="Ocorrencias" class="form-control" />
-                <span asp-validation-for="Ocorrencias" class="text-danger"></span>
+                <label asp-for="HoraEntrada" class="control-label"></label>
+                <input asp-for="HoraEntrada" class="form-control" />
+                <span asp-validation-for="HoraEntrada" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Notificacoes" class="control-label"></label>
-                <input asp-for="Notificacoes" class="form-control" />
-                <span asp-validation-for="Notificacoes" class="text-danger"></span>
+                <label asp-for="HoraSaida" class="control-label"></label>
+                <input asp-for="HoraSaida" class="form-control" />
+                <span asp-validation-for="HoraSaida" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="SaldoBancoHoras" class="control-label"></label>
-                <input asp-for="SaldoBancoHoras" class="form-control" />
-                <span asp-validation-for="SaldoBancoHoras" class="text-danger"></span>
+                <label asp-for="Data" class="control-label"></label>
+                <input asp-for="Data" class="form-control" />
+                <span asp-validation-for="Data" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Salvar" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+    <a asp-action="Index">Back to List</a>
 </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

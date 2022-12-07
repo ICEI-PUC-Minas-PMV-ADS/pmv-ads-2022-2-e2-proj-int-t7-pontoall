@@ -1,0 +1,90 @@
+﻿@model PontoAll_2810.Models.Colaborador
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Informações do Colaborador</h1>
+
+<div>
+    <h4> @Html.DisplayFor(model => model.Nome)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CPF)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CPF)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Celular)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Celular)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CargaHoraria)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CargaHoraria)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Admissao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Admissao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Senha)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Senha)
+        </dd>        
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Funcao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Funcao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Salario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Salario)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Desligamento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Desligamento)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+</div>

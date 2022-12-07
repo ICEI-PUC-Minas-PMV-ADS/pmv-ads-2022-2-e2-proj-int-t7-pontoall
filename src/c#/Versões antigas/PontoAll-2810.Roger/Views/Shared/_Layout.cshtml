@@ -1,0 +1,156 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sistema -Ponto All</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+
+</head>
+<body>
+    <header style="background-color: #BDD1FD">
+
+
+
+        <section class="top-nav1">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <div>
+                <a href="https://pontoall.azurewebsites.net/">
+                    <img src="~/img/LOGOTIPO_50.png" alt="logo PontoAll" id="imgdrive" href="https://pontoall.azurewebsites.net/" style="background-color: #BDD1FD">
+                </a>
+            </div>
+            <ul class="menu">
+                <!--li class="nav-item">
+            <a class=" " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        </!--li-->
+                @if (User.Identity.IsAuthenticated)
+                {
+
+                @if (User.IsInRole("Admin"))
+                {
+                <li>
+                    <a asp-area="" asp-controller="BancoHoras" asp-action="Index">Banco de Horas</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Colaboradores" asp-action="Index">Colaboradores</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="User" asp-action="Index">Usuarios</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="RegistroPontos" asp-action="Index">Editar Ponto</a>
+                </li>
+                }
+
+                @if (User.IsInRole("Operador"))
+                {
+                <li>
+                    <a class=" " asp-area="" asp-controller="Marcador" asp-action="Create">Registrar Ponto</a>
+                </li>
+
+
+                }
+                }
+            </ul>
+            <ul class="menu">
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                <li>
+                    <a class=" ">Olá, @User.Identity.Name </a>
+                    <a class=" text-danger" asp-area="" asp-controller="User" asp-action="Logout">&nbsp;Sair</a>
+                </li>
+
+                }
+                else
+                {
+                <li>
+                    <a class=" text-danger" asp-area="" asp-controller="User" asp-action="Login">Login</a>
+                </li>
+                }
+
+            </ul>
+
+            <div>
+                <!-- Codigo para inserir relogio ao vivo no menu do sistema-->
+                <!--TITLE>Exibir Data e Hora em HTML </!--TITLE-->
+                <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+                <script type="text/javascript">
+                    jQuery(window).load(function ($) {
+                        atualizaRelogio();
+                    });
+                </script>
+
+                <!-- Codigo para inserir relogio ao vivo no menu do sistema-->
+                <div class="col-sm-12">
+                    <a style="color:red" font-size: 14px;"> Data do Sistema: </a>
+                    <output id="data" style="color:red" font-size: 14px;"></output>
+                    <output id="hora" style="color:red" font-size: 14px;"></output>
+                </div>
+                <!--div>
+            <output id="hora"  font-size: 12px;"></output>
+        </!--div-->
+
+                <script>
+                    function atualizaRelogio() {
+                        var momentoAtual = new Date();
+                        var vhora = momentoAtual.getHours();
+                        var vminuto = momentoAtual.getMinutes();
+                        var vsegundo = momentoAtual.getSeconds();
+                        var vdia = momentoAtual.getDate();
+                        var vmes = momentoAtual.getMonth() + 1;
+                        var vano = momentoAtual.getFullYear();
+                        if (vdia < 10) { vdia = "0" + vdia; }
+                        if (vmes < 10) { vmes = "0" + vmes; }
+                        if (vhora < 10) { vhora = "0" + vhora; }
+                        if (vminuto < 10) { vminuto = "0" + vminuto; }
+                        if (vsegundo < 10) { vsegundo = "0" + vsegundo; }
+                        dataFormat = vdia + " / " + vmes + " / " + vano;
+                        horaFormat = vhora + " : " + vminuto + " : " + vsegundo;
+                        document.getElementById("data").innerHTML = dataFormat;
+                        document.getElementById("hora").innerHTML = horaFormat;
+                        setTimeout("atualizaRelogio()", 1000);
+                    }
+                </script>
+            </div>
+        </section>
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <footer class="bg-light text-center fixed-bottom">
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-2" style="background-color: #47525E">
+            <img src="~/img/LOGOMARCA_50_Branca.png" alt="logo PontoAll" id="imgdrive">
+            <a> -  ©Gestão de Colaboradores &Aacute; Ponto Online. Todos os Direitos Reservados a PontoAll Sistemas. 2022© </a>
+        </div>
+
+    </footer>
+
+    <!--footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; ©Gestão de Colaboradores &Aacute; Ponto Online. Todos os Direitos Reservados a PontoAll Sistemas. 2022© - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </!--footer-->
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

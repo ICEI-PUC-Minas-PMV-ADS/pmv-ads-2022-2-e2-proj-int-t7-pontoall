@@ -1,0 +1,95 @@
+﻿@model PontoAll_2810.Models.Colaborador
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Inserir Colaborador</h1>
+
+<h4>Dados do Colaborador</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CPF" class="control-label"></label>
+                <input asp-for="CPF" class="form-control" />
+                <span asp-validation-for="CPF" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Celular" class="control-label"></label>
+                <input asp-for="Celular" class="form-control" />
+                <span asp-validation-for="Celular" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CargaHoraria" class="control-label"></label>
+                <select asp-for="CargaHoraria" class="form-control" asp-items="Html.GetEnumSelectList<CH>()"></select>
+                <span asp-validation-for="CargaHoraria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataCadastro" class="control-label"></label>
+                <input asp-for="DataCadastro" class="form-control" />
+                <span asp-validation-for="DataCadastro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Admissao" class="control-label"></label>
+                <input asp-for="Admissao" class="form-control" />
+                <span asp-validation-for="Admissao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Senha" class="control-label"></label>
+                <input asp-for="Senha" class="form-control" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+            <!--div class="form-group">
+                <label asp-for="Matricula" class="control-label"></label>
+                <input asp-for="Matricula" class="form-control" />
+                <span asp-validation-for="Matricula" class="text-danger"></span>
+            </div-->
+            <!--div class="form-group">
+                <label asp-for="Cargo" class="control-label"></label>
+                <input asp-for="Cargo" class="form-control" />
+                <span asp-validation-for="Cargo" class="text-danger"></span>
+            </!--div-->
+
+            <div class="form-group">
+                <label asp-for="Funcao" class="control-label"></label>
+                <select asp-for="Funcao" class="form-control" asp-items="Html.GetEnumSelectList<Funcao>()"></select>
+                <span asp-validation-for="Funcao" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Salario" class="control-label"></label>
+                <input asp-for="Salario" class="form-control" />
+                <span asp-validation-for="Salario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desligamento" class="control-label"></label>
+                <input asp-for="Desligamento" class="form-control" />
+                <span asp-validation-for="Desligamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Inserir Colaborador" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

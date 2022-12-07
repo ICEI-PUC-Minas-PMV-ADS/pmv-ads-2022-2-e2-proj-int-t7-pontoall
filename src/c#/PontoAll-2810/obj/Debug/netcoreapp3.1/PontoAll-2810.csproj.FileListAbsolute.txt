@@ -166,11 +166,6 @@ C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Details.cshtml.g.cs
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Edit.cshtml.g.cs
 C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\RegistroPontos\Index.cshtml.g.cs
-C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Create.cshtml.g.cs
-C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Delete.cshtml.g.cs
-C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Details.cshtml.g.cs
-C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Edit.cshtml.g.cs
-C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Index.cshtml.g.cs
 C:\Users\ROGER\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t7-pontoall\src\c#\PontoAll-2810\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\ROGER\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t7-pontoall\src\c#\PontoAll-2810\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\ROGER\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t7-pontoall\src\c#\PontoAll-2810\bin\Debug\netcoreapp3.1\PontoAll-2810.exe
@@ -794,3 +789,9 @@ C:\Users\Adm\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t7-pontoall\src\c#\Pont
 C:\Users\Adm\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t7-pontoall\src\c#\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.dll
 C:\Users\Adm\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t7-pontoall\src\c#\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.pdb
 C:\Users\Adm\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t7-pontoall\src\c#\PontoAll-2810\obj\Debug\netcoreapp3.1\PontoAll-2810.genruntimeconfig.cache
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\Home\GeoExample.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Create.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Delete.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Details.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Edit.cshtml.g.cs
+C:\Users\Suporte\source\repos\PontoAll-2810\obj\Debug\netcoreapp3.1\Razor\Views\BancoHoras\Index.cshtml.g.cs

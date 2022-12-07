@@ -1,0 +1,93 @@
+﻿@model PontoAll_2810.Models.Colaborador
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Excluir Colaborador</h1>
+
+<h3>Tem certeza que deseja excluir o colaborador?</h3>
+<div>
+    <h4>@Html.DisplayFor(model => model.Nome)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CPF)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CPF)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Celular)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Celular)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CargaHoraria)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CargaHoraria)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Admissao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Admissao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Senha)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Senha)
+        </dd>        
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Funcao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Funcao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Salario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Salario)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Desligamento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Desligamento)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Excluir Colaborador" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+    </form>
+</div>

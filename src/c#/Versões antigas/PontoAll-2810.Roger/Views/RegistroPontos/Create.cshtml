@@ -1,0 +1,49 @@
+﻿@model PontoAll_2810.Models.RegistroPonto
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Inserir Registro de ponto</h1>
+
+<h4>RegistroPonto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>            
+            <div class="form-group">
+                <label asp-for="DataRegistro" class="control-label"></label>
+                <input asp-for="DataRegistro" class="form-control" />
+                <span asp-validation-for="DataRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoraRegistro" class="control-label"></label>
+                <input asp-for="HoraRegistro" class="form-control" />
+                <span asp-validation-for="HoraRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LocalizacaoRegistro" class="control-label"></label>
+                <input asp-for="LocalizacaoRegistro" class="form-control" />
+                <span asp-validation-for="LocalizacaoRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SomaHora" class="control-label"></label>
+                <input asp-for="SomaHora" class="form-control" />
+                <span asp-validation-for="SomaHora" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Inserir" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -88,6 +88,40 @@ namespace PontoAll_2810.Controllers
 
             registroPonto.UserId = user.Id;
 
+            //Salvar nova tabela de horas.
+            #region Tabela Horas
+            BancoHoras bancoHora = new BancoHoras();
+            if (!ModelState.IsValid)
+            {
+                var banco = await _context.BancoHoras.ToListAsync();
+                if(banco != null)
+                {
+                    var model = from BancoHoras in _context.BancoHoras
+                                orderby BancoHoras.Data descending
+                                where BancoHoras.UserId == user.Id.ToString()
+                                select BancoHoras;
+                    if(model.FirstOrDefaultAsync().Result.Data.ToString("dd-MM-yyyy").Equals(DateTime.Now.ToString("dd-MM-yyyy")))
+                    {
+                        bancoHora = model.FirstOrDefaultAsync().Result;
+                        bancoHora.HoraSaida = DateTime.Now.ToString("T");
+                        _context.BancoHoras.Update(bancoHora);
+                        await _context.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        bancoHora.UserId = user.Id.ToString();
+                        bancoHora.HoraEntrada = "Hora inicial";
+                        bancoHora.HoraSaida = DateTime.Now.ToString("T");
+                        bancoHora.Data = DateTime.Now;
+                        _context.BancoHoras.Add(bancoHora);
+                        await _context.SaveChangesAsync();
+                    }
+                    if(bancoHora.HoraSaida != "" || bancoHora.HoraSaida != null)
+                    ViewBag.horaTotal = bancoHora.CalculoHoras(bancoHora.HoraEntrada, bancoHora.HoraSaida);
+                }
+
+            }
+            #endregion
 
             if (!ModelState.IsValid)
             {
