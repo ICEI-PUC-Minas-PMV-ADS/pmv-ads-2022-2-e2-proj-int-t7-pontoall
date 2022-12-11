@@ -198,9 +198,10 @@ Este teste tem o objetivo de analisar e avaliar os resultados obtidos mediante o
 
 O método utilizado foi a observação do uso da ferramenta com parâmetros de tempo, clicks, erros e observações. A partir dos dados coletados, realizamos o mapeamento dos padrões de comportamento, possíveis problemas e soluções.
 
-O teste foi realizado com dois tipos de usuários: em um primeiro grupo de 03 usuários testaram o acesso de Administrador, caso de testes  01, 05, 06 e os outros 02 usuários testaram com o acesso de Colaborador o restante dos casos de teste  03, 07 e 08. Os caso de testes 02, 04 e 09 se aplicam a todos os usuários.
+O teste foi realizado com dois tipos de usuários: em um primeiro grupo de três usuários testaram o acesso de Administrador, caso de testes  01, 05, 06 e os outros dois usuários testaram com o acesso de Colaborador o restante dos casos de teste  03, 07 e 08. 
+Os caso de testes 02, 04 e 09 se aplicam a todos os usuários.
 
-O CTU-04 não foi possível de se mapear, devido ao requisito não ter sido implantado até o momento do teste.
+O CTU-04 não foi possível de se mapear, devido ao requisito não ter sido implementado até o momento do teste.
 
 Seguem resultados:
 
@@ -210,12 +211,12 @@ Todos os usuários ficaram próximos da média de clicks para efetuar a ação e
 
 **CTU-02- Login de usuário**
 
-Todos os usuários não tiveram problemas e nem sugestões, e a média de clicks para concluir a ação forma de 6 clicks e 23 segundos..
+Todos os usuários não tiveram problemas e nem sugestões, e a média de clicks para concluir a ação foram de 6 clicks e 23 segundos..
 
 **CTU-03- Efetuar registro de ponto eletrônico**
 
 Essa funcionalidade precisa ser revista pois alguns usuários não conseguiram concluir pois não acharam o local correto para o teste.
-Um dos usuário comentou ter achado a aplicação pouco intuitiva.
+Um dos usuários comentou ter achado a aplicação pouco intuitiva.
 
 **Sugestão**: Melhorar texto com "mouse over" e ícones que facilitem a identificação dos acessos na aplicação.
 
@@ -223,7 +224,7 @@ Um dos usuário comentou ter achado a aplicação pouco intuitiva.
 
 O teste não pode ser executado pois não foi implementada essa funcionalidade a tempo do teste.
 
-**Sugestão:** Finalizar a tela de relatório com tabelas ao invés de utilização de API.
+**Melhoria:** Finalizar a tela de relatório com tabelas ao invés de utilização de API.
 
 **CTU-05- Gerenciamento de colaboradores**
 
@@ -237,13 +238,13 @@ Página da aplicação necessita de melhorias pois todos os usuários sentiram q
 
 Página da aplicação necessita de melhorias pois todos os usuários sentiram que estava faltando informações. Inclusive alguns usuários não conseguiram acessar, ou entender onde estava a informação.
 
-**Sugestão**: Inclusão de informações na página.
+**Melhoria**: Inclusão de informações onde navegar na página "Home".
 
 **CTU-08- Geolocalização**
 
 Página da aplicação foi relatada na maioria dos testes como confusa, precisa de explicação.
 
-**Sugestão**: Inclusão de informações na página.
+**Melhoria**: Inclusão de informações na página.
 
 **CTU-09-	Verificar se o sistema é responsivo**
 
@@ -259,8 +260,8 @@ Os principais problemas de usabilidade levantados a partir dos testes foram:
 
 **Plano de correção:**
 
-As seguintes ações foram previstas e algumas já foram todas para correção dos problemas de usabilidade. Seguem:
-- Inclusão de informação/instruções nas interfaces: Indicação com ícone de local de Registro de Ponto, melhor visualição dos links (a ser implementado);
+As seguintes ações foram previstas e algumas já foram todas para correção dos problemas de usabilidade:
+- Inclusão de informação/instruções na interface: Indicação com ícone do local para realizar o Registro de Ponto, melhor visualição dos links (a ser implementado);
 - Melhoria: Resolver a responsividade em todos os dispositivos móveis (Implementado);
 - Tabela com Relatórios no lugar de utilização de API para emissão dos relatórios (a ser implementado);
 - Cálculo do banco de horas final de cada colaborador deverá ser exibido automaticamente na página de banco de horas, sem necessidade de acessar o menu relatórios (a ser implementado).
