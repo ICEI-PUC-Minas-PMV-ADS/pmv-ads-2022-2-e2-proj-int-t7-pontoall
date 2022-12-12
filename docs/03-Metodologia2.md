@@ -91,7 +91,7 @@ lista juntamente com um comentário sobre o que está travando a tarefa.
 
 
 
-![Trello em 13/10](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/trello27112022.jpg)
+![Trello em 11/12](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-pontoall/blob/main/docs/img/trello11122022.jpg)
 
 ### Ferramentas
 
